@@ -1,0 +1,888 @@
+{
+  "version": 1,
+  "note": "Materials from a subject's own world. scripts/derive.py builds a palette from 2-4 of them and fixes contrast. Written for ship-beautiful-ui.",
+  "materials": [
+    {
+      "id": "newsprint",
+      "family": "print",
+      "fits": [
+        "media",
+        "personal"
+      ],
+      "color": "#EDEBE4",
+      "role": "base",
+      "note": "cheap paper, slightly grey"
+    },
+    {
+      "id": "kraft-paper",
+      "family": "print",
+      "fits": [
+        "food",
+        "ecommerce",
+        "climate"
+      ],
+      "color": "#C9A57A",
+      "role": "neutral",
+      "note": "brown packaging paper"
+    },
+    {
+      "id": "letterpress-ink",
+      "family": "print",
+      "fits": [
+        "media",
+        "creative",
+        "legal"
+      ],
+      "color": "#1C1B22",
+      "role": "ink",
+      "note": "dense blue-black ink"
+    },
+    {
+      "id": "proof-red",
+      "family": "print",
+      "fits": [
+        "media",
+        "education"
+      ],
+      "color": "#C8102E",
+      "role": "accent",
+      "note": "editor's correction mark"
+    },
+    {
+      "id": "blueprint-blue",
+      "family": "print",
+      "fits": [
+        "hardware",
+        "real-estate",
+        "devtools"
+      ],
+      "color": "#1F4E8C",
+      "role": "accent",
+      "note": "architectural print"
+    },
+    {
+      "id": "manila-folder",
+      "family": "print",
+      "fits": [
+        "legal",
+        "education",
+        "fintech"
+      ],
+      "color": "#E8D6A6",
+      "role": "neutral",
+      "note": "office file folder"
+    },
+    {
+      "id": "carbon-copy",
+      "family": "print",
+      "fits": [
+        "fintech",
+        "legal"
+      ],
+      "color": "#2B3A67",
+      "role": "ink",
+      "note": "old carbon paper blue"
+    },
+    {
+      "id": "receipt-thermal",
+      "family": "print",
+      "fits": [
+        "ecommerce",
+        "fintech",
+        "food"
+      ],
+      "color": "#F4F2EC",
+      "role": "base",
+      "note": "thermal till roll"
+    },
+    {
+      "id": "safelight-red",
+      "family": "photo",
+      "fits": [
+        "creative",
+        "personal",
+        "media"
+      ],
+      "color": "#B3261E",
+      "role": "accent",
+      "note": "darkroom safety light"
+    },
+    {
+      "id": "contact-sheet",
+      "family": "photo",
+      "fits": [
+        "creative",
+        "media"
+      ],
+      "color": "#141414",
+      "role": "ink",
+      "note": "film strip black"
+    },
+    {
+      "id": "grey-card",
+      "family": "photo",
+      "fits": [
+        "creative",
+        "hardware"
+      ],
+      "color": "#8C8C88",
+      "role": "neutral",
+      "note": "18% exposure card"
+    },
+    {
+      "id": "film-rebate",
+      "family": "photo",
+      "fits": [
+        "creative",
+        "personal"
+      ],
+      "color": "#E6A23C",
+      "role": "accent",
+      "note": "orange edge print on film"
+    },
+    {
+      "id": "cyanotype",
+      "family": "photo",
+      "fits": [
+        "creative",
+        "climate",
+        "education"
+      ],
+      "color": "#24508F",
+      "role": "accent",
+      "note": "sun print blue"
+    },
+    {
+      "id": "crust",
+      "family": "food",
+      "fits": [
+        "food",
+        "events"
+      ],
+      "color": "#A0522D",
+      "role": "accent",
+      "note": "baked bread crust"
+    },
+    {
+      "id": "flour",
+      "family": "food",
+      "fits": [
+        "food",
+        "wellness"
+      ],
+      "color": "#F6F2E9",
+      "role": "base",
+      "note": "dusted flour white"
+    },
+    {
+      "id": "espresso",
+      "family": "food",
+      "fits": [
+        "food",
+        "personal"
+      ],
+      "color": "#3B2418",
+      "role": "ink",
+      "note": "dark roast"
+    },
+    {
+      "id": "matcha",
+      "family": "food",
+      "fits": [
+        "food",
+        "wellness",
+        "health"
+      ],
+      "color": "#7A9A3A",
+      "role": "accent",
+      "note": "ground green tea"
+    },
+    {
+      "id": "saffron",
+      "family": "food",
+      "fits": [
+        "food",
+        "events",
+        "travel"
+      ],
+      "color": "#E08E0B",
+      "role": "accent",
+      "note": "dried spice"
+    },
+    {
+      "id": "tomato",
+      "family": "food",
+      "fits": [
+        "food",
+        "kids"
+      ],
+      "color": "#D2381F",
+      "role": "accent",
+      "note": "ripe tomato"
+    },
+    {
+      "id": "olive",
+      "family": "food",
+      "fits": [
+        "food",
+        "travel",
+        "wellness"
+      ],
+      "color": "#6B6B2A",
+      "role": "accent",
+      "note": "cured olive"
+    },
+    {
+      "id": "oat-milk",
+      "family": "food",
+      "fits": [
+        "wellness",
+        "food"
+      ],
+      "color": "#EFE7D8",
+      "role": "base",
+      "note": "pale oat"
+    },
+    {
+      "id": "beetroot",
+      "family": "food",
+      "fits": [
+        "food",
+        "health"
+      ],
+      "color": "#8E1F4C",
+      "role": "accent",
+      "note": "beet juice"
+    },
+    {
+      "id": "moss",
+      "family": "nature",
+      "fits": [
+        "climate",
+        "wellness",
+        "travel"
+      ],
+      "color": "#4F6B32",
+      "role": "accent",
+      "note": "forest floor"
+    },
+    {
+      "id": "lichen",
+      "family": "nature",
+      "fits": [
+        "climate",
+        "wellness"
+      ],
+      "color": "#B7C29A",
+      "role": "neutral",
+      "note": "pale green-grey"
+    },
+    {
+      "id": "sea-glass",
+      "family": "nature",
+      "fits": [
+        "travel",
+        "wellness",
+        "health"
+      ],
+      "color": "#9CC9C0",
+      "role": "neutral",
+      "note": "frosted green-blue"
+    },
+    {
+      "id": "deep-water",
+      "family": "nature",
+      "fits": [
+        "travel",
+        "climate",
+        "ai"
+      ],
+      "color": "#0E3B4F",
+      "role": "ink",
+      "note": "cold deep sea"
+    },
+    {
+      "id": "sandstone",
+      "family": "nature",
+      "fits": [
+        "travel",
+        "real-estate"
+      ],
+      "color": "#D8B98C",
+      "role": "neutral",
+      "note": "warm desert rock"
+    },
+    {
+      "id": "basalt",
+      "family": "nature",
+      "fits": [
+        "hardware",
+        "security",
+        "climate"
+      ],
+      "color": "#2F3134",
+      "role": "ink",
+      "note": "volcanic rock"
+    },
+    {
+      "id": "glacier",
+      "family": "nature",
+      "fits": [
+        "climate",
+        "health",
+        "saas"
+      ],
+      "color": "#E7F1F5",
+      "role": "base",
+      "note": "ice white-blue"
+    },
+    {
+      "id": "wildflower",
+      "family": "nature",
+      "fits": [
+        "kids",
+        "wellness",
+        "events"
+      ],
+      "color": "#8C5BB0",
+      "role": "accent",
+      "note": "meadow violet"
+    },
+    {
+      "id": "pollen",
+      "family": "nature",
+      "fits": [
+        "climate",
+        "kids",
+        "food"
+      ],
+      "color": "#F2C230",
+      "role": "accent",
+      "note": "bright yellow dust"
+    },
+    {
+      "id": "bark",
+      "family": "nature",
+      "fits": [
+        "climate",
+        "real-estate"
+      ],
+      "color": "#5A4636",
+      "role": "ink",
+      "note": "tree bark"
+    },
+    {
+      "id": "snow",
+      "family": "nature",
+      "fits": [
+        "travel",
+        "wellness"
+      ],
+      "color": "#FBFCFD",
+      "role": "base",
+      "note": "clean white"
+    },
+    {
+      "id": "concrete",
+      "family": "build",
+      "fits": [
+        "real-estate",
+        "hardware",
+        "devtools"
+      ],
+      "color": "#BDBDB8",
+      "role": "neutral",
+      "note": "poured concrete"
+    },
+    {
+      "id": "brass",
+      "family": "build",
+      "fits": [
+        "fashion",
+        "legal",
+        "fintech"
+      ],
+      "color": "#B08D3C",
+      "role": "accent",
+      "note": "polished brass"
+    },
+    {
+      "id": "copper",
+      "family": "build",
+      "fits": [
+        "hardware",
+        "climate"
+      ],
+      "color": "#B36B3B",
+      "role": "accent",
+      "note": "oxidising copper"
+    },
+    {
+      "id": "verdigris",
+      "family": "build",
+      "fits": [
+        "climate",
+        "creative"
+      ],
+      "color": "#3F8F80",
+      "role": "accent",
+      "note": "aged copper green"
+    },
+    {
+      "id": "steel",
+      "family": "build",
+      "fits": [
+        "hardware",
+        "security",
+        "devtools"
+      ],
+      "color": "#5F6B76",
+      "role": "neutral",
+      "note": "brushed steel"
+    },
+    {
+      "id": "terrazzo",
+      "family": "build",
+      "fits": [
+        "real-estate",
+        "fashion",
+        "creative"
+      ],
+      "color": "#E9E2D8",
+      "role": "base",
+      "note": "speckled stone floor"
+    },
+    {
+      "id": "brick",
+      "family": "build",
+      "fits": [
+        "real-estate",
+        "events"
+      ],
+      "color": "#9C4A33",
+      "role": "accent",
+      "note": "fired brick"
+    },
+    {
+      "id": "linen",
+      "family": "craft",
+      "fits": [
+        "fashion",
+        "wellness",
+        "real-estate"
+      ],
+      "color": "#EDE6DA",
+      "role": "base",
+      "note": "undyed linen"
+    },
+    {
+      "id": "denim",
+      "family": "craft",
+      "fits": [
+        "fashion",
+        "ecommerce"
+      ],
+      "color": "#2F4A73",
+      "role": "accent",
+      "note": "indigo denim"
+    },
+    {
+      "id": "leather",
+      "family": "craft",
+      "fits": [
+        "fashion",
+        "ecommerce"
+      ],
+      "color": "#7A4A2E",
+      "role": "accent",
+      "note": "tanned leather"
+    },
+    {
+      "id": "clay",
+      "family": "craft",
+      "fits": [
+        "creative",
+        "wellness"
+      ],
+      "color": "#B9775A",
+      "role": "accent",
+      "note": "raw pottery clay"
+    },
+    {
+      "id": "charcoal",
+      "family": "craft",
+      "fits": [
+        "creative",
+        "personal"
+      ],
+      "color": "#262626",
+      "role": "ink",
+      "note": "drawing charcoal"
+    },
+    {
+      "id": "chalkboard",
+      "family": "craft",
+      "fits": [
+        "education",
+        "kids"
+      ],
+      "color": "#2E3B33",
+      "role": "ink",
+      "note": "school chalkboard"
+    },
+    {
+      "id": "chalk",
+      "family": "craft",
+      "fits": [
+        "education",
+        "kids"
+      ],
+      "color": "#F3F1EA",
+      "role": "base",
+      "note": "chalk dust"
+    },
+    {
+      "id": "crayon-blue",
+      "family": "craft",
+      "fits": [
+        "kids",
+        "education"
+      ],
+      "color": "#2F6FDE",
+      "role": "accent",
+      "note": "wax crayon"
+    },
+    {
+      "id": "phosphor-amber",
+      "family": "screen",
+      "fits": [
+        "devtools",
+        "personal",
+        "security"
+      ],
+      "color": "#F2A93B",
+      "role": "accent",
+      "note": "old terminal glow"
+    },
+    {
+      "id": "circuit-green",
+      "family": "screen",
+      "fits": [
+        "hardware",
+        "devtools"
+      ],
+      "color": "#1E6B47",
+      "role": "accent",
+      "note": "PCB solder mask"
+    },
+    {
+      "id": "solder",
+      "family": "screen",
+      "fits": [
+        "hardware"
+      ],
+      "color": "#A7A9AC",
+      "role": "neutral",
+      "note": "silver solder"
+    },
+    {
+      "id": "led-blue",
+      "family": "screen",
+      "fits": [
+        "ai",
+        "saas",
+        "devtools"
+      ],
+      "color": "#2563EB",
+      "role": "accent",
+      "note": "indicator light"
+    },
+    {
+      "id": "server-rack",
+      "family": "screen",
+      "fits": [
+        "devtools",
+        "security",
+        "ai"
+      ],
+      "color": "#111418",
+      "role": "ink",
+      "note": "rack black"
+    },
+    {
+      "id": "e-ink",
+      "family": "screen",
+      "fits": [
+        "media",
+        "education",
+        "personal"
+      ],
+      "color": "#E6E6E1",
+      "role": "base",
+      "note": "e-reader paper"
+    },
+    {
+      "id": "banknote-green",
+      "family": "money",
+      "fits": [
+        "fintech"
+      ],
+      "color": "#2E6B4F",
+      "role": "accent",
+      "note": "printed currency"
+    },
+    {
+      "id": "ledger-ruling",
+      "family": "money",
+      "fits": [
+        "fintech",
+        "legal"
+      ],
+      "color": "#9DB4D6",
+      "role": "neutral",
+      "note": "pale blue ledger lines"
+    },
+    {
+      "id": "wax-seal",
+      "family": "money",
+      "fits": [
+        "legal",
+        "events",
+        "fashion"
+      ],
+      "color": "#8B1E2B",
+      "role": "accent",
+      "note": "sealing wax"
+    },
+    {
+      "id": "gold-leaf",
+      "family": "money",
+      "fits": [
+        "fashion",
+        "fintech",
+        "events"
+      ],
+      "color": "#C9A227",
+      "role": "accent",
+      "note": "gilding"
+    },
+    {
+      "id": "vault-steel",
+      "family": "money",
+      "fits": [
+        "fintech",
+        "security"
+      ],
+      "color": "#3A4452",
+      "role": "ink",
+      "note": "safe door"
+    },
+    {
+      "id": "scrubs",
+      "family": "care",
+      "fits": [
+        "health"
+      ],
+      "color": "#3C7F8C",
+      "role": "accent",
+      "note": "medical scrubs teal"
+    },
+    {
+      "id": "plaster",
+      "family": "care",
+      "fits": [
+        "health",
+        "wellness"
+      ],
+      "color": "#F3EEE8",
+      "role": "base",
+      "note": "bandage plaster"
+    },
+    {
+      "id": "pill-coral",
+      "family": "care",
+      "fits": [
+        "health"
+      ],
+      "color": "#E4675A",
+      "role": "accent",
+      "note": "coated tablet"
+    },
+    {
+      "id": "x-ray",
+      "family": "care",
+      "fits": [
+        "health",
+        "ai"
+      ],
+      "color": "#1B2735",
+      "role": "ink",
+      "note": "radiograph dark"
+    },
+    {
+      "id": "lavender",
+      "family": "care",
+      "fits": [
+        "wellness",
+        "health"
+      ],
+      "color": "#A898C8",
+      "role": "neutral",
+      "note": "dried lavender"
+    },
+    {
+      "id": "court-orange",
+      "family": "play",
+      "fits": [
+        "events",
+        "gaming",
+        "kids"
+      ],
+      "color": "#E2622D",
+      "role": "accent",
+      "note": "basketball court"
+    },
+    {
+      "id": "turf",
+      "family": "play",
+      "fits": [
+        "events",
+        "kids"
+      ],
+      "color": "#3D8B3D",
+      "role": "accent",
+      "note": "pitch grass"
+    },
+    {
+      "id": "chalk-line",
+      "family": "play",
+      "fits": [
+        "events"
+      ],
+      "color": "#F7F7F2",
+      "role": "base",
+      "note": "field marking"
+    },
+    {
+      "id": "arcade-magenta",
+      "family": "play",
+      "fits": [
+        "gaming",
+        "music"
+      ],
+      "color": "#D2338C",
+      "role": "accent",
+      "note": "arcade cabinet"
+    },
+    {
+      "id": "arcade-cyan",
+      "family": "play",
+      "fits": [
+        "gaming",
+        "music"
+      ],
+      "color": "#1FB5C9",
+      "role": "accent",
+      "note": "arcade light"
+    },
+    {
+      "id": "vinyl",
+      "family": "play",
+      "fits": [
+        "music",
+        "personal"
+      ],
+      "color": "#18171A",
+      "role": "ink",
+      "note": "record black"
+    },
+    {
+      "id": "tape-label",
+      "family": "play",
+      "fits": [
+        "music",
+        "creative"
+      ],
+      "color": "#F1E3C2",
+      "role": "base",
+      "note": "cassette label"
+    },
+    {
+      "id": "passport-navy",
+      "family": "travel",
+      "fits": [
+        "travel",
+        "legal"
+      ],
+      "color": "#1D2B4F",
+      "role": "ink",
+      "note": "passport cover"
+    },
+    {
+      "id": "boarding-pass",
+      "family": "travel",
+      "fits": [
+        "travel"
+      ],
+      "color": "#F5F5F0",
+      "role": "base",
+      "note": "ticket stock"
+    },
+    {
+      "id": "terracotta-roof",
+      "family": "travel",
+      "fits": [
+        "travel",
+        "real-estate"
+      ],
+      "color": "#B5543A",
+      "role": "accent",
+      "note": "clay roof tile"
+    },
+    {
+      "id": "harbor-buoy",
+      "family": "travel",
+      "fits": [
+        "travel",
+        "events"
+      ],
+      "color": "#E0452B",
+      "role": "accent",
+      "note": "marine buoy"
+    },
+    {
+      "id": "map-contour",
+      "family": "travel",
+      "fits": [
+        "travel",
+        "climate"
+      ],
+      "color": "#C7B98F",
+      "role": "neutral",
+      "note": "topo map line"
+    },
+    {
+      "id": "subway-tile",
+      "family": "travel",
+      "fits": [
+        "real-estate",
+        "food"
+      ],
+      "color": "#F2F4F3",
+      "role": "base",
+      "note": "glazed white tile"
+    },
+    {
+      "id": "metro-yellow",
+      "family": "travel",
+      "fits": [
+        "travel",
+        "events",
+        "media"
+      ],
+      "color": "#F5C400",
+      "role": "accent",
+      "note": "transit signage"
+    }
+  ]
+}

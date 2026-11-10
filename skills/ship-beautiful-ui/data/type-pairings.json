@@ -1,0 +1,565 @@
+{
+  "version": 1,
+  "note": "All families are free on Google Fonts. Avoid using Inter or a single geometric sans for everything; these pairings exist so you don't have to.",
+  "pairings": [
+    {
+      "id": "plex-engineering",
+      "display": "IBM Plex Sans",
+      "body": "IBM Plex Sans",
+      "mono": "IBM Plex Mono",
+      "mood": "engineered, neutral, honest",
+      "fits": [
+        "devtools",
+        "saas",
+        "hardware",
+        "security"
+      ],
+      "note": "One family, three cuts. Let weight and size do the hierarchy.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "grotesk-mono",
+      "display": "Space Grotesk",
+      "body": "Public Sans",
+      "mono": "JetBrains Mono",
+      "mood": "technical with a little character",
+      "fits": [
+        "devtools",
+        "ai",
+        "saas"
+      ],
+      "note": "Grotesk headlines, calm body, mono only for code and data.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "geist-system",
+      "display": "Geist",
+      "body": "Geist",
+      "mono": "Geist Mono",
+      "mood": "crisp, modern product UI",
+      "fits": [
+        "saas",
+        "devtools",
+        "ai"
+      ],
+      "note": "Tight tracking on display sizes, normal on body.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "newsroom",
+      "display": "Newsreader",
+      "body": "Public Sans",
+      "mono": null,
+      "mood": "editorial, credible, readable",
+      "fits": [
+        "media",
+        "nonprofit",
+        "education"
+      ],
+      "note": "Serif headlines at large sizes, sans for UI and captions.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "literary",
+      "display": "Literata",
+      "body": "Source Sans 3",
+      "mono": null,
+      "mood": "bookish, long-form, warm",
+      "fits": [
+        "media",
+        "personal",
+        "education"
+      ],
+      "note": "Use the serif for body too on article pages; raise line height.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "fraunces-work",
+      "display": "Fraunces",
+      "body": "Work Sans",
+      "mono": null,
+      "mood": "soft, expressive, friendly",
+      "fits": [
+        "food",
+        "wellness",
+        "creative"
+      ],
+      "note": "Fraunces' soft axis at large sizes; keep body plain.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "instrument",
+      "display": "Instrument Serif",
+      "body": "Instrument Sans",
+      "mono": null,
+      "mood": "elegant, contemporary, gallery",
+      "fits": [
+        "creative",
+        "fashion",
+        "personal"
+      ],
+      "note": "Huge serif display, small sans. Lots of space.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "dm-pair",
+      "display": "DM Serif Display",
+      "body": "DM Sans",
+      "mono": null,
+      "mood": "classic contrast, approachable",
+      "fits": [
+        "ecommerce",
+        "real-estate",
+        "events"
+      ],
+      "note": "Serif only above 32px.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "caslon-franklin",
+      "display": "Libre Caslon Display",
+      "body": "Libre Franklin",
+      "mono": null,
+      "mood": "established, trustworthy, formal",
+      "fits": [
+        "legal",
+        "fintech",
+        "nonprofit"
+      ],
+      "note": "Formal serif headlines, plain grotesque body.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "bricolage",
+      "display": "Bricolage Grotesque",
+      "body": "Figtree",
+      "mono": null,
+      "mood": "lively, indie, human",
+      "fits": [
+        "creative",
+        "events",
+        "saas"
+      ],
+      "note": "Bricolage's width and optical size make headlines feel hand-set.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "syne-manrope",
+      "display": "Syne",
+      "body": "Manrope",
+      "mono": null,
+      "mood": "artsy, bold, studio",
+      "fits": [
+        "creative",
+        "music",
+        "fashion"
+      ],
+      "note": "Syne at extra-bold for display only; never for body.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "unbounded-onest",
+      "display": "Unbounded",
+      "body": "Onest",
+      "mono": null,
+      "mood": "playful tech, energetic",
+      "fits": [
+        "gaming",
+        "events",
+        "ai"
+      ],
+      "note": "Wide display in short bursts: 2-4 words per headline.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "archivo",
+      "display": "Archivo Black",
+      "body": "Archivo",
+      "mono": null,
+      "mood": "loud, sporty, direct",
+      "fits": [
+        "events",
+        "gaming",
+        "media"
+      ],
+      "note": "Uppercase is fine here for short display lines only.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "big-shoulders",
+      "display": "Big Shoulders Display",
+      "body": "Barlow",
+      "mono": null,
+      "mood": "industrial, civic, condensed",
+      "fits": [
+        "hardware",
+        "events",
+        "real-estate"
+      ],
+      "note": "Condensed display packs big words into small widths.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "cormorant-karla",
+      "display": "Cormorant",
+      "body": "Karla",
+      "mono": null,
+      "mood": "luxury, quiet, refined",
+      "fits": [
+        "fashion",
+        "real-estate",
+        "wellness"
+      ],
+      "note": "Light serif at very large sizes; Karla keeps UI legible.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "young-jakarta",
+      "display": "Young Serif",
+      "body": "Plus Jakarta Sans",
+      "mono": null,
+      "mood": "homey, appetizing, warm",
+      "fits": [
+        "food",
+        "ecommerce",
+        "wellness"
+      ],
+      "note": "Round serif for menus and product names.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "sora-nunito",
+      "display": "Sora",
+      "body": "Nunito Sans",
+      "mono": null,
+      "mood": "friendly, rounded, clear",
+      "fits": [
+        "health",
+        "education",
+        "kids"
+      ],
+      "note": "Rounded body helps nervous or young readers.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "baloo-nunito",
+      "display": "Baloo 2",
+      "body": "Nunito",
+      "mono": null,
+      "mood": "cheerful, chunky, safe",
+      "fits": [
+        "kids",
+        "education",
+        "gaming"
+      ],
+      "note": "Big, heavy, friendly. Keep line length short.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "atkinson",
+      "display": "Literata",
+      "body": "Atkinson Hyperlegible",
+      "mono": null,
+      "mood": "accessible, public, inclusive",
+      "fits": [
+        "nonprofit",
+        "education",
+        "health"
+      ],
+      "note": "Atkinson was designed for low-vision readers; ideal for public services.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "zilla-rubik",
+      "display": "Zilla Slab",
+      "body": "Rubik",
+      "mono": null,
+      "mood": "sturdy, practical, tool-like",
+      "fits": [
+        "hardware",
+        "devtools",
+        "climate"
+      ],
+      "note": "Slab headlines feel like labels on equipment.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "gloock-hanken",
+      "display": "Gloock",
+      "body": "Hanken Grotesk",
+      "mono": null,
+      "mood": "premium editorial, sharp",
+      "fits": [
+        "fintech",
+        "fashion",
+        "media"
+      ],
+      "note": "High-contrast display serif; keep it above 40px.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "epilogue",
+      "display": "Epilogue",
+      "body": "Epilogue",
+      "mono": null,
+      "mood": "compact, modern, versatile",
+      "fits": [
+        "saas",
+        "personal",
+        "climate"
+      ],
+      "note": "One family; use 800 for display and 400 for body.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "outfit-lora",
+      "display": "Lora",
+      "body": "Outfit",
+      "mono": null,
+      "mood": "balanced, calm, trustworthy",
+      "fits": [
+        "health",
+        "wellness",
+        "real-estate"
+      ],
+      "note": "Serif for quotes and section heads, geometric sans for UI.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "recursive",
+      "display": "Recursive",
+      "body": "Recursive",
+      "mono": "Recursive",
+      "mood": "code-native, casual-to-strict",
+      "fits": [
+        "devtools",
+        "personal",
+        "ai"
+      ],
+      "note": "Use the casual axis for marketing, strict for docs and code.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "mona-hubot",
+      "display": "Hanken Grotesk",
+      "body": "Hanken Grotesk",
+      "mono": "IBM Plex Mono",
+      "mood": "clean product, quietly technical",
+      "fits": [
+        "saas",
+        "devtools",
+        "ai"
+      ],
+      "note": "Weight 700 for display, 400 for body; let spacing carry it.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "spectral-mulish",
+      "display": "Spectral",
+      "body": "Mulish",
+      "mono": null,
+      "mood": "literary, gentle, trustworthy",
+      "fits": [
+        "media",
+        "education",
+        "health"
+      ],
+      "note": "Spectral reads well on screens at body sizes too.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "playfair-source",
+      "display": "Playfair Display",
+      "body": "Source Sans 3",
+      "mono": null,
+      "mood": "classic elegance, high contrast",
+      "fits": [
+        "fashion",
+        "events",
+        "real-estate"
+      ],
+      "note": "Keep Playfair for 2-6 word headlines.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "bodoni-jost",
+      "display": "Bodoni Moda",
+      "body": "Jost",
+      "mono": null,
+      "mood": "fashion, dramatic, crisp",
+      "fits": [
+        "fashion",
+        "creative"
+      ],
+      "note": "Hairline serifs vanish when small: 40px minimum.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "eb-garamond-public",
+      "display": "EB Garamond",
+      "body": "Public Sans",
+      "mono": null,
+      "mood": "bookish, academic, calm",
+      "fits": [
+        "education",
+        "legal",
+        "nonprofit"
+      ],
+      "note": "Old-style figures in text; tabular figures in tables.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "anton-roboto-flex",
+      "display": "Anton",
+      "body": "Roboto Flex",
+      "mono": null,
+      "mood": "poster, shouty, sporty",
+      "fits": [
+        "events",
+        "gaming",
+        "media"
+      ],
+      "note": "Anton only in caps-free short lines; Roboto Flex everywhere else.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "oswald-lato",
+      "display": "Oswald",
+      "body": "Lato",
+      "mono": null,
+      "mood": "condensed, newsy, efficient",
+      "fits": [
+        "media",
+        "events",
+        "hardware"
+      ],
+      "note": "Condensed headlines fit long words in narrow columns.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "chivo-chivo-mono",
+      "display": "Chivo",
+      "body": "Chivo",
+      "mono": "Chivo Mono",
+      "mood": "grotesque, data, sturdy",
+      "fits": [
+        "fintech",
+        "devtools",
+        "climate"
+      ],
+      "note": "Mono cut for numbers and tables.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "red-hat",
+      "display": "Red Hat Display",
+      "body": "Red Hat Text",
+      "mono": "Red Hat Mono",
+      "mood": "open, friendly enterprise",
+      "fits": [
+        "saas",
+        "devtools",
+        "education"
+      ],
+      "note": "Display cut for headings, Text cut for body.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "dm-mono-stack",
+      "display": "DM Sans",
+      "body": "DM Sans",
+      "mono": "DM Mono",
+      "mood": "minimal, geometric, light",
+      "fits": [
+        "personal",
+        "saas",
+        "ai"
+      ],
+      "note": "One family; contrast through size only.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "abril-poppins",
+      "display": "Abril Fatface",
+      "body": "Poppins",
+      "mono": null,
+      "mood": "bold, fun, magazine",
+      "fits": [
+        "food",
+        "events",
+        "kids"
+      ],
+      "note": "Fat display on short words; Poppins at 400-500.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "crimson-karla",
+      "display": "Crimson Pro",
+      "body": "Karla",
+      "mono": null,
+      "mood": "calm, reflective, wellness",
+      "fits": [
+        "wellness",
+        "health",
+        "nonprofit"
+      ],
+      "note": "Light serif headlines, airy spacing.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "josefin",
+      "display": "Josefin Sans",
+      "body": "Josefin Slab",
+      "mono": null,
+      "mood": "vintage, geometric, boutique",
+      "fits": [
+        "fashion",
+        "food",
+        "events"
+      ],
+      "note": "Use the slab for prices and short labels.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "tenor-montserrat",
+      "display": "Tenor Sans",
+      "body": "Montserrat",
+      "mono": null,
+      "mood": "refined, airy, hospitality",
+      "fits": [
+        "travel",
+        "real-estate",
+        "wellness"
+      ],
+      "note": "Wide letter-spacing on Tenor for short headings.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "rubik-mono",
+      "display": "Rubik Mono One",
+      "body": "Rubik",
+      "mono": null,
+      "mood": "chunky, playful, game UI",
+      "fits": [
+        "gaming",
+        "kids"
+      ],
+      "note": "Mono One for logos and scores only.",
+      "source": "Google Fonts (free, open license)"
+    },
+    {
+      "id": "vt323-plex",
+      "display": "VT323",
+      "body": "IBM Plex Sans",
+      "mono": "VT323",
+      "mood": "retro terminal, nostalgic",
+      "fits": [
+        "devtools",
+        "gaming",
+        "personal"
+      ],
+      "note": "Pixel face for flavour (scores, prompts), never for body.",
+      "source": "Google Fonts (free, open license)"
+    }
+  ]
+}

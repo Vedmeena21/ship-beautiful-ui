@@ -1,0 +1,1818 @@
+{
+  "version": 1,
+  "note": "Every palette passes: ink/base >= 12, muted/base >= 4.6, on-accent/accent >= 4.6, accent/base >= 3 (WCAG AA for UI). Checked by scripts/lint_design.py rules.",
+  "palettes": [
+    {
+      "id": "graphite-signal",
+      "name": "Graphite & Signal",
+      "mood": "precise, technical, alert",
+      "mode": "light",
+      "fits": [
+        "devtools",
+        "saas",
+        "hardware"
+      ],
+      "colors": {
+        "base": "#F4F5F2",
+        "surface": "#FFFFFF",
+        "ink": "#15171A",
+        "muted": "#5A6066",
+        "line": "#D9DCD6",
+        "accent": "#C2410C",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#0F766E"
+      },
+      "contrast": {
+        "ink/base": 16.41,
+        "muted/base": 5.82,
+        "on-accent/accent": 5.18,
+        "accent/base": 4.73
+      }
+    },
+    {
+      "id": "ink-lab",
+      "name": "Ink Lab",
+      "mood": "quiet, exact, nocturnal",
+      "mode": "dark",
+      "fits": [
+        "devtools",
+        "ai",
+        "security"
+      ],
+      "colors": {
+        "base": "#0E1013",
+        "surface": "#16191E",
+        "ink": "#E8EAED",
+        "muted": "#9AA1AB",
+        "line": "#2A2F37",
+        "accent": "#7DD3FC",
+        "on-accent": "#111111",
+        "accent-2": "#FBBF24"
+      },
+      "contrast": {
+        "ink/base": 15.81,
+        "muted/base": 7.31,
+        "on-accent/accent": 11.33,
+        "accent/base": 11.43
+      }
+    },
+    {
+      "id": "ledger",
+      "name": "Ledger",
+      "mood": "trustworthy, calm, numeric",
+      "mode": "light",
+      "fits": [
+        "fintech",
+        "legal",
+        "saas"
+      ],
+      "colors": {
+        "base": "#F6F7FA",
+        "surface": "#FFFFFF",
+        "ink": "#101828",
+        "muted": "#55607A",
+        "line": "#D8DEE9",
+        "accent": "#1D4ED8",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#047857"
+      },
+      "contrast": {
+        "ink/base": 16.57,
+        "muted/base": 5.87,
+        "on-accent/accent": 6.7,
+        "accent/base": 6.26
+      }
+    },
+    {
+      "id": "vault",
+      "name": "Vault",
+      "mood": "serious, premium, steady",
+      "mode": "dark",
+      "fits": [
+        "fintech",
+        "security",
+        "legal"
+      ],
+      "colors": {
+        "base": "#0B1220",
+        "surface": "#121A2B",
+        "ink": "#E6EBF5",
+        "muted": "#97A3B8",
+        "line": "#26324A",
+        "accent": "#34D399",
+        "on-accent": "#111111",
+        "accent-2": "#F5B942"
+      },
+      "contrast": {
+        "ink/base": 15.66,
+        "muted/base": 7.35,
+        "on-accent/accent": 9.82,
+        "accent/base": 9.74
+      }
+    },
+    {
+      "id": "clinic-mint",
+      "name": "Clinic Mint",
+      "mood": "clean, reassuring, human",
+      "mode": "light",
+      "fits": [
+        "health",
+        "wellness",
+        "nonprofit"
+      ],
+      "colors": {
+        "base": "#F3F8F6",
+        "surface": "#FFFFFF",
+        "ink": "#0F2A24",
+        "muted": "#4E6A63",
+        "line": "#D3E4DE",
+        "accent": "#0F766E",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#E26D5A"
+      },
+      "contrast": {
+        "ink/base": 14.21,
+        "muted/base": 5.49,
+        "on-accent/accent": 5.47,
+        "accent/base": 5.1
+      }
+    },
+    {
+      "id": "schoolyard",
+      "name": "Schoolyard",
+      "mood": "bright, encouraging, clear",
+      "mode": "light",
+      "fits": [
+        "education",
+        "kids"
+      ],
+      "colors": {
+        "base": "#FFFBF2",
+        "surface": "#FFFFFF",
+        "ink": "#1B1A2E",
+        "muted": "#5B5870",
+        "line": "#ECE4D2",
+        "accent": "#2563EB",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#E8590C"
+      },
+      "contrast": {
+        "ink/base": 16.48,
+        "muted/base": 6.61,
+        "on-accent/accent": 5.17,
+        "accent/base": 5.0
+      }
+    },
+    {
+      "id": "paper-route",
+      "name": "Paper Route",
+      "mood": "editorial, literate, slow",
+      "mode": "light",
+      "fits": [
+        "media",
+        "personal",
+        "nonprofit"
+      ],
+      "colors": {
+        "base": "#FAF9F6",
+        "surface": "#FFFFFF",
+        "ink": "#1A1A1A",
+        "muted": "#5E5A55",
+        "line": "#E3DFD8",
+        "accent": "#9F1239",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#1E3A8A"
+      },
+      "contrast": {
+        "ink/base": 16.53,
+        "muted/base": 6.5,
+        "on-accent/accent": 8.02,
+        "accent/base": 7.61
+      }
+    },
+    {
+      "id": "market-day",
+      "name": "Market Day",
+      "mood": "warm, appetizing, generous",
+      "mode": "light",
+      "fits": [
+        "food",
+        "ecommerce",
+        "events"
+      ],
+      "colors": {
+        "base": "#FFF8EE",
+        "surface": "#FFFFFF",
+        "ink": "#2B1D12",
+        "muted": "#6E5A48",
+        "line": "#EEDFCB",
+        "accent": "#B45309",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#3F6212"
+      },
+      "contrast": {
+        "ink/base": 15.47,
+        "muted/base": 6.19,
+        "on-accent/accent": 5.02,
+        "accent/base": 4.76
+      }
+    },
+    {
+      "id": "harbor",
+      "name": "Harbor",
+      "mood": "open, breezy, trustworthy",
+      "mode": "light",
+      "fits": [
+        "travel",
+        "real-estate",
+        "climate"
+      ],
+      "colors": {
+        "base": "#F2F7FA",
+        "surface": "#FFFFFF",
+        "ink": "#0C2233",
+        "muted": "#4D6577",
+        "line": "#D2E2EC",
+        "accent": "#0369A1",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#C2410C"
+      },
+      "contrast": {
+        "ink/base": 15.06,
+        "muted/base": 5.65,
+        "on-accent/accent": 5.93,
+        "accent/base": 5.5
+      }
+    },
+    {
+      "id": "field-notes",
+      "name": "Field Notes",
+      "mood": "earthy, practical, outdoorsy",
+      "mode": "light",
+      "fits": [
+        "climate",
+        "travel",
+        "nonprofit"
+      ],
+      "colors": {
+        "base": "#F4F3EC",
+        "surface": "#FFFFFF",
+        "ink": "#1F2418",
+        "muted": "#5C6352",
+        "line": "#DCDCCB",
+        "accent": "#4D7C0F",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#9A3412"
+      },
+      "contrast": {
+        "ink/base": 14.26,
+        "muted/base": 5.62,
+        "on-accent/accent": 4.99,
+        "accent/base": 4.49
+      }
+    },
+    {
+      "id": "studio-chalk",
+      "name": "Studio Chalk",
+      "mood": "confident, gallery-like, bold",
+      "mode": "light",
+      "fits": [
+        "creative",
+        "personal",
+        "media"
+      ],
+      "colors": {
+        "base": "#F7F7F5",
+        "surface": "#FFFFFF",
+        "ink": "#111111",
+        "muted": "#5F5F5F",
+        "line": "#E2E2DE",
+        "accent": "#4338CA",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#DB2777"
+      },
+      "contrast": {
+        "ink/base": 17.6,
+        "muted/base": 5.95,
+        "on-accent/accent": 7.9,
+        "accent/base": 7.37
+      }
+    },
+    {
+      "id": "night-arcade",
+      "name": "Night Arcade",
+      "mood": "playful, electric, immersive",
+      "mode": "dark",
+      "fits": [
+        "gaming",
+        "events",
+        "music"
+      ],
+      "colors": {
+        "base": "#120F1C",
+        "surface": "#1B1729",
+        "ink": "#F1EDFB",
+        "muted": "#A9A2C2",
+        "line": "#2E2842",
+        "accent": "#F472B6",
+        "on-accent": "#111111",
+        "accent-2": "#22D3EE"
+      },
+      "contrast": {
+        "ink/base": 16.43,
+        "muted/base": 7.77,
+        "on-accent/accent": 7.13,
+        "accent/base": 7.14
+      }
+    },
+    {
+      "id": "boutique",
+      "name": "Boutique",
+      "mood": "refined, quiet luxury",
+      "mode": "light",
+      "fits": [
+        "ecommerce",
+        "fashion",
+        "real-estate"
+      ],
+      "colors": {
+        "base": "#F8F6F3",
+        "surface": "#FFFFFF",
+        "ink": "#1C1917",
+        "muted": "#6B625B",
+        "line": "#E7E1DA",
+        "accent": "#78350F",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#1E293B"
+      },
+      "contrast": {
+        "ink/base": 16.21,
+        "muted/base": 5.53,
+        "on-accent/accent": 9.07,
+        "accent/base": 8.41
+      }
+    },
+    {
+      "id": "oat-and-sage",
+      "name": "Oat & Sage",
+      "mood": "soft, restorative, unhurried",
+      "mode": "light",
+      "fits": [
+        "wellness",
+        "health",
+        "food"
+      ],
+      "colors": {
+        "base": "#F5F4EF",
+        "surface": "#FFFFFF",
+        "ink": "#22261F",
+        "muted": "#5F665A",
+        "line": "#E0E0D6",
+        "accent": "#3F6212",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#A16207"
+      },
+      "contrast": {
+        "ink/base": 13.97,
+        "muted/base": 5.39,
+        "on-accent/accent": 7.08,
+        "accent/base": 6.43
+      }
+    },
+    {
+      "id": "civic",
+      "name": "Civic",
+      "mood": "plain, accessible, public",
+      "mode": "light",
+      "fits": [
+        "nonprofit",
+        "education",
+        "legal"
+      ],
+      "colors": {
+        "base": "#F7F8FA",
+        "surface": "#FFFFFF",
+        "ink": "#111827",
+        "muted": "#4B5563",
+        "line": "#D1D5DB",
+        "accent": "#B91C1C",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#1D4ED8"
+      },
+      "contrast": {
+        "ink/base": 16.69,
+        "muted/base": 7.11,
+        "on-accent/accent": 6.47,
+        "accent/base": 6.09
+      }
+    },
+    {
+      "id": "blueprint",
+      "name": "Blueprint",
+      "mood": "structured, engineered, honest",
+      "mode": "light",
+      "fits": [
+        "hardware",
+        "devtools",
+        "real-estate"
+      ],
+      "colors": {
+        "base": "#F1F5FB",
+        "surface": "#FFFFFF",
+        "ink": "#0B1B33",
+        "muted": "#4A5B75",
+        "line": "#CEDAEA",
+        "accent": "#1E40AF",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#EA580C"
+      },
+      "contrast": {
+        "ink/base": 15.75,
+        "muted/base": 6.3,
+        "on-accent/accent": 8.72,
+        "accent/base": 7.97
+      }
+    },
+    {
+      "id": "deep-sea",
+      "name": "Deep Sea",
+      "mood": "calm depth, data-heavy",
+      "mode": "dark",
+      "fits": [
+        "saas",
+        "ai",
+        "climate"
+      ],
+      "colors": {
+        "base": "#081A22",
+        "surface": "#0E2430",
+        "ink": "#E3F1F5",
+        "muted": "#93AFBA",
+        "line": "#1D3A47",
+        "accent": "#2DD4BF",
+        "on-accent": "#111111",
+        "accent-2": "#FB923C"
+      },
+      "contrast": {
+        "ink/base": 15.38,
+        "muted/base": 7.69,
+        "on-accent/accent": 10.14,
+        "accent/base": 9.55
+      }
+    },
+    {
+      "id": "sunday-press",
+      "name": "Sunday Press",
+      "mood": "newsy, high contrast, urgent",
+      "mode": "light",
+      "fits": [
+        "media",
+        "events"
+      ],
+      "colors": {
+        "base": "#FFFFFF",
+        "surface": "#F6F6F4",
+        "ink": "#0A0A0A",
+        "muted": "#545454",
+        "line": "#DADADA",
+        "accent": "#DC2626",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#0A0A0A"
+      },
+      "contrast": {
+        "ink/base": 19.8,
+        "muted/base": 7.57,
+        "on-accent/accent": 4.83,
+        "accent/base": 4.83
+      }
+    },
+    {
+      "id": "playroom",
+      "name": "Playroom",
+      "mood": "cheerful, rounded, safe",
+      "mode": "light",
+      "fits": [
+        "kids",
+        "education",
+        "gaming"
+      ],
+      "colors": {
+        "base": "#FFF9F0",
+        "surface": "#FFFFFF",
+        "ink": "#22223B",
+        "muted": "#5E5E7A",
+        "line": "#EFE3CF",
+        "accent": "#7C3AED",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#F59E0B"
+      },
+      "contrast": {
+        "ink/base": 14.75,
+        "muted/base": 5.97,
+        "on-accent/accent": 5.7,
+        "accent/base": 5.44
+      }
+    },
+    {
+      "id": "terminal-amber",
+      "name": "Terminal Amber",
+      "mood": "utilitarian, fast, old-school terminal",
+      "mode": "dark",
+      "fits": [
+        "devtools",
+        "security"
+      ],
+      "colors": {
+        "base": "#100E0B",
+        "surface": "#18150F",
+        "ink": "#F3EDE2",
+        "muted": "#A99F8F",
+        "line": "#2E2920",
+        "accent": "#F2A93B",
+        "on-accent": "#111111",
+        "accent-2": "#8EC5E8"
+      },
+      "contrast": {
+        "ink/base": 16.54,
+        "muted/base": 7.38,
+        "on-accent/accent": 9.45,
+        "accent/base": 9.65
+      }
+    },
+    {
+      "id": "orchard",
+      "name": "Orchard",
+      "mood": "fresh, natural, cheerful",
+      "mode": "light",
+      "fits": [
+        "food",
+        "ecommerce",
+        "climate"
+      ],
+      "colors": {
+        "base": "#F7FAF3",
+        "surface": "#FFFFFF",
+        "ink": "#17240F",
+        "muted": "#566349",
+        "line": "#DCE6CF",
+        "accent": "#C2410C",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#15803D"
+      },
+      "contrast": {
+        "ink/base": 15.38,
+        "muted/base": 6.08,
+        "on-accent/accent": 5.18,
+        "accent/base": 4.91
+      }
+    },
+    {
+      "id": "atelier-noir",
+      "name": "Atelier Noir",
+      "mood": "dramatic, fashion, nightlife",
+      "mode": "dark",
+      "fits": [
+        "fashion",
+        "music",
+        "creative"
+      ],
+      "colors": {
+        "base": "#0C0C0D",
+        "surface": "#161617",
+        "ink": "#F2F0EC",
+        "muted": "#A8A49D",
+        "line": "#2A2A2C",
+        "accent": "#E7C66B",
+        "on-accent": "#111111",
+        "accent-2": "#D4D4D8"
+      },
+      "contrast": {
+        "ink/base": 17.18,
+        "muted/base": 7.88,
+        "on-accent/accent": 11.41,
+        "accent/base": 11.81
+      }
+    },
+    {
+      "id": "signal-health",
+      "name": "Signal Health",
+      "mood": "clinical, data-driven, precise",
+      "mode": "light",
+      "fits": [
+        "health",
+        "ai",
+        "saas"
+      ],
+      "colors": {
+        "base": "#F5F8FC",
+        "surface": "#FFFFFF",
+        "ink": "#0F1E33",
+        "muted": "#52627A",
+        "line": "#D6E0EC",
+        "accent": "#0E7490",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#BE123C"
+      },
+      "contrast": {
+        "ink/base": 15.72,
+        "muted/base": 5.82,
+        "on-accent/accent": 5.36,
+        "accent/base": 5.03
+      }
+    },
+    {
+      "id": "homestead",
+      "name": "Homestead",
+      "mood": "grounded, familiar, local",
+      "mode": "light",
+      "fits": [
+        "real-estate",
+        "food",
+        "events"
+      ],
+      "colors": {
+        "base": "#F8F5F0",
+        "surface": "#FFFFFF",
+        "ink": "#24201B",
+        "muted": "#655D53",
+        "line": "#E6DED3",
+        "accent": "#1E3A5F",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#B45309"
+      },
+      "contrast": {
+        "ink/base": 14.88,
+        "muted/base": 5.95,
+        "on-accent/accent": 11.5,
+        "accent/base": 10.58
+      }
+    },
+    {
+      "id": "darkroom",
+      "name": "Darkroom",
+      "mood": "photographic, focused, warm red",
+      "mode": "light",
+      "fits": [
+        "creative",
+        "personal",
+        "media"
+      ],
+      "from_materials": [
+        "safelight-red",
+        "contact-sheet",
+        "grey-card",
+        "film-rebate"
+      ],
+      "colors": {
+        "base": "#F7F7F3",
+        "surface": "#FCFCFA",
+        "ink": "#141414",
+        "muted": "#70706F",
+        "line": "#D7D7D4",
+        "accent": "#B3261E",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#C27E19"
+      },
+      "contrast": {
+        "ink/base": 17.15,
+        "muted/base": 4.62,
+        "on-accent/accent": 6.54,
+        "accent/base": 6.09
+      }
+    },
+    {
+      "id": "darkroom-night",
+      "name": "Darkroom Night",
+      "mood": "moody, cinematic",
+      "mode": "dark",
+      "fits": [
+        "creative",
+        "music",
+        "media"
+      ],
+      "from_materials": [
+        "safelight-red",
+        "contact-sheet",
+        "film-rebate"
+      ],
+      "colors": {
+        "base": "#141414",
+        "surface": "#1F1F1F",
+        "ink": "#F0EBEA",
+        "muted": "#949190",
+        "line": "#333232",
+        "accent": "#BC281F",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#E6A23C"
+      },
+      "contrast": {
+        "ink/base": 15.59,
+        "muted/base": 5.89,
+        "on-accent/accent": 6.07,
+        "accent/base": 3.04
+      }
+    },
+    {
+      "id": "bakehouse",
+      "name": "Bakehouse",
+      "mood": "warm, crusty, early-morning",
+      "mode": "light",
+      "fits": [
+        "food",
+        "events"
+      ],
+      "from_materials": [
+        "crust",
+        "flour",
+        "espresso",
+        "saffron"
+      ],
+      "colors": {
+        "base": "#F5F2EA",
+        "surface": "#FBFAF7",
+        "ink": "#3B2418",
+        "muted": "#756960",
+        "line": "#DBD5CD",
+        "accent": "#A0522D",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#C37C0A"
+      },
+      "contrast": {
+        "ink/base": 12.93,
+        "muted/base": 4.76,
+        "on-accent/accent": 5.62,
+        "accent/base": 5.02
+      }
+    },
+    {
+      "id": "tea-house",
+      "name": "Tea House",
+      "mood": "calm, grassy, ceremonial",
+      "mode": "light",
+      "fits": [
+        "food",
+        "wellness"
+      ],
+      "from_materials": [
+        "matcha",
+        "oat-milk",
+        "espresso",
+        "clay"
+      ],
+      "colors": {
+        "base": "#F3EFE7",
+        "surface": "#FAF9F5",
+        "ink": "#3B2418",
+        "muted": "#74685F",
+        "line": "#D9D3CA",
+        "accent": "#749337",
+        "on-accent": "#111111",
+        "accent-2": "#B9775A"
+      },
+      "contrast": {
+        "ink/base": 12.62,
+        "muted/base": 4.71,
+        "on-accent/accent": 5.37,
+        "accent/base": 3.07
+      }
+    },
+    {
+      "id": "trattoria",
+      "name": "Trattoria",
+      "mood": "sunny, generous, red-checked",
+      "mode": "light",
+      "fits": [
+        "food",
+        "travel",
+        "events"
+      ],
+      "from_materials": [
+        "tomato",
+        "flour",
+        "olive",
+        "espresso"
+      ],
+      "colors": {
+        "base": "#F5F2EA",
+        "surface": "#FBFAF7",
+        "ink": "#3B2418",
+        "muted": "#756960",
+        "line": "#DBD5CD",
+        "accent": "#D2381F",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#6B6B2A"
+      },
+      "contrast": {
+        "ink/base": 12.93,
+        "muted/base": 4.76,
+        "on-accent/accent": 4.85,
+        "accent/base": 4.34
+      }
+    },
+    {
+      "id": "forest-floor",
+      "name": "Forest Floor",
+      "mood": "grounded, mossy, quiet",
+      "mode": "light",
+      "fits": [
+        "climate",
+        "wellness",
+        "travel"
+      ],
+      "from_materials": [
+        "moss",
+        "lichen",
+        "bark",
+        "snow"
+      ],
+      "colors": {
+        "base": "#FBFCFD",
+        "surface": "#FDFEFE",
+        "ink": "#403227",
+        "muted": "#78706A",
+        "line": "#E1E0DF",
+        "accent": "#4F6B32",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#403227"
+      },
+      "contrast": {
+        "ink/base": 12.0,
+        "muted/base": 4.73,
+        "on-accent/accent": 6.03,
+        "accent/base": 5.87
+      }
+    },
+    {
+      "id": "tidepool",
+      "name": "Tidepool",
+      "mood": "cool, clear, coastal",
+      "mode": "light",
+      "fits": [
+        "travel",
+        "health",
+        "wellness"
+      ],
+      "from_materials": [
+        "sea-glass",
+        "deep-water",
+        "snow",
+        "harbor-buoy"
+      ],
+      "colors": {
+        "base": "#FBFCFD",
+        "surface": "#FDFEFE",
+        "ink": "#0D384B",
+        "muted": "#5E7580",
+        "line": "#DAE1E4",
+        "accent": "#E1492F",
+        "on-accent": "#111111",
+        "accent-2": "#0D384B"
+      },
+      "contrast": {
+        "ink/base": 12.14,
+        "muted/base": 4.72,
+        "on-accent/accent": 4.67,
+        "accent/base": 3.93
+      }
+    },
+    {
+      "id": "abyss",
+      "name": "Abyss",
+      "mood": "deep, data-rich, oceanic",
+      "mode": "dark",
+      "fits": [
+        "ai",
+        "climate",
+        "saas"
+      ],
+      "from_materials": [
+        "deep-water",
+        "sea-glass",
+        "pollen"
+      ],
+      "colors": {
+        "base": "#101A1E",
+        "surface": "#1B2528",
+        "ink": "#F0EFEA",
+        "muted": "#929694",
+        "line": "#2F383B",
+        "accent": "#F2C230",
+        "on-accent": "#111111",
+        "accent-2": "#F0EFEA"
+      },
+      "contrast": {
+        "ink/base": 15.35,
+        "muted/base": 5.9,
+        "on-accent/accent": 11.27,
+        "accent/base": 10.55
+      }
+    },
+    {
+      "id": "desert-road",
+      "name": "Desert Road",
+      "mood": "sun-baked, wide open",
+      "mode": "light",
+      "fits": [
+        "travel",
+        "real-estate",
+        "events"
+      ],
+      "from_materials": [
+        "sandstone",
+        "terracotta-roof",
+        "passport-navy",
+        "boarding-pass"
+      ],
+      "colors": {
+        "base": "#F5F5F0",
+        "surface": "#FBFBF9",
+        "ink": "#1D2B4F",
+        "muted": "#676E80",
+        "line": "#D7D9D9",
+        "accent": "#B5543A",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#1D2B4F"
+      },
+      "contrast": {
+        "ink/base": 12.71,
+        "muted/base": 4.66,
+        "on-accent/accent": 4.89,
+        "accent/base": 4.47
+      }
+    },
+    {
+      "id": "alpine",
+      "name": "Alpine",
+      "mood": "crisp, cold, clean",
+      "mode": "light",
+      "fits": [
+        "travel",
+        "health",
+        "saas"
+      ],
+      "from_materials": [
+        "glacier",
+        "deep-water",
+        "harbor-buoy"
+      ],
+      "colors": {
+        "base": "#E8F1F4",
+        "surface": "#F6F9FB",
+        "ink": "#0B2E3E",
+        "muted": "#596D76",
+        "line": "#C9D6DB",
+        "accent": "#E1492F",
+        "on-accent": "#111111",
+        "accent-2": "#0B2E3E"
+      },
+      "contrast": {
+        "ink/base": 12.42,
+        "muted/base": 4.73,
+        "on-accent/accent": 4.67,
+        "accent/base": 3.53
+      }
+    },
+    {
+      "id": "meadow",
+      "name": "Meadow",
+      "mood": "playful, floral, light",
+      "mode": "light",
+      "fits": [
+        "kids",
+        "wellness",
+        "events"
+      ],
+      "from_materials": [
+        "wildflower",
+        "pollen",
+        "snow",
+        "bark"
+      ],
+      "colors": {
+        "base": "#FBFCFD",
+        "surface": "#FDFEFE",
+        "ink": "#403227",
+        "muted": "#78706A",
+        "line": "#E1E0DF",
+        "accent": "#8C5BB0",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#B68C0B"
+      },
+      "contrast": {
+        "ink/base": 12.0,
+        "muted/base": 4.73,
+        "on-accent/accent": 4.95,
+        "accent/base": 4.82
+      }
+    },
+    {
+      "id": "foundry",
+      "name": "Foundry",
+      "mood": "industrial, hot metal",
+      "mode": "dark",
+      "fits": [
+        "hardware",
+        "devtools"
+      ],
+      "from_materials": [
+        "basalt",
+        "copper",
+        "steel",
+        "snow"
+      ],
+      "colors": {
+        "base": "#161718",
+        "surface": "#212223",
+        "ink": "#FBFCFD",
+        "muted": "#9B9C9D",
+        "line": "#363738",
+        "accent": "#B76D3C",
+        "on-accent": "#111111",
+        "accent-2": "#FBFCFD"
+      },
+      "contrast": {
+        "ink/base": 17.48,
+        "muted/base": 6.53,
+        "on-accent/accent": 4.74,
+        "accent/base": 4.5
+      }
+    },
+    {
+      "id": "brass-and-oak",
+      "name": "Brass & Oak",
+      "mood": "established, crafted, warm",
+      "mode": "light",
+      "fits": [
+        "legal",
+        "fintech",
+        "fashion"
+      ],
+      "from_materials": [
+        "brass",
+        "bark",
+        "linen"
+      ],
+      "colors": {
+        "base": "#F3EFE7",
+        "surface": "#FAF9F5",
+        "ink": "#34281F",
+        "muted": "#716A62",
+        "line": "#D8D3CB",
+        "accent": "#A58438",
+        "on-accent": "#111111",
+        "accent-2": "#34281F"
+      },
+      "contrast": {
+        "ink/base": 12.46,
+        "muted/base": 4.65,
+        "on-accent/accent": 5.36,
+        "accent/base": 3.07
+      }
+    },
+    {
+      "id": "verdigris-house",
+      "name": "Verdigris",
+      "mood": "aged, botanical, calm",
+      "mode": "light",
+      "fits": [
+        "climate",
+        "creative",
+        "wellness"
+      ],
+      "from_materials": [
+        "verdigris",
+        "linen",
+        "charcoal",
+        "copper"
+      ],
+      "colors": {
+        "base": "#F3EFE7",
+        "surface": "#FAF9F5",
+        "ink": "#262626",
+        "muted": "#6C6B68",
+        "line": "#D6D3CC",
+        "accent": "#3F8F80",
+        "on-accent": "#111111",
+        "accent-2": "#B36B3B"
+      },
+      "contrast": {
+        "ink/base": 13.2,
+        "muted/base": 4.65,
+        "on-accent/accent": 4.9,
+        "accent/base": 3.36
+      }
+    },
+    {
+      "id": "concrete-lab",
+      "name": "Concrete Lab",
+      "mood": "raw, architectural, honest",
+      "mode": "light",
+      "fits": [
+        "real-estate",
+        "hardware",
+        "devtools"
+      ],
+      "from_materials": [
+        "concrete",
+        "charcoal",
+        "led-blue",
+        "subway-tile"
+      ],
+      "colors": {
+        "base": "#F2F4F3",
+        "surface": "#FAFBFA",
+        "ink": "#262626",
+        "muted": "#6D6E6D",
+        "line": "#D5D7D6",
+        "accent": "#2563EB",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#262626"
+      },
+      "contrast": {
+        "ink/base": 13.7,
+        "muted/base": 4.63,
+        "on-accent/accent": 5.17,
+        "accent/base": 4.68
+      }
+    },
+    {
+      "id": "terrazzo-studio",
+      "name": "Terrazzo Studio",
+      "mood": "speckled, modern, friendly",
+      "mode": "light",
+      "fits": [
+        "real-estate",
+        "creative",
+        "fashion"
+      ],
+      "from_materials": [
+        "terrazzo",
+        "brick",
+        "charcoal",
+        "sea-glass"
+      ],
+      "colors": {
+        "base": "#F2EEE8",
+        "surface": "#FAF8F6",
+        "ink": "#262626",
+        "muted": "#6C6B68",
+        "line": "#D5D2CD",
+        "accent": "#9C4A33",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#262626"
+      },
+      "contrast": {
+        "ink/base": 13.09,
+        "muted/base": 4.61,
+        "on-accent/accent": 6.1,
+        "accent/base": 5.28
+      }
+    },
+    {
+      "id": "brick-lane",
+      "name": "Brick Lane",
+      "mood": "urban, warm, local",
+      "mode": "light",
+      "fits": [
+        "events",
+        "food",
+        "real-estate"
+      ],
+      "from_materials": [
+        "brick",
+        "subway-tile",
+        "passport-navy",
+        "metro-yellow"
+      ],
+      "colors": {
+        "base": "#F2F4F3",
+        "surface": "#FAFBFA",
+        "ink": "#1D2B4F",
+        "muted": "#656D81",
+        "line": "#D4D8DC",
+        "accent": "#9C4A33",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#A88700"
+      },
+      "contrast": {
+        "ink/base": 12.58,
+        "muted/base": 4.68,
+        "on-accent/accent": 6.1,
+        "accent/base": 5.52
+      }
+    },
+    {
+      "id": "indigo-workshop",
+      "name": "Indigo Workshop",
+      "mood": "denim, workwear, durable",
+      "mode": "light",
+      "fits": [
+        "fashion",
+        "ecommerce"
+      ],
+      "from_materials": [
+        "denim",
+        "linen",
+        "leather",
+        "charcoal"
+      ],
+      "colors": {
+        "base": "#F3EFE7",
+        "surface": "#FAF9F5",
+        "ink": "#262626",
+        "muted": "#6C6B68",
+        "line": "#D6D3CC",
+        "accent": "#2F4A73",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#7A4A2E"
+      },
+      "contrast": {
+        "ink/base": 13.2,
+        "muted/base": 4.65,
+        "on-accent/accent": 8.94,
+        "accent/base": 7.8
+      }
+    },
+    {
+      "id": "saddle",
+      "name": "Saddle",
+      "mood": "leather goods, heritage",
+      "mode": "light",
+      "fits": [
+        "fashion",
+        "ecommerce"
+      ],
+      "from_materials": [
+        "leather",
+        "linen",
+        "espresso",
+        "brass"
+      ],
+      "colors": {
+        "base": "#F3EFE7",
+        "surface": "#FAF9F5",
+        "ink": "#3B2418",
+        "muted": "#74685F",
+        "line": "#D9D3CA",
+        "accent": "#7A4A2E",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#A58438"
+      },
+      "contrast": {
+        "ink/base": 12.62,
+        "muted/base": 4.71,
+        "on-accent/accent": 7.38,
+        "accent/base": 6.43
+      }
+    },
+    {
+      "id": "potter",
+      "name": "Potter",
+      "mood": "handmade, earthy, tactile",
+      "mode": "light",
+      "fits": [
+        "creative",
+        "wellness",
+        "ecommerce"
+      ],
+      "from_materials": [
+        "clay",
+        "plaster",
+        "charcoal",
+        "olive"
+      ],
+      "colors": {
+        "base": "#F3EEE8",
+        "surface": "#FAF8F6",
+        "ink": "#262626",
+        "muted": "#6C6B68",
+        "line": "#D6D2CD",
+        "accent": "#B9775A",
+        "on-accent": "#111111",
+        "accent-2": "#6B6B2A"
+      },
+      "contrast": {
+        "ink/base": 13.12,
+        "muted/base": 4.62,
+        "on-accent/accent": 5.26,
+        "accent/base": 3.11
+      }
+    },
+    {
+      "id": "classroom",
+      "name": "Classroom",
+      "mood": "chalky, clear, encouraging",
+      "mode": "light",
+      "fits": [
+        "education",
+        "kids"
+      ],
+      "from_materials": [
+        "chalk",
+        "chalkboard",
+        "crayon-blue",
+        "pollen"
+      ],
+      "colors": {
+        "base": "#F3F1EA",
+        "surface": "#FAF9F7",
+        "ink": "#253029",
+        "muted": "#686C66",
+        "line": "#D6D6CF",
+        "accent": "#2F6FDE",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#AC840B"
+      },
+      "contrast": {
+        "ink/base": 12.12,
+        "muted/base": 4.73,
+        "on-accent/accent": 4.72,
+        "accent/base": 4.18
+      }
+    },
+    {
+      "id": "chalkboard-dark",
+      "name": "Chalkboard",
+      "mood": "school, focused, readable",
+      "mode": "dark",
+      "fits": [
+        "education"
+      ],
+      "from_materials": [
+        "chalkboard",
+        "chalk",
+        "pollen",
+        "crayon-blue"
+      ],
+      "colors": {
+        "base": "#141A16",
+        "surface": "#1F2521",
+        "ink": "#F3F1EA",
+        "muted": "#959791",
+        "line": "#333834",
+        "accent": "#F2C230",
+        "on-accent": "#111111",
+        "accent-2": "#2F6FDE"
+      },
+      "contrast": {
+        "ink/base": 15.63,
+        "muted/base": 5.98,
+        "on-accent/accent": 11.27,
+        "accent/base": 10.54
+      }
+    },
+    {
+      "id": "crayon-box",
+      "name": "Crayon Box",
+      "mood": "bright, primary, safe",
+      "mode": "light",
+      "fits": [
+        "kids",
+        "education",
+        "gaming"
+      ],
+      "from_materials": [
+        "crayon-blue",
+        "tomato",
+        "pollen",
+        "snow",
+        "charcoal"
+      ],
+      "colors": {
+        "base": "#FBFCFD",
+        "surface": "#FDFEFE",
+        "ink": "#262626",
+        "muted": "#727373",
+        "line": "#DDDEDF",
+        "accent": "#2F6FDE",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#D2381F"
+      },
+      "contrast": {
+        "ink/base": 14.73,
+        "muted/base": 4.63,
+        "on-accent/accent": 4.72,
+        "accent/base": 4.59
+      }
+    },
+    {
+      "id": "phosphor",
+      "name": "Phosphor",
+      "mood": "terminal glow, nostalgic",
+      "mode": "dark",
+      "fits": [
+        "devtools",
+        "security",
+        "personal"
+      ],
+      "from_materials": [
+        "phosphor-amber",
+        "server-rack",
+        "steel"
+      ],
+      "colors": {
+        "base": "#111418",
+        "surface": "#1C1F22",
+        "ink": "#F0EEEA",
+        "muted": "#929292",
+        "line": "#303335",
+        "accent": "#F2A93B",
+        "on-accent": "#111111",
+        "accent-2": "#F0EEEA"
+      },
+      "contrast": {
+        "ink/base": 15.94,
+        "muted/base": 5.94,
+        "on-accent/accent": 9.45,
+        "accent/base": 9.25
+      }
+    },
+    {
+      "id": "circuit-board",
+      "name": "Circuit Board",
+      "mood": "engineered, electric",
+      "mode": "light",
+      "fits": [
+        "hardware",
+        "devtools"
+      ],
+      "from_materials": [
+        "circuit-green",
+        "solder",
+        "server-rack",
+        "snow"
+      ],
+      "colors": {
+        "base": "#FBFCFD",
+        "surface": "#FDFEFE",
+        "ink": "#111418",
+        "muted": "#717275",
+        "line": "#DADCDD",
+        "accent": "#1E6B47",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#111418"
+      },
+      "contrast": {
+        "ink/base": 17.98,
+        "muted/base": 4.68,
+        "on-accent/accent": 6.46,
+        "accent/base": 6.29
+      }
+    },
+    {
+      "id": "status-light",
+      "name": "Status Light",
+      "mood": "alert, technical, crisp",
+      "mode": "light",
+      "fits": [
+        "devtools",
+        "ai",
+        "saas"
+      ],
+      "from_materials": [
+        "led-blue",
+        "e-ink",
+        "server-rack",
+        "harbor-buoy"
+      ],
+      "colors": {
+        "base": "#EFEFEC",
+        "surface": "#F9F9F7",
+        "ink": "#111418",
+        "muted": "#696B6C",
+        "line": "#D0D0CE",
+        "accent": "#2563EB",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#E0452B"
+      },
+      "contrast": {
+        "ink/base": 16.03,
+        "muted/base": 4.65,
+        "on-accent/accent": 5.17,
+        "accent/base": 4.49
+      }
+    },
+    {
+      "id": "banknote",
+      "name": "Banknote",
+      "mood": "money, printed, sober",
+      "mode": "light",
+      "fits": [
+        "fintech"
+      ],
+      "from_materials": [
+        "banknote-green",
+        "ledger-ruling",
+        "carbon-copy",
+        "receipt-thermal"
+      ],
+      "colors": {
+        "base": "#F4F2EC",
+        "surface": "#FBFAF7",
+        "ink": "#202C4E",
+        "muted": "#666B7B",
+        "line": "#D6D6D6",
+        "accent": "#2E6B4F",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#202C4E"
+      },
+      "contrast": {
+        "ink/base": 12.25,
+        "muted/base": 4.74,
+        "on-accent/accent": 6.3,
+        "accent/base": 5.63
+      }
+    },
+    {
+      "id": "sealed",
+      "name": "Sealed",
+      "mood": "formal, official, red wax",
+      "mode": "light",
+      "fits": [
+        "legal",
+        "events",
+        "fashion"
+      ],
+      "from_materials": [
+        "wax-seal",
+        "manila-folder",
+        "letterpress-ink",
+        "gold-leaf"
+      ],
+      "colors": {
+        "base": "#F7F6F3",
+        "surface": "#FCFBFA",
+        "ink": "#1C1B22",
+        "muted": "#706F72",
+        "line": "#D8D7D6",
+        "accent": "#8B1E2B",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#AB8A21"
+      },
+      "contrast": {
+        "ink/base": 15.81,
+        "muted/base": 4.62,
+        "on-accent/accent": 9.06,
+        "accent/base": 8.38
+      }
+    },
+    {
+      "id": "gilded",
+      "name": "Gilded",
+      "mood": "black tie, golden",
+      "mode": "dark",
+      "fits": [
+        "fashion",
+        "events",
+        "fintech"
+      ],
+      "from_materials": [
+        "gold-leaf",
+        "vault-steel",
+        "linen"
+      ],
+      "colors": {
+        "base": "#13161B",
+        "surface": "#1E2025",
+        "ink": "#EDE6DA",
+        "muted": "#918F8A",
+        "line": "#323336",
+        "accent": "#C9A227",
+        "on-accent": "#111111",
+        "accent-2": "#EDE6DA"
+      },
+      "contrast": {
+        "ink/base": 14.62,
+        "muted/base": 5.61,
+        "on-accent/accent": 7.81,
+        "accent/base": 7.49
+      }
+    },
+    {
+      "id": "ward",
+      "name": "Ward",
+      "mood": "clinical, kind, clear",
+      "mode": "light",
+      "fits": [
+        "health"
+      ],
+      "from_materials": [
+        "scrubs",
+        "plaster",
+        "x-ray",
+        "pill-coral"
+      ],
+      "colors": {
+        "base": "#F3EEE8",
+        "surface": "#FAF8F6",
+        "ink": "#1B2735",
+        "muted": "#676C70",
+        "line": "#D5D2CF",
+        "accent": "#3A7C88",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#E35F51"
+      },
+      "contrast": {
+        "ink/base": 13.11,
+        "muted/base": 4.6,
+        "on-accent/accent": 4.75,
+        "accent/base": 4.12
+      }
+    },
+    {
+      "id": "lavender-room",
+      "name": "Lavender Room",
+      "mood": "soothing, soft, restful",
+      "mode": "light",
+      "fits": [
+        "wellness",
+        "health"
+      ],
+      "from_materials": [
+        "lavender",
+        "oat-milk",
+        "bark",
+        "matcha"
+      ],
+      "colors": {
+        "base": "#F3EFE7",
+        "surface": "#FAF9F5",
+        "ink": "#34281F",
+        "muted": "#716A62",
+        "line": "#D8D3CB",
+        "accent": "#749337",
+        "on-accent": "#111111",
+        "accent-2": "#34281F"
+      },
+      "contrast": {
+        "ink/base": 12.46,
+        "muted/base": 4.65,
+        "on-accent/accent": 5.37,
+        "accent/base": 3.07
+      }
+    },
+    {
+      "id": "courtside",
+      "name": "Courtside",
+      "mood": "sporty, loud, energetic",
+      "mode": "light",
+      "fits": [
+        "events",
+        "gaming",
+        "kids"
+      ],
+      "from_materials": [
+        "court-orange",
+        "chalk-line",
+        "passport-navy",
+        "turf"
+      ],
+      "colors": {
+        "base": "#F7F7F2",
+        "surface": "#FCFCFA",
+        "ink": "#1D2B4F",
+        "muted": "#686F81",
+        "line": "#D8DADB",
+        "accent": "#E2622D",
+        "on-accent": "#111111",
+        "accent-2": "#3D8B3D"
+      },
+      "contrast": {
+        "ink/base": 12.94,
+        "muted/base": 4.68,
+        "on-accent/accent": 5.41,
+        "accent/base": 3.25
+      }
+    },
+    {
+      "id": "arcade",
+      "name": "Arcade",
+      "mood": "neon cabinet, retro play",
+      "mode": "dark",
+      "fits": [
+        "gaming",
+        "music"
+      ],
+      "from_materials": [
+        "arcade-magenta",
+        "arcade-cyan",
+        "vinyl"
+      ],
+      "colors": {
+        "base": "#161618",
+        "surface": "#212123",
+        "ink": "#F0EAED",
+        "muted": "#949194",
+        "line": "#353436",
+        "accent": "#D12F8A",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#1FB5C9"
+      },
+      "contrast": {
+        "ink/base": 15.23,
+        "muted/base": 5.8,
+        "on-accent/accent": 4.68,
+        "accent/base": 3.86
+      }
+    },
+    {
+      "id": "mixtape",
+      "name": "Mixtape",
+      "mood": "analog, warm, music",
+      "mode": "light",
+      "fits": [
+        "music",
+        "personal",
+        "creative"
+      ],
+      "from_materials": [
+        "tape-label",
+        "vinyl",
+        "tomato",
+        "denim"
+      ],
+      "colors": {
+        "base": "#F3F0E7",
+        "surface": "#FAF9F5",
+        "ink": "#18171A",
+        "muted": "#6C6A68",
+        "line": "#D4D2CA",
+        "accent": "#D2381F",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#2F4A73"
+      },
+      "contrast": {
+        "ink/base": 15.67,
+        "muted/base": 4.73,
+        "on-accent/accent": 4.85,
+        "accent/base": 4.26
+      }
+    },
+    {
+      "id": "transit",
+      "name": "Transit",
+      "mood": "wayfinding, civic, bold",
+      "mode": "light",
+      "fits": [
+        "travel",
+        "events",
+        "media"
+      ],
+      "from_materials": [
+        "metro-yellow",
+        "passport-navy",
+        "boarding-pass",
+        "harbor-buoy"
+      ],
+      "colors": {
+        "base": "#F5F5F0",
+        "surface": "#FBFBF9",
+        "ink": "#1D2B4F",
+        "muted": "#676E80",
+        "line": "#D7D9D9",
+        "accent": "#A88700",
+        "on-accent": "#111111",
+        "accent-2": "#E0452B"
+      },
+      "contrast": {
+        "ink/base": 12.71,
+        "muted/base": 4.66,
+        "on-accent/accent": 5.51,
+        "accent/base": 3.13
+      }
+    },
+    {
+      "id": "proofroom",
+      "name": "Proofroom",
+      "mood": "editorial, corrected, sharp",
+      "mode": "light",
+      "fits": [
+        "media",
+        "education",
+        "legal"
+      ],
+      "from_materials": [
+        "proof-red",
+        "newsprint",
+        "letterpress-ink",
+        "blueprint-blue"
+      ],
+      "colors": {
+        "base": "#F1EFEA",
+        "surface": "#F9F9F7",
+        "ink": "#1C1B22",
+        "muted": "#6B6A6C",
+        "line": "#D3D1CE",
+        "accent": "#C8102E",
+        "on-accent": "#FFFFFF",
+        "accent-2": "#1F4E8C"
+      },
+      "contrast": {
+        "ink/base": 14.87,
+        "muted/base": 4.68,
+        "on-accent/accent": 5.88,
+        "accent/base": 5.12
+      }
+    }
+  ]
+}

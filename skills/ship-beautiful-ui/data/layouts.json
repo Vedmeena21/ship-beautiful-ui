@@ -1,0 +1,412 @@
+{
+  "version": 1,
+  "layouts": [
+    {
+      "id": "product-proof",
+      "name": "Product proof",
+      "summary": "Product screenshot or live demo is the hero; copy is short and to the left.",
+      "fits": [
+        "saas",
+        "devtools",
+        "ai",
+        "fintech"
+      ],
+      "wireframe": [
+        "+--------------------------------------+",
+        "| Logo                 Nav     [Start] |",
+        "|                                      |",
+        "| Big claim,       +----------------+  |",
+        "| two lines        |  real product  |  |",
+        "| One sentence     |  screenshot or |  |",
+        "| [Primary] [Docs] |  live demo     |  |",
+        "|                  +----------------+  |",
+        "+--------------------------------------+"
+      ]
+    },
+    {
+      "id": "editorial-column",
+      "name": "Editorial column",
+      "summary": "One readable column with a strong headline, pull quotes and full-bleed images between sections.",
+      "fits": [
+        "media",
+        "personal",
+        "nonprofit",
+        "education"
+      ],
+      "wireframe": [
+        "+--------------------------------------+",
+        "|        HEADLINE IN LARGE SERIF       |",
+        "|        standfirst, one sentence      |",
+        "|   +------------------------------+   |",
+        "|   | text column, 60-75 characters |   |",
+        "|   +------------------------------+   |",
+        "| [ full-bleed image                 ] |",
+        "|   | text column continues        |   |",
+        "+--------------------------------------+"
+      ]
+    },
+    {
+      "id": "type-hero",
+      "name": "Type hero",
+      "summary": "The headline is the visual: huge type, little else, one action.",
+      "fits": [
+        "creative",
+        "personal",
+        "events",
+        "fashion"
+      ],
+      "wireframe": [
+        "+--------------------------------------+",
+        "| name                          menu   |",
+        "|                                      |",
+        "| ENORMOUS                             |",
+        "| HEADLINE                             |",
+        "|                                      |",
+        "| small line of context      [Action]  |",
+        "+--------------------------------------+"
+      ]
+    },
+    {
+      "id": "photo-led",
+      "name": "Photo led",
+      "summary": "A real photograph carries the mood; text sits on a calm area of the image or beside it.",
+      "fits": [
+        "food",
+        "travel",
+        "real-estate",
+        "wellness",
+        "fashion"
+      ],
+      "wireframe": [
+        "+--------------------------------------+",
+        "| [ real photograph, full width      ] |",
+        "| [                                  ] |",
+        "| [   Headline on calm area          ] |",
+        "| [   [Book] [See menu]              ] |",
+        "+--------------------------------------+",
+        "| three facts in a row, not cards      |",
+        "+--------------------------------------+"
+      ]
+    },
+    {
+      "id": "split-story",
+      "name": "Split story",
+      "summary": "Two columns that trade places down the page: claim on one side, proof on the other.",
+      "fits": [
+        "saas",
+        "fintech",
+        "health",
+        "climate"
+      ],
+      "wireframe": [
+        "+------------------+-------------------+",
+        "| Claim            | Proof (chart,     |",
+        "| short text       | screenshot)       |",
+        "+------------------+-------------------+",
+        "| Proof            | Claim             |",
+        "|                  | short text        |",
+        "+------------------+-------------------+"
+      ]
+    },
+    {
+      "id": "bento-meaningful",
+      "name": "Meaningful grid",
+      "summary": "A grid with tiles of different sizes, sized by importance, not identical cards.",
+      "fits": [
+        "saas",
+        "ai",
+        "devtools",
+        "gaming"
+      ],
+      "wireframe": [
+        "+----------------------+---------------+",
+        "| most important tile  | second        |",
+        "| (2x size)            +---------------+",
+        "|                      | third         |",
+        "+-----------+----------+---------------+",
+        "| small     | small    | wide tile     |",
+        "+-----------+----------+---------------+"
+      ]
+    },
+    {
+      "id": "index-list",
+      "name": "Index list",
+      "summary": "A dense, scannable list or table instead of a card grid: name, one line, one number.",
+      "fits": [
+        "devtools",
+        "media",
+        "personal",
+        "legal"
+      ],
+      "wireframe": [
+        "+--------------------------------------+",
+        "| Title                                |",
+        "| ------------------------------------ |",
+        "| 01  Item name      one line     12k  |",
+        "| 02  Item name      one line      9k  |",
+        "| 03  Item name      one line      7k  |",
+        "| ------------------------------------ |",
+        "+--------------------------------------+"
+      ]
+    },
+    {
+      "id": "scroll-chapters",
+      "name": "Scroll chapters",
+      "summary": "A story told in 4-6 full-screen beats, each with one idea and one visual.",
+      "fits": [
+        "events",
+        "climate",
+        "gaming",
+        "nonprofit"
+      ],
+      "wireframe": [
+        "+--------------------------------------+",
+        "| Beat 1: the problem, one sentence    |",
+        "+--------------------------------------+",
+        "| Beat 2: one visual, pinned           |",
+        "+--------------------------------------+",
+        "| Beat 3: the turn                     |",
+        "+--------------------------------------+",
+        "| Beat 4: proof        [Action]        |",
+        "+--------------------------------------+"
+      ]
+    },
+    {
+      "id": "dashboard-focus",
+      "name": "Dashboard focus",
+      "summary": "One primary number or chart answers the user's first question; everything else is secondary.",
+      "fits": [
+        "saas",
+        "fintech",
+        "health",
+        "ai"
+      ],
+      "wireframe": [
+        "+------+-------------------------------+",
+        "| nav  | Title              [Range v]  |",
+        "|      | +---------------------------+ |",
+        "|      | | the one chart that answers | |",
+        "|      | | the first question         | |",
+        "|      | +---------------------------+ |",
+        "|      | table of details, sortable    |",
+        "+------+-------------------------------+"
+      ]
+    },
+    {
+      "id": "form-first",
+      "name": "Form first",
+      "summary": "The task is the page: the form or tool is visible immediately, explanation sits beside it.",
+      "fits": [
+        "fintech",
+        "legal",
+        "health",
+        "education"
+      ],
+      "wireframe": [
+        "+--------------------------------------+",
+        "| Logo                                 |",
+        "| Do the thing in one step  +--------+ |",
+        "| short reassurance         | form   | |",
+        "| - fact                    | fields | |",
+        "| - fact                    | [Go]   | |",
+        "|                           +--------+ |",
+        "+--------------------------------------+"
+      ]
+    },
+    {
+      "id": "catalog",
+      "name": "Catalog",
+      "summary": "Products in a tight grid with real photos, price and one action; filters stay visible.",
+      "fits": [
+        "ecommerce",
+        "fashion",
+        "food"
+      ],
+      "wireframe": [
+        "+--------+-----------------------------+",
+        "| filter | [img] [img] [img] [img]     |",
+        "| filter | name  name  name  name      |",
+        "| filter | $     $     $     $         |",
+        "|        | [img] [img] [img] [img]     |",
+        "+--------+-----------------------------+"
+      ]
+    },
+    {
+      "id": "playful-stage",
+      "name": "Playful stage",
+      "summary": "Big shapes, a character or illustration, short words, oversized buttons.",
+      "fits": [
+        "kids",
+        "gaming",
+        "education"
+      ],
+      "wireframe": [
+        "+--------------------------------------+",
+        "|   ( illustration or character )      |",
+        "|      BIG FRIENDLY WORDS              |",
+        "|      [ BIG BUTTON ]                  |",
+        "|  o      shapes      o      shapes    |",
+        "+--------------------------------------+"
+      ]
+    },
+    {
+      "id": "pricing-honest",
+      "name": "Honest pricing",
+      "summary": "Plans as columns with the recommended one marked by position and copy, not glow; a comparison table below.",
+      "fits": [
+        "saas",
+        "devtools",
+        "ai",
+        "fintech"
+      ],
+      "wireframe": [
+        "+--------------------------------------+",
+        "| Pricing, one sentence on who pays    |",
+        "| +--------+ +==========+ +--------+  |",
+        "| | Free   | | Team     | | Scale  |  |",
+        "| | $0     | | $12      | | Talk   |  |",
+        "| | [Start]| | [Start]  | | [Ask]  |  |",
+        "| +--------+ +==========+ +--------+  |",
+        "| full comparison table                |",
+        "+--------------------------------------+"
+      ]
+    },
+    {
+      "id": "docs-three-pane",
+      "name": "Docs three-pane",
+      "summary": "Navigation, reading column and on-page outline; code blocks and copy buttons.",
+      "fits": [
+        "devtools",
+        "ai",
+        "saas",
+        "education"
+      ],
+      "wireframe": [
+        "+--------+---------------------+-------+",
+        "| nav    | # Page title        | on    |",
+        "| group  | text column         | this  |",
+        "|  item  | ```code```          | page  |",
+        "|  item  | text                | -     |",
+        "+--------+---------------------+-------+"
+      ]
+    },
+    {
+      "id": "portfolio-index",
+      "name": "Portfolio index",
+      "summary": "A list of projects with year and role; hovering previews the work.",
+      "fits": [
+        "personal",
+        "creative"
+      ],
+      "wireframe": [
+        "+--------------------------------------+",
+        "| Name, what I do                      |",
+        "| ------------------------------------ |",
+        "| Project one        brand    2026     |",
+        "| Project two        product  2025     |",
+        "| Project three      web      2025     |",
+        "+--------------------------------------+"
+      ]
+    },
+    {
+      "id": "signup-calm",
+      "name": "Calm signup",
+      "summary": "One field at a time with progress, reassurance next to the form, nothing else on the page.",
+      "fits": [
+        "saas",
+        "fintech",
+        "health",
+        "education"
+      ],
+      "wireframe": [
+        "+--------------------------------------+",
+        "| Logo                         Step 2/3|",
+        "|                                      |",
+        "|   What should we call you?           |",
+        "|   [__________________]               |",
+        "|   [Continue]                         |",
+        "|   We never share your email.         |",
+        "+--------------------------------------+"
+      ]
+    },
+    {
+      "id": "event-poster",
+      "name": "Event poster",
+      "summary": "Date and place as huge type, lineup or agenda as a list, one ticket action.",
+      "fits": [
+        "events",
+        "music",
+        "gaming"
+      ],
+      "wireframe": [
+        "+--------------------------------------+",
+        "| 14 MAR          CITY HALL            |",
+        "| EVENT NAME                           |",
+        "| ------------------------------------ |",
+        "| 18:00  Opening                       |",
+        "| 19:00  Talk                          |",
+        "|                     [Get tickets]    |",
+        "+--------------------------------------+"
+      ]
+    },
+    {
+      "id": "map-and-list",
+      "name": "Map and list",
+      "summary": "A map beside a filterable list; selecting one highlights the other.",
+      "fits": [
+        "travel",
+        "real-estate",
+        "food",
+        "climate"
+      ],
+      "wireframe": [
+        "+----------------+---------------------+",
+        "| filters        |                     |",
+        "| result card    |        map          |",
+        "| result card    |      o    o         |",
+        "| result card    |   o        o        |",
+        "+----------------+---------------------+"
+      ]
+    },
+    {
+      "id": "product-page",
+      "name": "Product page",
+      "summary": "Large real photos, the one decision (size, color) and the buy button above the fold; details below.",
+      "fits": [
+        "ecommerce",
+        "fashion",
+        "food"
+      ],
+      "wireframe": [
+        "+--------------------------------------+",
+        "| [ photo  ][ photo ] | Name          |",
+        "| [ big photo       ] | $ price       |",
+        "| [                 ] | size [S M L]  |",
+        "|                     | [Add to bag]  |",
+        "+--------------------------------------+",
+        "| details, care, reviews               |",
+        "+--------------------------------------+"
+      ]
+    },
+    {
+      "id": "settings-plain",
+      "name": "Plain settings",
+      "summary": "Grouped sections with labels on the left and controls on the right; one save action per section.",
+      "fits": [
+        "saas",
+        "devtools",
+        "fintech",
+        "health"
+      ],
+      "wireframe": [
+        "+--------------------------------------+",
+        "| Settings                             |",
+        "| Profile        [name________]        |",
+        "|                [email_______]  [Save]|",
+        "| ------------------------------------ |",
+        "| Notifications  [x] email  [ ] sms    |",
+        "+--------------------------------------+"
+      ]
+    }
+  ]
+}
