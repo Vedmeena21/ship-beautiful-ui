@@ -11,12 +11,12 @@ npx skills add Vedmeena21/ship-beautiful-ui
 ```
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-0B1220?style=flat-square" alt="MIT License"></a>
-  <a href="skills/ship-beautiful-ui/SKILL.md"><img src="https://img.shields.io/badge/Agent%20Skill-SKILL.md-047857?style=flat-square" alt="Agent Skill"></a>
-  <img src="https://img.shields.io/badge/works%20with-Claude%20Code%20%C2%B7%20Codex%20%C2%B7%20Cursor-047857?style=flat-square" alt="Works with Claude Code, Codex and Cursor">
-  <img src="https://img.shields.io/badge/dependencies-none-0B1220?style=flat-square" alt="No dependencies">
-  <a href="https://github.com/Vedmeena21/ship-beautiful-ui/stargazers"><img src="https://img.shields.io/github/stars/Vedmeena21/ship-beautiful-ui?style=flat-square&color=047857" alt="GitHub stars"></a>
-  <a href="translations"><img src="https://img.shields.io/badge/languages-13-047857?style=flat-square" alt="README in 13 languages"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-141414?style=flat-square" alt="MIT License"></a>
+  <a href="skills/ship-beautiful-ui/SKILL.md"><img src="https://img.shields.io/badge/Agent%20Skill-SKILL.md-305BFF?style=flat-square" alt="Agent Skill"></a>
+  <img src="https://img.shields.io/badge/works%20with-Claude%20Code%20%C2%B7%20Codex%20%C2%B7%20Cursor-305BFF?style=flat-square" alt="Works with Claude Code, Codex and Cursor">
+  <img src="https://img.shields.io/badge/dependencies-none-141414?style=flat-square" alt="No dependencies">
+  <a href="https://github.com/Vedmeena21/ship-beautiful-ui/stargazers"><img src="https://img.shields.io/github/stars/Vedmeena21/ship-beautiful-ui?style=flat-square&color=305BFF" alt="GitHub stars"></a>
+  <a href="translations"><img src="https://img.shields.io/badge/languages-13-305BFF?style=flat-square" alt="README in 13 languages"></a>
 </p>
 
 <p align="center">
