@@ -21,7 +21,7 @@
 <p align="center">
   <a href="#install">Install</a> ·
   <a href="#how-it-works">How it works</a> ·
-  <a href="#design-from-your-subject">Design from your subject</a> ·
+  <a href="#bring-your-brand-it-picks-the-colors">Bring your brand. It picks the colors.</a> ·
   <a href="#whats-inside">What's inside</a> ·
   <a href="#the-detector">The detector</a>
 </p>
@@ -29,6 +29,10 @@
 | Typical AI first draft | Built with ship-beautiful-ui |
 |:---:|:---:|
 | <img src="assets/readme/before.jpg" alt="Proofsheet, an invoicing tool for photographers, styled the default AI way: dark page, centered purple-to-blue gradient headline, emoji chips and a glowing glass card" width="420"> | <img src="assets/readme/after.jpg" alt="The same page and words redesigned with ship-beautiful-ui: a paper-white page with a serif headline 'Invoice the shoot before you finish the edit' and the real product: the invoice on a phone, ready to send" width="420"> |
+
+### 🌐 Multi-language support
+
+[English](README.md) | [Arabic](translations/ar/README.md) | [Chinese (Simplified)](translations/zh/README.md) | [French](translations/fr/README.md) | [German](translations/de/README.md) | [Hindi](translations/hi/README.md) | [Indonesian](translations/id/README.md) | [Japanese](translations/ja/README.md) | [Korean](translations/ko/README.md) | [Portuguese (Brazil)](translations/pt-BR/README.md) | [Russian](translations/ru/README.md) | [Spanish](translations/es/README.md) | [Turkish](translations/tr/README.md)
 
 ---
 
@@ -98,52 +102,41 @@ You get three things back:
 
 **Who wins when instructions disagree:** your words > `DESIGN.md` > the skill's rules > anything else loaded. The agent says it out loud when it resolves a conflict, so you can overrule it.
 
-## Design from your subject
+## Bring your brand. It picks the colors.
 
-Most design generators pick from a shared list, which is why their results start to look alike. `derive.py` builds the palette from your subject's own world instead, then fixes contrast so it passes WCAG AA:
+Working at Microsoft? Tell it so, and every page is built from Microsoft's colors: the blue for actions, your neutrals for text, plus the shades a real UI needs. No brand yet? Describe your product's world in a few words and it builds a palette for you.
 
-```
-$ python3 scripts/derive.py --words "darkroom safelight, contact sheet, grey card, film edge"
-From: safelight-red (accent), contact-sheet (ink), grey-card (neutral), film-rebate (accent)
+| You say | You get |
+|---|---|
+| *We work at Microsoft. Use our blue, green, red and yellow.* | Those exact colors on buttons, accents and highlights, plus matching text, border, hover and error shades |
+| *An invoicing app for photographers: darkroom, safelight, film* | Paper-white page, deep black text, safelight-red buttons, film-amber details (the after page above) |
+| *A bakery: crust, flour, espresso, saffron* | Flour-white page, espresso-brown text, crust-colored buttons, saffron highlights |
 
-  base       #F7F7F3
-  surface    #FCFCFA
-  ink        #141414
-  muted      #70706F
-  line       #D7D7D4
-  accent     #B3261E
-  on-accent  #FFFFFF
-  accent-2   #C27E19
-
-Contrast: ink/base 17.15  muted/base 4.62  muted/surface 4.83  on-accent/accent 6.54  accent/base 6.09
-```
-
-```
-$ python3 scripts/derive.py --words "bakery crust, flour, espresso, saffron"
-  base #F5F2EA   ink #3B2418   accent #A0522D   accent-2 #C37C0A
-```
-
-Two products can't land on the same look by accident, because each starts from its own world. When a subject has no strong visual world, `direction.py` deals three options from the library instead, and the same brief always gets the same options.
+Every color is checked for readability (WCAG AA) before a line of code is written. No clear subject yet? `direction.py` offers three ready-made directions to pick from.
 
 ## What's inside
 
-| Library | Count | |
-|---|---|---|
-| Materials from subjects' worlds | **78** | paper, film, food, nature, craft, screens, money, care, play, travel |
-| Palettes, light and dark | **60** | every one contrast-checked by the tests |
-| Type pairings | **40** | all free Google Fonts, with roles and usage notes |
-| Layout patterns | **20** | with wireframes: product proof, editorial column, dashboard focus, honest pricing and more |
-| Effects | **16** | plain CSS/JS, recolored by tokens, each with a reduced-motion fallback |
-| Motion recipes | **12** | plus timing tokens for every interface transition |
-| UX rules | **80** | layout, type, color, forms, navigation, states, tables, charts, mobile, accessibility, copy |
-| Detector rules | **40** | AI tells plus accessibility and quality-floor gaps |
+Everything your agent needs to design like a pro, in one folder. No accounts, no API keys, nothing extra to install.
 
-| Script | Does |
+| What you get | How many | Why it matters |
+|---|:---:|---|
+| Real-world materials | **78** | Colors taken from things like kraft paper, espresso, moss and film, so the palette fits your product |
+| Color palettes | **60** | Ready to use, light and dark, every one tested for readability |
+| Font pairings | **40** | A heading font and a body font that work together, all free on Google Fonts |
+| Page layouts | **20** | Proven page structures with sketches: product hero, editorial, dashboard, pricing and more |
+| Visual effects | **16** | Grain, glow, spotlight, marquee, tilt and more: copy-paste CSS that takes your colors and respects reduced motion |
+| Animation recipes | **12** | Buttons, menus, modals, toasts, tabs and lists that all move the same polished way |
+| UX rules | **80** | A checklist for forms, navigation, tables, charts, mobile, and empty and error states |
+| Detector checks | **40** | Catch the AI look and accessibility gaps before you ship |
+
+### Four tools that do the work
+
+| Tool | What it does for you |
 |---|---|
-| `derive.py` | Words from your subject → contrast-checked palette |
-| `direction.py` | Product kind + brief → 3 direction options → `DESIGN.md` draft |
-| `lint_design.py` | Checks `DESIGN.md`: structure, section order, token references, contrast |
-| `detect.py` | Scans HTML, CSS, JS/TS, JSX/TSX, Vue, Svelte and Astro for the 40 rules |
+| `derive.py` | Describe your product in a few words, get a color palette that fits it |
+| `direction.py` | Not sure where to start? Get 3 design directions to pick from, saved as a `DESIGN.md` |
+| `lint_design.py` | Checks that your `DESIGN.md` is complete and every color is readable |
+| `detect.py` | Scans your code (HTML, CSS, React, Vue, Svelte, Astro) for 40 signs of AI-made UI |
 
 ## The detector
 
