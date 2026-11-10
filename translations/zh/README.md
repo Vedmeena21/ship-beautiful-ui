@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="../../assets/readme/header-dark.svg">
-    <img src="../../assets/readme/header-light.svg" alt="ship-beautiful-ui" width="840">
-  </picture>
+  <img src="../../assets/readme/header-dark.svg" alt="ship-beautiful-ui" width="840">
 </p>
 
 ```bash
