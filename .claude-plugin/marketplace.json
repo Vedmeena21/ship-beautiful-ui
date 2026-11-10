@@ -1,0 +1,20 @@
+{
+  "name": "ship-beautiful-ui",
+  "owner": {
+    "name": "Ved Prakash Meena"
+  },
+  "metadata": {
+    "description": "One skill that takes your coding agent from prompt to polished UI, with its own design libraries and checks."
+  },
+  "plugins": [
+    {
+      "name": "ship-beautiful-ui",
+      "description": "Brief, direction, DESIGN.md, build, motion and review: a six-step UI pipeline with a subject-to-palette engine, 60 palettes, 40 type pairings, 20 layouts, 16 effects and a 40-rule AI-look detector.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ship-beautiful-ui"
+      ]
+    }
+  ]
+}
