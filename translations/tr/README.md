@@ -21,7 +21,7 @@
 <p align="center">
   <a href="#kurulum">Kurulum</a> ·
   <a href="#nasıl-çalışır">Nasıl çalışır</a> ·
-  <a href="#markanı-getir-renkleri-o-seçer">Markanı getir. Renkleri o seçer.</a> ·
+  <a href="#markan-renklerin">Markan, renklerin</a> ·
   <a href="#i̇çinde-neler-var">İçinde neler var</a> ·
   <a href="#dedektör">Dedektör</a>
 </p>
@@ -102,17 +102,15 @@ Bu dashboard sıradan görünüyor. Yeniden tasarlamak için ship-beautiful-ui k
 
 **Talimatlar çeliştiğinde kim kazanır:** sizin sözleriniz > `DESIGN.md` > skill'in kuralları > yüklenen diğer her şey. Ajan bir çelişkiyi çözdüğünde bunu açıkça söyler, böylece onu geçersiz kılabilirsiniz.
 
-## Markanı getir. Renkleri o seçer.
+## Markan, renklerin
 
-Microsoft'ta mı çalışıyorsun? Söylemen yeterli: her sayfa Microsoft'un renklerinden kurulur. Eylemler için mavi, metinler için nötr tonların ve gerçek bir arayüzün ihtiyaç duyduğu ara tonlar. Henüz markan yok mu? Ürününün dünyasını birkaç kelimeyle anlat, senin için bir palet oluştursun.
+Ajana ürününün ne olduğunu söyle; herkesin kullandığı ortak bir listeden değil, o ürün için tasarlasın. Marka renkleri olan bir şirkette mi çalışıyorsun? Onları kullanır. Henüz markan yok mu? Uygun renkleri seçer.
 
-| Siz söylersiniz | Siz alırsınız |
-|---|---|
-| *Microsoft'ta çalışıyoruz. Mavimizi, yeşilimizi, kırmızımızı ve sarımızı kullan.* | Düğmelerde, vurgularda ve öne çıkan yerlerde bu birebir renkler, ayrıca uyumlu metin, kenarlık, üzerine gelme ve hata tonları |
-| *Fotoğrafçılar için fatura uygulaması: karanlık oda, güvenli ışık, film* | Fotoğraf kâğıdı beyazı sayfa, derin siyah metin, güvenli ışık kırmızısı düğmeler, film kehribarı detaylar (yukarıdaki "sonra" sayfası) |
-| *Bir fırın: kabuk, un, espresso, safran* | Un beyazı sayfa, espresso kahvesi metin, kabuk renginde düğmeler, safran vurguları |
+- **Bir markan var.** Renklerini paylaş, olduğu gibi korunur. Gerçek bir arayüzün ihtiyaç duyduğu geri kalanı ajan ekler: metin, kenarlık, üzerine gelme ve hata renkleri.
+- **Henüz yok.** Ürününü birkaç kelimeyle anlat, ajan konusuna uygun renkleri seçsin.
+- **Emin değil misin?** `direction.py` aralarından seçebileceğin üç hazır görünüm sunar.
 
-Tek satır kod yazılmadan önce her rengin okunabilirliği (WCAG AA) kontrol edilir. Henüz net bir konunuz yok mu? `direction.py` aralarından seçebileceğiniz üç hazır yön sunar.
+Hangisi olursa olsun, tek satır kod yazılmadan önce her rengin kolay okunduğu (WCAG AA) kontrol edilir.
 
 ## İçinde neler var
 

@@ -21,7 +21,7 @@
 <p align="center">
   <a href="#instalasi">Instalasi</a> ·
   <a href="#cara-kerjanya">Cara kerjanya</a> ·
-  <a href="#bawa-merek-anda-warnanya-dipilihkan">Bawa merek Anda. Warnanya dipilihkan.</a> ·
+  <a href="#brand-anda-warna-anda">Brand Anda, warna Anda</a> ·
   <a href="#isinya">Isinya</a> ·
   <a href="#detektor">Detektor</a>
 </p>
@@ -102,17 +102,15 @@ Anda mendapat tiga hal:
 
 **Siapa yang menang saat instruksi bertentangan:** kata-kata Anda > `DESIGN.md` > aturan skill > semua yang dimuat lainnya. Agen menyebutkannya dengan jelas saat menyelesaikan konflik, sehingga Anda bisa menolaknya.
 
-## Bawa merek Anda. Warnanya dipilihkan.
+## Brand Anda, warna Anda
 
-Bekerja di Microsoft? Cukup katakan, dan setiap halaman dibangun dari warna Microsoft: biru untuk aksi, warna netral Anda untuk teks, ditambah gradasi yang dibutuhkan UI sungguhan. Belum punya merek? Gambarkan dunia produk Anda dalam beberapa kata dan palet akan dibuatkan.
+Beri tahu agen apa produk Anda, lalu ia mendesain untuk produk itu, bukan dari daftar yang dipakai semua orang. Bekerja di perusahaan dengan warna brand? Warna itu yang dipakai. Belum punya brand? Ia memilih warna yang cocok.
 
-| Anda bilang | Anda dapat |
-|---|---|
-| *Kami bekerja di Microsoft. Pakai biru, hijau, merah, dan kuning kami.* | Warna-warna persis itu di tombol, aksen, dan sorotan, plus gradasi yang serasi untuk teks, garis tepi, hover, dan error |
-| *Aplikasi faktur untuk fotografer: kamar gelap, lampu pengaman, film* | Halaman putih kertas foto, teks hitam pekat, tombol merah lampu pengaman, detail kuning amber film (halaman "sesudah" di atas) |
-| *Toko roti: kulit roti, tepung, espresso, saffron* | Halaman putih tepung, teks cokelat espresso, tombol berwarna kulit roti, sorotan saffron |
+- **Anda punya brand.** Bagikan warna Anda dan warna itu dipertahankan persis seperti aslinya. Agen menambahkan sisanya yang dibutuhkan UI sungguhan: warna teks, garis tepi, hover, dan error.
+- **Belum punya.** Jelaskan produk Anda dalam beberapa kata dan agen memilih warna yang cocok dengan topiknya.
+- **Belum yakin?** `direction.py` menawarkan tiga tampilan siap pakai untuk dipilih.
 
-Setiap warna diperiksa keterbacaannya (WCAG AA) sebelum satu baris kode pun ditulis. Belum punya topik yang jelas? `direction.py` menawarkan tiga arah siap pakai untuk dipilih.
+Apa pun pilihannya, setiap warna dicek agar mudah dibaca (WCAG AA) sebelum satu baris kode pun ditulis.
 
 ## Isinya
 

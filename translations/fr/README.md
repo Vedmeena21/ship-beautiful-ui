@@ -21,7 +21,7 @@
 <p align="center">
   <a href="#installation">Installation</a> ·
   <a href="#comment-ça-marche">Comment ça marche</a> ·
-  <a href="#apportez-votre-marque-il-choisit-les-couleurs">Apportez votre marque. Il choisit les couleurs.</a> ·
+  <a href="#votre-marque-vos-couleurs">Votre marque, vos couleurs</a> ·
   <a href="#ce-quil-contient">Ce qu'il contient</a> ·
   <a href="#le-détecteur">Le détecteur</a>
 </p>
@@ -102,17 +102,15 @@ Vous obtenez trois choses :
 
 **Qui l'emporte quand les consignes se contredisent :** vos mots > `DESIGN.md` > les règles de la skill > tout le reste. L'agent le dit clairement quand il tranche un conflit, pour que vous puissiez le contredire.
 
-## Apportez votre marque. Il choisit les couleurs.
+## Votre marque, vos couleurs
 
-Vous travaillez chez Microsoft ? Dites-le, et chaque page est construite avec les couleurs de Microsoft : le bleu pour les actions, vos neutres pour le texte, plus les nuances dont une vraie UI a besoin. Pas encore de marque ? Décrivez l'univers de votre produit en quelques mots et il construit une palette pour vous.
+Dites à l'agent ce qu'est votre produit, et il conçoit pour ce produit, pas à partir d'une liste commune. Vous travaillez pour une entreprise avec des couleurs de marque ? Il les utilise. Pas encore de marque ? Il choisit des couleurs adaptées.
 
-| Vous dites | Vous obtenez |
-|---|---|
-| *Nous travaillons chez Microsoft. Utilise notre bleu, vert, rouge et jaune.* | Ces couleurs exactes sur les boutons, accents et mises en avant, plus des nuances assorties pour le texte, les bordures, le survol et les erreurs |
-| *Une app de facturation pour photographes : chambre noire, lumière inactinique, pellicule* | Page blanc papier, texte noir profond, boutons rouge inactinique, détails ambre pellicule (la page « après » ci-dessus) |
-| *Une boulangerie : croûte, farine, espresso, safran* | Page blanc farine, texte brun espresso, boutons couleur croûte, touches de safran |
+- **Vous avez une marque.** Partagez vos couleurs, elles sont conservées telles quelles. L'agent ajoute le reste dont une vraie UI a besoin : texte, bordures, couleurs de survol et d'erreur.
+- **Vous n'en avez pas encore.** Décrivez votre produit en quelques mots et l'agent choisit des couleurs qui correspondent à ce qu'il fait.
+- **Pas encore sûr ?** `direction.py` propose trois styles prêts à l'emploi parmi lesquels choisir.
 
-Chaque couleur est vérifiée pour sa lisibilité (WCAG AA) avant d'écrire une seule ligne de code. Pas encore de sujet clair ? `direction.py` propose trois directions prêtes à choisir.
+Dans tous les cas, chaque couleur est vérifiée pour être facile à lire (WCAG AA) avant d'écrire une seule ligne de code.
 
 ## Ce qu'il contient
 

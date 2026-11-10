@@ -21,7 +21,7 @@
 <p align="center">
   <a href="#installation">Installation</a> ·
   <a href="#so-funktioniert-es">So funktioniert es</a> ·
-  <a href="#bring-deine-marke-mit-sie-wählt-die-farben">Bring deine Marke mit. Sie wählt die Farben.</a> ·
+  <a href="#deine-marke-deine-farben">Deine Marke, deine Farben</a> ·
   <a href="#was-drin-ist">Was drin ist</a> ·
   <a href="#der-detektor">Der Detektor</a>
 </p>
@@ -102,17 +102,15 @@ Du bekommst drei Dinge zurück:
 
 **Wer gewinnt, wenn Anweisungen sich widersprechen:** deine Worte > `DESIGN.md` > die Regeln des Skills > alles andere Geladene. Der Agent sagt es offen, wenn er einen Konflikt auflöst, damit du widersprechen kannst.
 
-## Bring deine Marke mit. Sie wählt die Farben.
+## Deine Marke, deine Farben
 
-Du arbeitest bei Microsoft? Sag es, und jede Seite wird mit den Farben von Microsoft gebaut: das Blau für Aktionen, deine Neutraltöne für Text, plus die Abstufungen, die eine echte UI braucht. Noch keine Marke? Beschreibe die Welt deines Produkts in ein paar Worten, und es baut dir eine Palette.
+Sag dem Agenten, was dein Produkt ist, und er gestaltet für dieses Produkt, nicht aus einer gemeinsamen Liste. Arbeitest du für ein Unternehmen mit Markenfarben? Er nutzt sie. Noch keine Marke? Er wählt passende Farben.
 
-| Du sagst | Du bekommst |
-|---|---|
-| *Wir arbeiten bei Microsoft. Nimm unser Blau, Grün, Rot und Gelb.* | Genau diese Farben auf Buttons, Akzenten und Hervorhebungen, plus passende Töne für Text, Rahmen, Hover und Fehler |
-| *Eine Rechnungs-App für Fotografen: Dunkelkammer, Rotlicht, Film* | Papierweiße Seite, tiefschwarzer Text, rotlichtrote Buttons, filmbernsteinfarbene Details (die Nachher-Seite oben) |
-| *Eine Bäckerei: Kruste, Mehl, Espresso, Safran* | Mehlweiße Seite, espressobrauner Text, krustenfarbene Buttons, Safran-Akzente |
+- **Du hast eine Marke.** Teile deine Farben, und sie bleiben genau so, wie sie sind. Der Agent ergänzt den Rest, den eine echte UI braucht: Text, Rahmen sowie Hover- und Fehlerfarben.
+- **Du hast noch keine.** Beschreibe dein Produkt in ein paar Worten, und der Agent wählt Farben, die dazu passen.
+- **Noch unsicher?** `direction.py` bietet drei fertige Looks zur Auswahl.
 
-Jede Farbe wird auf Lesbarkeit geprüft (WCAG AA), bevor eine Zeile Code entsteht. Noch kein klares Thema? `direction.py` bietet drei fertige Richtungen zur Auswahl.
+In jedem Fall wird jede Farbe auf gute Lesbarkeit geprüft (WCAG AA), bevor eine Zeile Code geschrieben wird.
 
 ## Was drin ist
 

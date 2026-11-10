@@ -21,7 +21,7 @@
 <p align="center">
   <a href="#instalación">Instalación</a> ·
   <a href="#cómo-funciona">Cómo funciona</a> ·
-  <a href="#trae-tu-marca-ella-elige-los-colores">Trae tu marca. Ella elige los colores.</a> ·
+  <a href="#tu-marca-tus-colores">Tu marca, tus colores</a> ·
   <a href="#qué-incluye">Qué incluye</a> ·
   <a href="#el-detector">El detector</a>
 </p>
@@ -102,17 +102,15 @@ Recibes tres cosas:
 
 **Quién manda cuando las instrucciones chocan:** tus palabras > `DESIGN.md` > las reglas de la skill > cualquier otra cosa cargada. El agente lo dice en voz alta cuando resuelve un conflicto, para que puedas corregirlo.
 
-## Trae tu marca. Ella elige los colores.
+## Tu marca, tus colores
 
-¿Trabajas en Microsoft? Dilo, y cada página se construye con los colores de Microsoft: el azul para las acciones, tus neutros para el texto, más los tonos que necesita una UI real. ¿Aún no tienes marca? Describe el mundo de tu producto en pocas palabras y construye una paleta para ti.
+Dile al agente qué es tu producto y diseñará para ese producto, no desde una lista compartida. ¿Trabajas en una empresa con colores de marca? Los usa. ¿Aún no tienes marca? Elige colores que encajen.
 
-| Tú dices | Tú recibes |
-|---|---|
-| *Trabajamos en Microsoft. Usa nuestro azul, verde, rojo y amarillo.* | Esos colores exactos en botones, acentos y resaltados, más tonos a juego para texto, bordes, hover y errores |
-| *Una app de facturación para fotógrafos: cuarto oscuro, luz de seguridad, película* | Página blanco papel, texto negro profundo, botones rojo luz de seguridad, detalles ámbar de película (la página de después, arriba) |
-| *Una panadería: corteza, harina, espresso, azafrán* | Página blanco harina, texto marrón espresso, botones color corteza, toques de azafrán |
+- **Tienes una marca.** Comparte tus colores y se mantienen tal cual. El agente añade el resto que necesita una UI real: texto, bordes y colores de hover y de error.
+- **Aún no tienes una.** Describe tu producto en pocas palabras y el agente elige colores que encajen con lo que hace.
+- **¿Todavía no lo tienes claro?** `direction.py` ofrece tres estilos ya preparados para elegir.
 
-Cada color se comprueba para que sea legible (WCAG AA) antes de escribir una sola línea de código. ¿Aún no tienes un tema claro? `direction.py` te ofrece tres direcciones listas para elegir.
+En cualquier caso, se comprueba que cada color sea fácil de leer (WCAG AA) antes de escribir una sola línea de código.
 
 ## Qué incluye
 

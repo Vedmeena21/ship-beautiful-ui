@@ -21,7 +21,7 @@
 <p align="center">
   <a href="#इंस्टॉल-करें">इंस्टॉल करें</a> ·
   <a href="#यह-कैसे-काम-करता-है">यह कैसे काम करता है</a> ·
-  <a href="#अपना-brand-लाइए-रंग-यह-चुनेगा">अपना brand लाइए। रंग यह चुनेगा।</a> ·
+  <a href="#आपका-brand-आपके-रंग">आपका brand, आपके रंग</a> ·
   <a href="#इसमें-क्या-है">इसमें क्या है</a> ·
   <a href="#detector">Detector</a>
 </p>
@@ -102,17 +102,15 @@ Freelance photographers के लिए invoicing tool का landing page ब�
 
 **जब निर्देश टकराएँ तो किसकी चलेगी:** आपकी बात > `DESIGN.md` > skill के rules > बाकी कुछ भी। Conflict सुलझाते समय agent साफ़ बताता है, ताकि आप उसे बदल सकें।
 
-## अपना brand लाइए। रंग यह चुनेगा।
+## आपका brand, आपके रंग
 
-Microsoft में काम करते हैं? बस बता दीजिए, और हर page Microsoft के रंगों से बनेगा: actions के लिए नीला, text के लिए आपके neutrals, और वे shades जो असली UI को चाहिए। अभी brand नहीं है? अपने product की दुनिया कुछ शब्दों में बताइए, यह आपके लिए palette बना देगा।
+Agent को बताइए कि आपका product क्या है, और वह उसी product के लिए design करता है, किसी साझा list से नहीं। कंपनी के brand colors हैं? वह उन्हें इस्तेमाल करता है। अभी brand नहीं है? वह ऐसे रंग चुनता है जो मेल खाएँ।
 
-| आप कहते हैं | आपको मिलता है |
-|---|---|
-| *हम Microsoft में काम करते हैं। हमारे नीले, हरे, लाल और पीले रंग इस्तेमाल करो।* | Buttons, accents और highlights पर वही सटीक रंग, साथ में मेल खाते text, border, hover और error shades |
-| *Photographers के लिए invoicing app: darkroom, safelight, film* | Paper-white page, गहरा काला text, safelight-लाल buttons, film-amber details (ऊपर वाला after page) |
-| *एक bakery: crust, आटा, espresso, केसर* | आटे जैसा सफ़ेद page, espresso-भूरा text, crust रंग के buttons, केसरिया highlights |
+- **आपके पास brand है।** अपने रंग दीजिए, वे जैसे हैं वैसे ही रखे जाते हैं। बाकी जो असली UI को चाहिए, agent जोड़ देता है: text, borders, hover और error के रंग।
+- **अभी brand नहीं है।** अपने product को कुछ शब्दों में बताइए, और agent ऐसे रंग चुनता है जो उसके विषय से मेल खाते हों।
+- **अभी पक्का नहीं है?** `direction.py` चुनने के लिए तीन तैयार looks देता है।
 
-Code की एक भी line लिखने से पहले हर रंग की readability (WCAG AA) check होती है। अभी subject साफ़ नहीं है? `direction.py` चुनने के लिए तीन तैयार directions देता है।
+दोनों ही तरह, code की एक line लिखने से पहले हर रंग की readability (WCAG AA) check होती है।
 
 ## इसमें क्या है
 
