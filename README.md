@@ -24,8 +24,7 @@
   <a href="#design-from-your-subject">Design from your subject</a> ·
   <a href="#whats-inside">What's inside</a> ·
   <a href="#the-detector">The detector</a> ·
-  <a href="docs/recipes/README.md">Recipes</a> ·
-  <a href="#faq">FAQ</a>
+  <a href="docs/recipes/README.md">Recipes</a>
 </p>
 
 | Typical AI first draft | Built with ship-beautiful-ui |
@@ -64,9 +63,7 @@ npx skills add Vedmeena21/ship-beautiful-ui
 
 **Manual:** copy [`skills/ship-beautiful-ui`](skills/ship-beautiful-ui) into `.claude/skills/` (project) or `~/.claude/skills/` (global).
 
-## Use it
-
-Just ask for UI. The skill triggers on building, redesigning or polishing a page, screen or component:
+**Then just ask for UI.** The skill starts on its own when you build, redesign or polish a page, screen or component:
 
 ```
 Build a landing page for an invoicing tool for freelance photographers.
@@ -175,64 +172,11 @@ Every finding comes with a fix. Errors block handoff; warnings get fixed or a wr
 | [Redesign](docs/recipes/redesign.md) | Existing brand | Remove before adding |
 | [Scroll story](docs/recipes/scroll-story.md) | Derive from the subject | Scroll-driven beats |
 
-## Repository
-
-```
-ship-beautiful-ui/
-├── skills/ship-beautiful-ui/
-│   ├── SKILL.md            # the six steps and who wins
-│   ├── scripts/            # derive, direction, lint_design, detect (Python 3, no deps)
-│   ├── data/               # materials, palettes, type pairings, layouts (JSON)
-│   ├── references/         # one file per step, plus effects, motion, UX rules, anti-patterns
-│   └── templates/          # DESIGN.md and REVIEW.md
-├── docs/recipes/           # landing page, dashboard, mobile, redesign, scroll story
-├── examples/               # the redesign above: before.html, after.html, DESIGN.md
-├── tests/                  # unit tests and fixtures for every script
-└── .claude-plugin/         # Claude Code plugin marketplace
-```
-
-Run the tests with `python3 -m unittest discover tests`.
-
-## FAQ
-
-**Do I need to install anything else?**
-No. Python 3 runs the scripts; everything else is markdown and JSON your agent reads.
-
-**Which agents does it work with?**
-Any agent that supports Agent Skills (`SKILL.md`), including Claude Code, Codex and Cursor.
-
-**Why DESIGN.md?**
-It's a plain file any agent can read, in an open format. Once the look is written down and checked, later steps stop drifting.
-
-**Will every site look the same?**
-That's the problem it exists to fix. Step 0 grounds the design in the subject, step 1 builds the palette from the subject's world, and the plan is checked against 12 common AI defaults before anything is built.
-
-**Can I add my own palettes or rules?**
-Yes. Add an entry to `data/` or a rule to `detect.py`, run the tests, and open a pull request. See [`CONTRIBUTING.md`](CONTRIBUTING.md).
-
-## Roadmap
-
-- [x] First before/after example ([photographer invoicing](examples/photographer-invoicing))
-- [ ] More before/after examples: dashboard, e-commerce, portfolio
-- [ ] More materials, palettes and layouts
-- [ ] A rendered-page check (screenshots and contrast on the live page)
-- [ ] Slash commands for single steps (direction only, review only)
-
-## Made by
-
-<table>
-  <tr>
-    <td>
-      Built by <b>Ved Prakash Meena</b>. I share the AI repos, tools and resources worth your time on LinkedIn.
-      <br><br>
-      <a href="https://www.linkedin.com/in/ved-prakash-meena"><img src="https://img.shields.io/badge/Follow%20on%20LinkedIn-Ved%20Prakash%20Meena-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Follow Ved Prakash Meena on LinkedIn"></a>
-    </td>
-  </tr>
-</table>
-
 ## License
 
-[MIT](LICENSE) © Ved Prakash Meena.
+[MIT](LICENSE). Built and maintained by **Ved Prakash Meena**.
+
+<a href="https://www.linkedin.com/in/ved-prakash-meena"><img src="https://img.shields.io/badge/Follow%20on%20LinkedIn-Ved%20Prakash%20Meena-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Follow Ved Prakash Meena on LinkedIn"></a>
 
 <p align="center">
   <sub>If this saved you a round of "make it look less AI", a ⭐ helps others find it, and <a href="https://www.linkedin.com/in/ved-prakash-meena">follow me on LinkedIn</a> for more.</sub>

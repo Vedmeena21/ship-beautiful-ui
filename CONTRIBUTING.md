@@ -2,6 +2,22 @@
 
 Thanks for helping. The most useful contributions are small and specific.
 
+## Where things live
+
+```
+ship-beautiful-ui/
+├── skills/ship-beautiful-ui/
+│   ├── SKILL.md            # the six steps and who wins
+│   ├── scripts/            # derive, direction, lint_design, detect (Python 3, no deps)
+│   ├── data/               # materials, palettes, type pairings, layouts (JSON)
+│   ├── references/         # one file per step, plus effects, motion, UX rules, anti-patterns
+│   └── templates/          # DESIGN.md and REVIEW.md
+├── docs/recipes/           # landing page, dashboard, mobile, redesign, scroll story
+├── examples/               # before/after redesign: before.html, after.html, DESIGN.md
+├── tests/                  # unit tests and fixtures for every script
+└── .claude-plugin/         # Claude Code plugin marketplace
+```
+
 ## Good first contributions
 
 - **A new recipe.** Copy a file in `docs/recipes/`, keep the six-step table, and add it to `docs/recipes/README.md` and the README.
