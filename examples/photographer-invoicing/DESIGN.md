@@ -65,7 +65,7 @@ Audience: wedding and portrait photographers who hate spreadsheets and work from
 Job: send the first invoice for a shoot in under two minutes.
 World: darkroom safelight, contact sheet, grey card, film edge, frame numbers.
 
-Direction: derived with `derive.py` from the darkroom. Paper-white base, contact-sheet black, one safelight red for actions, film-edge amber only for status dots.
+Direction: derived with `derive.py` from the darkroom. Paper-white base, contact-sheet black, one safelight red for actions, film-edge amber only for status.
 
 ## Colors
 
@@ -73,7 +73,7 @@ Direction: derived with `derive.py` from the darkroom. Paper-white base, contact
 - **ink (#141414):** text and the phone.
 - **muted (#70706F):** secondary text.
 - **accent (#B3261E):** safelight red, primary actions only.
-- **accent-2 (#C27E19):** film-edge amber, status dots only.
+- **accent-2 (#C27E19):** film-edge amber, reserved for status (unused on this page).
 
 ## Typography
 
@@ -81,7 +81,7 @@ Instrument Serif for the headline only. Instrument Sans for everything else. Jet
 
 ## Layout
 
-Product proof: the headline on the left, the real product on the right: the invoice on a phone, ready to send, and the payment it brings back.
+Product proof: the headline on the left, the real product on the right: the invoice on a phone, ready to send.
 
 ## Components
 

@@ -21,10 +21,10 @@ One page, two designs. Same product, same words, same content: only the design c
    ```bash
    python3 scripts/derive.py --words "darkroom safelight, contact sheet, grey card, film edge"
    ```
-   Paper-white base, contact-sheet black, safelight red for actions, film-edge amber for status dots.
+   Paper-white base, contact-sheet black, safelight red for actions, film-edge amber for status.
    Type: the `instrument` pairing (Instrument Serif + Instrument Sans). Layout: `product-proof`.
 2. **Lock:** [`DESIGN.md`](DESIGN.md), checked with `lint_design.py` (0 errors).
-3. **Build:** the one memorable element is the product itself: the invoice on a phone, ready to send, and the payment it brings back. No illustrations, no card grid, no invented numbers.
+3. **Build:** the one memorable element is the product itself: the invoice on a phone, ready to send. No illustrations, no card grid, no invented numbers.
 4. **Motion:** button press only, with a reduced-motion fallback.
 5. **Review:** `detect.py after.html` → 0 findings.
 
