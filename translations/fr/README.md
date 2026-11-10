@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../../assets/readme/header-dark.svg" alt="ship-beautiful-ui" width="840">
+  <img src="../../assets/readme/header.png" alt="ship-beautiful-ui: one skill from prompt to polished UI. No more AI-looking UI." width="840">
 </p>
 
 <p align="center">
