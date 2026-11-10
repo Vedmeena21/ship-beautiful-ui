@@ -30,7 +30,7 @@
 
 | Typical AI first draft | Built with ship-beautiful-ui |
 |:---:|:---:|
-| <img src="assets/readme/before.jpg" alt="A typical AI first draft for an invoicing tool for photographers: dark page, purple-to-blue gradient headline 'Unlock the power of seamless invoicing', emoji feature cards and unsourced stats" width="420"> | <img src="assets/readme/after.jpg" alt="The same brief built with ship-beautiful-ui: a paper-white page with a serif headline 'Invoice the shoot before you finish the edit' and the real product, an invoice laid out on a contact sheet with amber frame numbers" width="420"> |
+| <img src="assets/readme/before.jpg" alt="Proofsheet, an invoicing tool for photographers, styled the default AI way: dark page, centered purple-to-blue gradient headline, emoji chips and a glowing glass card" width="420"> | <img src="assets/readme/after.jpg" alt="The same page and words redesigned with ship-beautiful-ui: a paper-white page with a serif headline 'Invoice the shoot before you finish the edit' and the real product, an invoice laid out on a contact sheet with amber frame numbers" width="420"> |
 
 ---
 
@@ -186,7 +186,7 @@ ship-beautiful-ui/
 │   ├── references/         # one file per step, plus effects, motion, UX rules, anti-patterns
 │   └── templates/          # DESIGN.md and REVIEW.md
 ├── docs/recipes/           # landing page, dashboard, mobile, redesign, scroll story
-├── examples/               # the before/after pages above, with DESIGN.md and detector results
+├── examples/               # the redesign above: before.html, after.html, DESIGN.md
 ├── tests/                  # unit tests and fixtures for every script
 └── .claude-plugin/         # Claude Code plugin marketplace
 ```

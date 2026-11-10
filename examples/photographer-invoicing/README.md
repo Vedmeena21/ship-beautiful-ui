@@ -1,11 +1,11 @@
 # Example: invoicing for freelance photographers
 
-One brief, two pages.
+One page, two designs. Same product, same words, same content: only the design changes.
 
 | | `before.html` | `after.html` |
 |---|---|---|
-| What it is | A typical AI first draft for this brief, written to show what the detector catches | The same page built by following ship-beautiful-ui |
-| `detect.py` | 3 errors, 12 warnings, 3 info | 0 findings |
+| What it is | The page the way an agent styles it by default | The same page redesigned by following ship-beautiful-ui |
+| `detect.py` | 3 errors, 5 warnings, 4 info | 0 findings |
 | `DESIGN.md` | none | [`DESIGN.md`](DESIGN.md), passes `lint_design.py` |
 
 ## The brief

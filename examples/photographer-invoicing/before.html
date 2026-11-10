@@ -2,46 +2,57 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>InvoiceAI</title>
+<title>Proofsheet</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-  /* A typical AI first draft for the same brief, kept to show what the detector catches. */
+  /* The same page and the same words as after.html, styled the way an agent does it by default.
+     Kept to show what the redesign changes and what the detector catches. */
   *{box-sizing:border-box;margin:0}
-  body{font-family:Inter,sans-serif;background:#0B0B14;color:#fff}
-  header{display:flex;align-items:center;justify-content:space-between;padding:24px 56px}
+  body{font-family:Inter,sans-serif;background:#0B0B14;color:#fff;overflow:hidden}
+  header{display:flex;align-items:center;justify-content:space-between;padding:22px 56px;border-bottom:1px solid #1C1C28}
   .logo{font-weight:800;font-size:22px}
+  nav{display:flex;align-items:center}
   nav a{color:#A1A1AA;margin-left:28px;text-decoration:none;font-size:15px}
-  .hero{text-align:center;padding:56px 56px 40px;background:radial-gradient(60% 60% at 50% 0%,rgba(139,92,246,.35),transparent),linear-gradient(180deg,#0B0B14,#0B0B14)}
-  .eyebrow{display:inline-block;text-transform:uppercase;letter-spacing:.14em;font-size:12px;font-weight:600;color:#C4B5FD;border:1px solid #4C1D95;border-radius:999px;padding:6px 14px}
-  h1{font-size:60px;font-weight:800;line-height:1.05;margin-top:22px;background:linear-gradient(90deg,#8B5CF6,#3B82F6);-webkit-background-clip:text;background-clip:text;color:transparent}
-  .sub{color:#A1A1AA;font-size:19px;max-width:640px;margin:20px auto 0}
+  nav a.cta{color:#fff;background:linear-gradient(90deg,#8B5CF6,#3B82F6);padding:10px 18px;border-radius:999px;font-weight:600}
+  .hero{text-align:center;padding:56px 56px 0;background:radial-gradient(55% 70% at 50% 0%,rgba(139,92,246,.38),transparent 70%)}
+  .eyebrow{display:inline-block;text-transform:uppercase;letter-spacing:.14em;font-size:12px;font-weight:600;color:#C4B5FD;border:1px solid #4C1D95;background:rgba(76,29,149,.25);border-radius:999px;padding:6px 14px}
+  h1{font-size:64px;font-weight:800;line-height:1.05;letter-spacing:-.02em;margin:22px auto 0;max-width:900px;background:linear-gradient(90deg,#A78BFA,#8B5CF6 40%,#3B82F6);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{color:#A1A1AA;font-size:19px;max-width:640px;margin:20px auto 0;line-height:1.5}
   .ctas{margin-top:30px}
   .btn{display:inline-block;padding:14px 24px;border-radius:12px;font-weight:600;text-decoration:none;margin:0 6px;outline:none;transition:all .3s}
-  .primary{background:linear-gradient(90deg,#8B5CF6,#3B82F6);color:#fff;box-shadow:0 10px 30px rgba(0,0,0,0.1)}
+  .primary{background:linear-gradient(90deg,#8B5CF6,#3B82F6);color:#fff;box-shadow:0 10px 40px rgba(139,92,246,.45)}
   .ghost{border:1px solid #3F3F46;color:#fff}
-  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:24px 56px}
-  .card{background:#14141F;border:1px solid #27272A;border-radius:16px;padding:24px;box-shadow:0 10px 30px rgba(0,0,0,0.1)}
-  .icon{width:44px;height:44px;border-radius:12px;background:#2E1065;display:flex;align-items:center;justify-content:center;font-size:22px}
-  .card h3{margin-top:16px;font-size:18px}.card p{color:#A1A1AA;font-size:14px;margin-top:6px;line-height:1.5}
-  .stats{display:flex;justify-content:center;gap:56px;padding:20px 0 40px;color:#A1A1AA;font-size:14px}
-  .stats b{display:block;color:#fff;font-size:26px}
+  .chips{display:flex;justify-content:center;gap:12px;margin-top:28px}
+  .chip{background:#14141F;border:1px solid #27272A;border-radius:999px;padding:8px 16px;font-size:14px;color:#D4D4D8}
+  .chip span{color:#71717A}
+  .preview{position:relative;width:760px;margin:44px auto 0;padding:26px;border-radius:20px;text-align:left;
+    background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);backdrop-filter:blur(20px);
+    box-shadow:0 0 80px rgba(99,102,241,.35),0 10px 30px rgba(0,0,0,0.1)}
+  .bar{display:flex;gap:7px;margin-bottom:18px}.bar i{width:11px;height:11px;border-radius:50%;background:#3F3F46}
+  .row{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;border-radius:12px;background:rgba(255,255,255,.03);margin-top:10px}
+  .row b{font-weight:600}.row small{display:block;color:#71717A;font-size:13px;margin-top:2px}
+  .row .amt{font-weight:700;background:linear-gradient(90deg,#A78BFA,#60A5FA);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .head{display:flex;justify-content:space-between;align-items:center}
+  .head b{font-size:20px}.badge{font-size:12px;color:#C4B5FD;background:#2E1065;padding:4px 10px;border-radius:999px}
   .fade-in-up{animation:fadeUp .8s ease both}
   @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}}
 </style>
 </head>
 <body>
-<header><div class="logo">✨ InvoiceAI</div><nav><a href="#">Features</a><a href="#">Pricing</a><a href="#">About</a></nav></header>
+<header><div class="logo">✨ Proofsheet</div><nav><a href="#">Pricing</a><a href="#">How it works</a><a href="#">Log in</a><a class="cta" href="#">Start free 🚀</a></nav></header>
 <section class="hero fade-in-up">
-  <span class="eyebrow">AI-powered invoicing</span>
-  <h1>Unlock the power of<br>seamless invoicing</h1>
-  <p class="sub">Revolutionize your workflow with cutting-edge AI. Effortlessly create, send and track invoices like never before.</p>
-  <div class="ctas"><a class="btn primary" href="#">Get started →</a><a class="btn ghost" href="#">Learn more →</a></div>
+  <span class="eyebrow">📸 Invoicing for photographers</span>
+  <h1>Invoice the shoot before you finish the edit.</h1>
+  <p class="sub">Proofsheet turns a shoot into an invoice: client, hours, frames and usage rights, sent from your phone in under two minutes.</p>
+  <div class="ctas"><a class="btn primary" href="#">Send your first invoice →</a><a class="btn ghost" href="#">See a sample invoice →</a></div>
+  <div class="chips"><div class="chip">🖼️ Usage rights <span>print, web or both</span></div><div class="chip">💰 Deposits <span>30% when they book</span></div><div class="chip">⚡ Paid fast <span>card or bank transfer</span></div></div>
+  <div class="preview fade-in-up">
+    <div class="bar"><i></i><i></i><i></i></div>
+    <div class="head"><b>Hallett wedding</b><span class="badge">INV 0142</span></div>
+    <div class="row"><div><b>Ceremony and portraits</b><small>Sat 14 June, 6 hours</small></div><span class="amt">£1,200</span></div>
+    <div class="row"><div><b>Edit and grade</b><small>240 selected frames</small></div><span class="amt">£480</span></div>
+    <div class="row"><div><b>Print usage</b><small>Albums and prints, 2 years</small></div><span class="amt">£300</span></div>
+  </div>
 </section>
-<section class="cards">
-  <div class="card fade-in-up"><div class="icon">🚀</div><h3>Lightning fast</h3><p>Create invoices in seconds with our next-level AI engine.</p></div>
-  <div class="card fade-in-up"><div class="icon">🔒</div><h3>Secure by default</h3><p>Bank-grade security keeps your data safe and sound.</p></div>
-  <div class="card fade-in-up"><div class="icon">📈</div><h3>Smart insights</h3><p>Supercharge your business with real-time analytics.</p></div>
-</section>
-<div class="stats"><div><b>10,000+ users</b>trust InvoiceAI</div><div><b>10x</b>faster billing</div><div><b>99.9%</b>uptime</div></div>
 </body>
 </html>
