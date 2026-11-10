@@ -1,0 +1,164 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../assets/readme/header-dark.svg">
+    <img src="../../assets/readme/header-light.svg" alt="ship-beautiful-ui" width="840">
+  </picture>
+</p>
+
+<p align="center">
+  <b>Satu skill yang membawa agen coding Anda dari prompt ke UI yang rapi.<br>Pustaka desain sendiri, pemeriksaan sendiri, dan desain yang lahir dari topik Anda, bukan dari template.</b>
+</p>
+
+<p align="center">
+  <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-0F1115?style=flat-square" alt="MIT License"></a>
+  <a href="../../skills/ship-beautiful-ui/SKILL.md"><img src="https://img.shields.io/badge/Agent%20Skill-SKILL.md-2B59FF?style=flat-square" alt="Agent Skill"></a>
+  <img src="https://img.shields.io/badge/works%20with-Claude%20Code%20%C2%B7%20Codex%20%C2%B7%20Cursor-2B59FF?style=flat-square" alt="Works with Claude Code, Codex and Cursor">
+  <img src="https://img.shields.io/badge/dependencies-none-0F1115?style=flat-square" alt="No dependencies">
+  <a href="https://github.com/Vedmeena21/ship-beautiful-ui/stargazers"><img src="https://img.shields.io/github/stars/Vedmeena21/ship-beautiful-ui?style=flat-square&color=2B59FF" alt="GitHub stars"></a>
+  <a href="https://www.linkedin.com/in/ved-prakash-meena"><img src="https://img.shields.io/badge/LinkedIn-Ved%20Prakash%20Meena-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Ved Prakash Meena on LinkedIn"></a>
+</p>
+
+<p align="center">
+  <a href="#instalasi">Instalasi</a> ·
+  <a href="#cara-kerjanya">Cara kerjanya</a> ·
+  <a href="#bawa-merek-anda-warnanya-dipilihkan">Bawa merek Anda. Warnanya dipilihkan.</a> ·
+  <a href="#isinya">Isinya</a> ·
+  <a href="#detektor">Detektor</a>
+</p>
+
+| Draf pertama AI yang umum | Dibuat dengan ship-beautiful-ui |
+|:---:|:---:|
+| <img src="../../assets/readme/before.jpg" alt="Proofsheet, an invoicing tool for photographers, styled the default AI way: dark page, centered purple-to-blue gradient headline, emoji chips and a glowing glass card" width="420"> | <img src="../../assets/readme/after.jpg" alt="The same page and words redesigned with ship-beautiful-ui: a paper-white page with a serif headline 'Invoice the shoot before you finish the edit' and the real product: the invoice on a phone, ready to send" width="420"> |
+
+### 🌐 Dukungan multibahasa
+
+[English](../../README.md) | [Arabic](../ar/README.md) | [Chinese (Simplified)](../zh/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Hindi](../hi/README.md) | [Indonesian](../id/README.md) | [Japanese](../ja/README.md) | [Korean](../ko/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Russian](../ru/README.md) | [Spanish](../es/README.md) | [Turkish](../tr/README.md)
+
+---
+
+## Mengapa ini ada
+
+Agen coding bisa menulis seluruh frontend dalam hitungan menit, tetapi hasilnya tetap terlihat seperti halaman buatan AI lainnya: font yang sama, gradasi ungu yang sama, deretan tiga kartu identik yang sama, animasi fade-up yang sama di setiap bagian.
+
+Hal itu terjadi karena agen selalu memulai dari pengaturan bawaan yang sama. **ship-beautiful-ui** menggantinya dengan proses, data desain yang nyata, dan pemeriksaan yang dijalankan pada hasilnya:
+
+- **Sebuah proses.** Brief → arah → kunci → bangun → gerak → tinjauan, selalu dalam urutan ini.
+- **Desain dari topik Anda.** Palet warna berasal dari dunia produk Anda sendiri (kerak dan tepung toko roti, merah lampu pengaman kamar gelap), bukan dari daftar yang dipakai semua orang.
+- **Satu sumber kebenaran.** Setiap keputusan visual ditulis di `DESIGN.md` sebelum ada kode, lalu diperiksa.
+- **Pemeriksaan, bukan firasat.** Detektor dengan 40 aturan memindai kode untuk mencari tanda-tanda AI dan celah aksesibilitas sebelum diserahkan.
+
+Tanpa dependensi. Skripnya Python 3 biasa.
+
+## Instalasi
+
+**Agen apa pun (Claude Code, Codex, Cursor, dan lainnya)** lewat CLI [`skills`](https://github.com/vercel-labs/skills):
+
+```bash
+npx skills add Vedmeena21/ship-beautiful-ui
+```
+
+**Plugin Claude Code:**
+
+```
+/plugin marketplace add Vedmeena21/ship-beautiful-ui
+/plugin install ship-beautiful-ui@ship-beautiful-ui
+```
+
+**Manual:** salin [`skills/ship-beautiful-ui`](../../skills/ship-beautiful-ui) ke `.claude/skills/` (proyek) atau `~/.claude/skills/` (global).
+
+**Lalu tinggal minta UI.** Skill berjalan sendiri saat Anda membuat, mendesain ulang, atau memoles halaman, layar, atau komponen:
+
+```
+Buatkan landing page untuk alat penagihan bagi fotografer freelance.
+Tujuan utamanya: mengirim invoice pertama dalam waktu kurang dari 2 menit. Next.js + Tailwind.
+```
+
+```
+Dashboard ini terlihat biasa saja. Pakai ship-beautiful-ui untuk mendesain ulangnya.
+```
+
+Anda mendapat tiga hal:
+
+| Hasil | Apa itu |
+|---|---|
+| `DESIGN.md` | Sistem desain Anda: token dan aturan yang bisa dibaca agen mana pun, kontrasnya sudah diperiksa |
+| UI | Dibangun hanya dari token `DESIGN.md` |
+| `REVIEW.md` | Apa yang ditemukan detektor, apa yang diperbaiki, apa yang dipertahankan dan alasannya |
+
+## Cara kerjanya
+
+<p align="center">
+  <img src="../../assets/readme/pipeline.svg" alt="The six-step pipeline: brief, direction, lock in DESIGN.md, build, motion, review" width="840">
+</p>
+
+| Langkah | Apa yang terjadi | Sudah termasuk |
+|---|---|---|
+| **0. Brief** | Topik, audiens, satu tugas utama layar, lima kata benda dari dunia topik | [`00-brief.md`](../../skills/ship-beautiful-ui/references/00-brief.md) |
+| **1. Arah** | Palet warna, pasangan font, dan layout yang dibuat untuk topik ini | `derive.py`, `direction.py`, 78 material, 60 palet, 40 pasangan font, 20 layout |
+| **2. Kunci** | Setiap keputusan ditulis di `DESIGN.md` dan diperiksa | `lint_design.py`, [template `DESIGN.md`](../../skills/ship-beautiful-ui/templates/DESIGN.md) |
+| **3. Bangun** | Hanya token, satu ide berani, standar kualitas minimum | [`effects.md`](../../skills/ship-beautiful-ui/references/effects.md) (16 efek), [`ux-rules.md`](../../skills/ship-beautiful-ui/references/ux-rules.md) (80 aturan) |
+| **4. Gerak** | Hanya gerakan yang menjelaskan sebuah perubahan | [`04-motion.md`](../../skills/ship-beautiful-ui/references/04-motion.md): token waktu dan 12 resep |
+| **5. Tinjauan** | Satu gerbang sebelum diserahkan | `detect.py` (40 aturan), tangkapan layar, [`REVIEW.md`](../../skills/ship-beautiful-ui/templates/REVIEW.md) |
+
+**Siapa yang menang saat instruksi bertentangan:** kata-kata Anda > `DESIGN.md` > aturan skill > semua yang dimuat lainnya. Agen menyebutkannya dengan jelas saat menyelesaikan konflik, sehingga Anda bisa menolaknya.
+
+## Bawa merek Anda. Warnanya dipilihkan.
+
+Bekerja di Microsoft? Cukup katakan, dan setiap halaman dibangun dari warna Microsoft: biru untuk aksi, warna netral Anda untuk teks, ditambah gradasi yang dibutuhkan UI sungguhan. Belum punya merek? Gambarkan dunia produk Anda dalam beberapa kata dan palet akan dibuatkan.
+
+| Anda bilang | Anda dapat |
+|---|---|
+| *Kami bekerja di Microsoft. Pakai biru, hijau, merah, dan kuning kami.* | Warna-warna persis itu di tombol, aksen, dan sorotan, plus gradasi yang serasi untuk teks, garis tepi, hover, dan error |
+| *Aplikasi faktur untuk fotografer: kamar gelap, lampu pengaman, film* | Halaman putih kertas foto, teks hitam pekat, tombol merah lampu pengaman, detail kuning amber film (halaman "sesudah" di atas) |
+| *Toko roti: kulit roti, tepung, espresso, saffron* | Halaman putih tepung, teks cokelat espresso, tombol berwarna kulit roti, sorotan saffron |
+
+Setiap warna diperiksa keterbacaannya (WCAG AA) sebelum satu baris kode pun ditulis. Belum punya topik yang jelas? `direction.py` menawarkan tiga arah siap pakai untuk dipilih.
+
+## Isinya
+
+Semua yang dibutuhkan agen Anda untuk mendesain seperti profesional, dalam satu folder. Tanpa akun, tanpa API key, tanpa instalasi tambahan.
+
+| Yang Anda dapat | Berapa banyak | Mengapa penting |
+|---|:---:|---|
+| Material dunia nyata | **78** | Warna diambil dari hal-hal seperti kertas kraft, espresso, lumut, dan film, agar palet cocok dengan produk Anda |
+| Palet warna | **60** | Siap dipakai, terang dan gelap, masing-masing sudah diuji keterbacaannya |
+| Pasangan font | **40** | Font judul dan font isi yang serasi, semuanya gratis di Google Fonts |
+| Layout halaman | **20** | Struktur halaman yang teruji beserta sketsa: hero produk, editorial, dashboard, harga, dan lainnya |
+| Efek visual | **16** | Grain, glow, spotlight, marquee, tilt, dan lainnya: CSS siap salin yang memakai warna Anda dan menghormati pengaturan gerak berkurang |
+| Resep animasi | **12** | Tombol, menu, modal, toast, tab, dan daftar yang semuanya bergerak dengan sama halusnya |
+| Aturan UX | **80** | Daftar periksa untuk formulir, navigasi, tabel, grafik, mobile, serta kondisi kosong dan error |
+| Pemeriksaan detektor | **40** | Menangkap tampilan khas AI dan celah aksesibilitas sebelum Anda rilis |
+
+### Empat alat yang mengerjakan tugasnya
+
+| Alat | Yang dilakukannya untuk Anda |
+|---|---|
+| `derive.py` | Gambarkan produk Anda dalam beberapa kata, dapatkan palet warna yang cocok |
+| `direction.py` | Bingung mulai dari mana? Dapatkan 3 arah desain untuk dipilih, disimpan sebagai `DESIGN.md` |
+| `lint_design.py` | Memeriksa bahwa `DESIGN.md` Anda lengkap dan setiap warna terbaca dengan jelas |
+| `detect.py` | Memindai kode Anda (HTML, CSS, React, Vue, Svelte, Astro) untuk 40 tanda UI buatan AI |
+
+## Detektor
+
+```
+$ python3 scripts/detect.py src/
+SBU001 warning One generic sans for everything
+SBU002 warning Purple-to-blue gradient
+SBU010 error   Motion without reduced-motion support
+SBU011 error   Focus outline removed
+SBU013 warning Cream page + terracotta accent
+...
+Scanned 1 files: 6 errors, 10 warnings, 5 info
+```
+
+Setiap temuan disertai solusinya. Error menghentikan penyerahan; peringatan diperbaiki atau diberi alasan tertulis di `REVIEW.md`. Daftar lengkapnya, plus 12 kebiasaan visual bawaan yang diperiksa agen dengan mata, ada di [`anti-patterns.md`](../../skills/ship-beautiful-ui/references/anti-patterns.md).
+
+## Lisensi
+
+[MIT](../../LICENSE). Dibuat dan dikelola oleh **Ved Prakash Meena**.
+
+<a href="https://www.linkedin.com/in/ved-prakash-meena"><img src="https://img.shields.io/badge/Follow%20on%20LinkedIn-Ved%20Prakash%20Meena-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Follow Ved Prakash Meena on LinkedIn"></a>
+
+<p align="center">
+  <sub>Kalau ini menghemat satu putaran "buat supaya tidak terlalu seperti AI", sebuah ⭐ membantu orang lain menemukannya, dan <a href="https://www.linkedin.com/in/ved-prakash-meena">ikuti saya di LinkedIn</a> untuk lainnya.</sub>
+</p>
