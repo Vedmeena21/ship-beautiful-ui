@@ -111,6 +111,13 @@ class DetectTests(unittest.TestCase):
         self.assertEqual(code, 0)
         self.assertEqual(found, set())
 
+    def test_example_after_page_passes(self):
+        ex = os.path.join(ROOT, "examples", "photographer-invoicing")
+        code, found = rules(os.path.join(ex, "after.html"))
+        self.assertEqual((code, found), (0, set()))
+        code, out, _ = run("lint_design.py", os.path.join(ex, "DESIGN.md"))
+        self.assertEqual(code, 0, out)
+
     def test_forty_rules(self):
         _, out, _ = run("detect.py", "--list-rules")
         self.assertEqual(out.count("SBU0"), 40)

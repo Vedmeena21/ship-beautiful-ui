@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proofsheet: invoicing for photographers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Instrument+Serif&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  /* Built with ship-beautiful-ui from DESIGN.md in this folder. */
+  :root{--base:#F7F7F3;--surface:#FCFCFA;--ink:#141414;--muted:#70706F;--line:#D7D7D4;--accent:#B3261E;--on-accent:#FFFFFF;--accent-2:#C27E19;
+    --font-display:"Instrument Serif",serif;--font-body:"Instrument Sans",sans-serif;--font-mono:"JetBrains Mono",monospace;
+    --radius-sm:4px;--radius-md:8px;--dur-quick:120ms;--ease-out:cubic-bezier(.2,.7,.2,1)}
+  *{box-sizing:border-box;margin:0}
+  body{background:var(--base);color:var(--ink);font-family:var(--font-body);font-size:18px;line-height:1.55}
+  a{color:inherit}
+  a:focus-visible,.btn:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+  header{display:flex;align-items:center;gap:32px;max-width:1200px;margin:0 auto;padding:28px 40px}
+  .mark{font-family:var(--font-display);font-size:30px;text-decoration:none}
+  nav{display:flex;gap:28px;margin-left:auto;font-size:16px}
+  nav a{text-decoration:none;color:var(--muted)}
+  .btn{display:inline-block;background:var(--accent);color:var(--on-accent);font-weight:600;font-size:16px;padding:14px 22px;border-radius:var(--radius-sm);text-decoration:none;
+    transition:transform var(--dur-quick) var(--ease-out),background-color var(--dur-quick) var(--ease-out)}
+  .btn:hover{background:#8F1E18}.btn:active{transform:scale(.97)}
+  .btn.small{padding:10px 16px;font-size:15px}
+  main{max-width:1200px;margin:0 auto;padding:40px 40px 64px;display:grid;grid-template-columns:1fr 1.05fr;gap:64px;align-items:center}
+  h1{font-family:var(--font-display);font-weight:400;font-size:76px;line-height:.98;letter-spacing:-.01em}
+  .lede{margin-top:24px;max-width:30em;color:var(--muted)}
+  .actions{margin-top:32px;display:flex;align-items:center;gap:24px}
+  .actions a.text{font-weight:500;text-underline-offset:4px}
+  ul.facts{list-style:none;padding:0;margin-top:40px;display:grid;grid-template-columns:repeat(3,1fr);gap:24px;font-size:15px;color:var(--muted);border-top:1px solid var(--line);padding-top:20px}
+  ul.facts b{display:block;color:var(--ink);font-weight:600}
+  .sheet{background:var(--ink);border-radius:var(--radius-md);padding:30px 26px;position:relative}
+  .sheet::before,.sheet::after{content:"";position:absolute;left:18px;right:18px;height:10px;
+    background:repeating-linear-gradient(90deg,#3A3A38 0 14px,transparent 14px 26px)}
+  .sheet::before{top:10px}.sheet::after{bottom:10px}
+  .frames{display:flex;justify-content:space-between;font-family:var(--font-mono);font-size:12px;color:var(--accent-2);padding:0 4px 10px}
+  .invoice{background:var(--surface);border-radius:var(--radius-sm);padding:24px}
+  .inv-head{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--line);padding-bottom:14px}
+  .inv-head h2{font-family:var(--font-display);font-weight:400;font-size:30px}
+  .inv-head span{font-family:var(--font-mono);font-size:13px;color:var(--muted)}
+  table{width:100%;border-collapse:collapse;margin-top:8px;font-size:15.5px}
+  td{padding:11px 0;border-bottom:1px solid var(--line)}
+  td.amt{text-align:right;font-family:var(--font-mono);font-size:14px}
+  td small{display:block;color:var(--muted);font-size:13.5px}
+  .total{display:flex;justify-content:space-between;align-items:center;margin-top:18px}
+  .total strong{font-family:var(--font-mono);font-size:22px}
+  .status{font-size:13.5px;color:var(--muted)}
+  .status::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent-2);margin-right:8px}
+  @media (max-width:900px){main{grid-template-columns:1fr}h1{font-size:52px}nav{display:none}ul.facts{grid-template-columns:1fr}}
+  @media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important}}
+</style>
+</head>
+<body>
+<header>
+  <a class="mark" href="/">Proofsheet</a>
+  <nav aria-label="Main"><a href="/pricing">Pricing</a><a href="/how-it-works">How it works</a><a href="/login">Log in</a></nav>
+  <a class="btn small" href="/start">Start free</a>
+</header>
+<main>
+  <section>
+    <h1>Invoice the shoot before you finish the edit.</h1>
+    <p class="lede">Proofsheet turns a shoot into an invoice: client, hours, frames and usage rights, sent from your phone in under two minutes.</p>
+    <div class="actions"><a class="btn" href="/start">Send your first invoice</a><a class="text" href="/sample">See a sample invoice</a></div>
+    <ul class="facts">
+      <li><b>Usage rights</b>print, web or both</li>
+      <li><b>Deposits</b>30% when they book</li>
+      <li><b>Paid fast</b>card or bank transfer</li>
+    </ul>
+  </section>
+  <section class="sheet" aria-label="Example invoice">
+    <div class="frames"><span>14</span><span>14A</span><span>15</span><span>15A</span><span>16</span></div>
+    <div class="invoice">
+      <div class="inv-head"><h2>Hallett wedding</h2><span>INV 0142</span></div>
+      <table>
+        <tr><td>Ceremony and portraits<small>Sat 14 June, 6 hours</small></td><td class="amt">£1,200</td></tr>
+        <tr><td>Edit and grade<small>240 selected frames</small></td><td class="amt">£480</td></tr>
+        <tr><td>Print usage<small>Albums and prints, 2 years</small></td><td class="amt">£300</td></tr>
+        <tr><td>Deposit received<small>Paid 2 May</small></td><td class="amt">−£594</td></tr>
+      </table>
+      <div class="total"><span class="status">Balance due 28 June</span><strong>£1,386</strong></div>
+    </div>
+    <div class="frames" style="padding:10px 4px 0"><span>17</span><span>17A</span><span>18</span><span>18A</span><span>19</span></div>
+  </section>
+</main>
+</body>
+</html>

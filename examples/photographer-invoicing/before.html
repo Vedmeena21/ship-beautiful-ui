@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>InvoiceAI</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  /* A typical AI first draft for the same brief, kept to show what the detector catches. */
+  *{box-sizing:border-box;margin:0}
+  body{font-family:Inter,sans-serif;background:#0B0B14;color:#fff}
+  header{display:flex;align-items:center;justify-content:space-between;padding:24px 56px}
+  .logo{font-weight:800;font-size:22px}
+  nav a{color:#A1A1AA;margin-left:28px;text-decoration:none;font-size:15px}
+  .hero{text-align:center;padding:56px 56px 40px;background:radial-gradient(60% 60% at 50% 0%,rgba(139,92,246,.35),transparent),linear-gradient(180deg,#0B0B14,#0B0B14)}
+  .eyebrow{display:inline-block;text-transform:uppercase;letter-spacing:.14em;font-size:12px;font-weight:600;color:#C4B5FD;border:1px solid #4C1D95;border-radius:999px;padding:6px 14px}
+  h1{font-size:60px;font-weight:800;line-height:1.05;margin-top:22px;background:linear-gradient(90deg,#8B5CF6,#3B82F6);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{color:#A1A1AA;font-size:19px;max-width:640px;margin:20px auto 0}
+  .ctas{margin-top:30px}
+  .btn{display:inline-block;padding:14px 24px;border-radius:12px;font-weight:600;text-decoration:none;margin:0 6px;outline:none;transition:all .3s}
+  .primary{background:linear-gradient(90deg,#8B5CF6,#3B82F6);color:#fff;box-shadow:0 10px 30px rgba(0,0,0,0.1)}
+  .ghost{border:1px solid #3F3F46;color:#fff}
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:24px 56px}
+  .card{background:#14141F;border:1px solid #27272A;border-radius:16px;padding:24px;box-shadow:0 10px 30px rgba(0,0,0,0.1)}
+  .icon{width:44px;height:44px;border-radius:12px;background:#2E1065;display:flex;align-items:center;justify-content:center;font-size:22px}
+  .card h3{margin-top:16px;font-size:18px}.card p{color:#A1A1AA;font-size:14px;margin-top:6px;line-height:1.5}
+  .stats{display:flex;justify-content:center;gap:56px;padding:20px 0 40px;color:#A1A1AA;font-size:14px}
+  .stats b{display:block;color:#fff;font-size:26px}
+  .fade-in-up{animation:fadeUp .8s ease both}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}}
+</style>
+</head>
+<body>
+<header><div class="logo">✨ InvoiceAI</div><nav><a href="#">Features</a><a href="#">Pricing</a><a href="#">About</a></nav></header>
+<section class="hero fade-in-up">
+  <span class="eyebrow">AI-powered invoicing</span>
+  <h1>Unlock the power of<br>seamless invoicing</h1>
+  <p class="sub">Revolutionize your workflow with cutting-edge AI. Effortlessly create, send and track invoices like never before.</p>
+  <div class="ctas"><a class="btn primary" href="#">Get started →</a><a class="btn ghost" href="#">Learn more →</a></div>
+</section>
+<section class="cards">
+  <div class="card fade-in-up"><div class="icon">🚀</div><h3>Lightning fast</h3><p>Create invoices in seconds with our next-level AI engine.</p></div>
+  <div class="card fade-in-up"><div class="icon">🔒</div><h3>Secure by default</h3><p>Bank-grade security keeps your data safe and sound.</p></div>
+  <div class="card fade-in-up"><div class="icon">📈</div><h3>Smart insights</h3><p>Supercharge your business with real-time analytics.</p></div>
+</section>
+<div class="stats"><div><b>10,000+ users</b>trust InvoiceAI</div><div><b>10x</b>faster billing</div><div><b>99.9%</b>uptime</div></div>
+</body>
+</html>
