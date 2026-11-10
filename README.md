@@ -31,9 +31,6 @@
 | Typical AI first draft | Built with ship-beautiful-ui |
 |:---:|:---:|
 | <img src="assets/readme/before.jpg" alt="A typical AI first draft for an invoicing tool for photographers: dark page, purple-to-blue gradient headline 'Unlock the power of seamless invoicing', emoji feature cards and unsourced stats" width="420"> | <img src="assets/readme/after.jpg" alt="The same brief built with ship-beautiful-ui: a paper-white page with a serif headline 'Invoice the shoot before you finish the edit' and the real product, an invoice laid out on a contact sheet with amber frame numbers" width="420"> |
-| Inter, purple gradient, emoji cards, "unlock the power".<br>**Detector: 18 findings** | Palette derived from a darkroom, real product, real copy.<br>**Detector: 0 findings** |
-
-<p align="center"><sub>Same brief: invoicing for freelance photographers. Both pages and the commands to check them are in <a href="examples/photographer-invoicing">examples/</a>.</sub></p>
 
 ---
 
@@ -189,7 +186,7 @@ ship-beautiful-ui/
 │   ├── references/         # one file per step, plus effects, motion, UX rules, anti-patterns
 │   └── templates/          # DESIGN.md and REVIEW.md
 ├── docs/recipes/           # landing page, dashboard, mobile, redesign, scroll story
-├── examples/               # before/after pages with DESIGN.md and detector results
+├── examples/               # the before/after pages above, with DESIGN.md and detector results
 ├── tests/                  # unit tests and fixtures for every script
 └── .claude-plugin/         # Claude Code plugin marketplace
 ```
