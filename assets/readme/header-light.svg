@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-label="ship-beautiful-ui: one skill, ten of the best UI repos, zero contradictions">
+  <defs>
+    <pattern id="d0" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#E9ECF1"/></pattern>
+    <linearGradient id="g0" x1="0" x2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="959" height="299" rx="20" fill="#FFFFFF" stroke="#E4E7EC"/>
+  <rect x="580" y="1" width="379" height="298" fill="url(#d0)"/>
+  <text x="56" y="112" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="56" font-weight="800" letter-spacing="-1.6" fill="#0F1115">ship-beautiful-ui</text>
+  <text x="58" y="158" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="22" fill="#5B6472">One skill from prompt to polished UI, with its own</text>
+  <text x="58" y="188" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="22" fill="#5B6472">libraries and checks. <tspan fill="#0F1115" font-weight="600">No more AI-looking UI.</tspan></text>
+  <rect x="56" y="232" width="56" height="26" rx="6" fill="none" stroke="#E4E7EC"/><text x="65" y="249.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#0F1115" font-weight="500">brief</text><text x="114" y="249.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5B6472">→</text><rect x="129" y="232" width="84" height="26" rx="6" fill="none" stroke="#E4E7EC"/><text x="139" y="249.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#0F1115" font-weight="500">direction</text><text x="215" y="249.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5B6472">→</text><rect x="230" y="232" width="84" height="26" rx="6" fill="none" stroke="#E4E7EC"/><text x="240" y="249.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#2B59FF" font-weight="600">DESIGN.md</text><text x="315" y="249.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5B6472">→</text><rect x="331" y="232" width="56" height="26" rx="6" fill="none" stroke="#E4E7EC"/><text x="340" y="249.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#0F1115" font-weight="500">build</text><text x="389" y="249.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5B6472">→</text><rect x="404" y="232" width="62" height="26" rx="6" fill="none" stroke="#E4E7EC"/><text x="414" y="249.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#0F1115" font-weight="500">motion</text><text x="469" y="249.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5B6472">→</text><rect x="485" y="232" width="62" height="26" rx="6" fill="none" stroke="#E4E7EC"/><text x="494" y="249.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#0F1115" font-weight="500">review</text>
+  <g opacity="0.55" transform="translate(664,30)">
+    <rect width="272" height="170" rx="12" fill="#F3F5F8" stroke="#D9DEE5"/>
+    <circle cx="16" cy="15" r="4" fill="#FF5F57"/><circle cx="29" cy="15" r="4" fill="#FEBC2E"/><circle cx="42" cy="15" r="4" fill="#28C840"/>
+    <line x1="0" y1="30" x2="272" y2="30" stroke="#D9DEE5"/><rect x="18" y="44" width="150" height="10" rx="5" fill="#E3E7ED"/>
+    <rect x="18" y="62" width="104" height="8" rx="4" fill="#E3E7ED"/>
+    <rect x="18" y="86" width="72" height="62" rx="10" fill="#F3F5F8" stroke="#D9DEE5"/><rect x="99" y="86" width="72" height="62" rx="10" fill="#F3F5F8" stroke="#D9DEE5"/><rect x="180" y="86" width="72" height="62" rx="10" fill="#F3F5F8" stroke="#D9DEE5"/>
+    <rect x="182" y="42" width="70" height="26" rx="13" fill="url(#g0)"/></g>
+  
+  <g opacity="1" transform="translate(640,88)">
+    <rect width="282" height="182" rx="12" fill="#FFFFFF" stroke="#D9DEE5"/>
+    <circle cx="16" cy="15" r="4" fill="#FF5F57"/><circle cx="29" cy="15" r="4" fill="#FEBC2E"/><circle cx="42" cy="15" r="4" fill="#28C840"/>
+    <line x1="0" y1="30" x2="282" y2="30" stroke="#D9DEE5"/><rect x="20" y="48" width="168" height="16" rx="3" fill="#0F1115"/>
+    <rect x="20" y="72" width="120" height="16" rx="3" fill="#0F1115"/>
+    <rect x="20" y="100" width="150" height="6" rx="3" fill="#5B6472" opacity=".55"/>
+    <rect x="20" y="112" width="128" height="6" rx="3" fill="#5B6472" opacity=".55"/>
+    <rect x="20" y="132" width="76" height="26" rx="6" fill="#2B59FF"/>
+    <rect x="196" y="44" width="74" height="114" rx="8" fill="#2B59FF" opacity=".12"/>
+    <rect x="208" y="58" width="50" height="50" rx="25" fill="#2B59FF" opacity=".85"/></g>
+  
+</svg>

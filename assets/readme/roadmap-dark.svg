@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1824" viewBox="0 0 960 1824" role="img" aria-label="Roadmap: six steps from brief to review, the subject-to-palette engine, and the libraries inside ship-beautiful-ui">
+<defs><pattern id="dp" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1.1" fill="#1C2128"/></pattern><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2B59FF"/></marker></defs>
+<rect x=".5" y=".5" width="959" height="1823" rx="22" fill="#0D1117" stroke="#30363D"/>
+<rect x="1" y="1" width="958" height="1822" rx="22" fill="url(#dp)"/>
+<text x="48" y="74" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" font-weight="700" letter-spacing="1.5" fill="#2B59FF">THE ROADMAP</text>
+<text x="48" y="118" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="38" font-weight="800" letter-spacing="-0.8" fill="#E6EDF3">From prompt to polished UI in 6 steps</text>
+<text x="48" y="152" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="18" fill="#8B949E">Every step is built in: its own libraries, its own scripts, its own checks. No dependencies.</text>
+<rect x="48" y="196" width="268" height="292" rx="14" fill="#11161D" stroke="#2B59FF" stroke-width="1.6"/>
+<text x="70" y="232" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="1" fill="#2B59FF">STEP 0</text>
+<text x="70" y="268" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#E6EDF3">Brief</text>
+<text x="70" y="294" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#8B949E">Know what you're designing</text>
+<circle cx="74" cy="321" r="3" fill="#2B59FF"/>
+<text x="86" y="326" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#E6EDF3">Subject and audience</text>
+<circle cx="74" cy="347" r="3" fill="#2B59FF"/>
+<text x="86" y="352" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#E6EDF3">The one job of the screen</text>
+<circle cx="74" cy="373" r="3" fill="#2B59FF"/>
+<text x="86" y="378" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#E6EDF3">5 nouns from its world</text>
+<line x1="70" y1="396" x2="294" y2="396" stroke="#30363D"/>
+<text x="70" y="418" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#8B949E">BUILT IN</text>
+<rect x="70" y="428" width="94" height="24" rx="12" fill="#1F2A44" stroke="none"/>
+<text x="80" y="444.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="600" fill="#AFC2FF">00-brief.md</text>
+<rect x="346" y="196" width="268" height="292" rx="14" fill="#2B59FF" stroke="#2B59FF" stroke-width="1.6"/>
+<text x="368" y="232" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="1" fill="#FFFFFF">STEP 1</text>
+<text x="368" y="268" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">Direction</text>
+<text x="368" y="294" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#DCE4FF">One look, made for this subject</text>
+<circle cx="372" cy="321" r="3" fill="#FFFFFF"/>
+<text x="384" y="326" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#FFFFFF">Palette from your subject</text>
+<circle cx="372" cy="347" r="3" fill="#FFFFFF"/>
+<text x="384" y="352" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#FFFFFF">A type pairing with roles</text>
+<circle cx="372" cy="373" r="3" fill="#FFFFFF"/>
+<text x="384" y="378" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#FFFFFF">A layout pattern</text>
+<line x1="368" y1="396" x2="592" y2="396" stroke="#FFFFFF55"/>
+<text x="368" y="418" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#DCE4FF">BUILT IN</text>
+<rect x="368" y="428" width="80" height="24" rx="12" fill="#FFFFFF22" stroke="#FFFFFF66"/>
+<text x="378" y="444.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="600" fill="#FFFFFF">derive.py</text>
+<rect x="454" y="428" width="101" height="24" rx="12" fill="#FFFFFF22" stroke="#FFFFFF66"/>
+<text x="464" y="444.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="600" fill="#FFFFFF">direction.py</text>
+<rect x="644" y="196" width="268" height="292" rx="14" fill="#11161D" stroke="#2B59FF" stroke-width="1.6"/>
+<text x="666" y="232" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="1" fill="#2B59FF">STEP 2</text>
+<text x="666" y="268" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#E6EDF3">Lock</text>
+<text x="666" y="294" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#8B949E">Write it down once</text>
+<circle cx="670" cy="321" r="3" fill="#2B59FF"/>
+<text x="682" y="326" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#E6EDF3">Tokens in DESIGN.md</text>
+<circle cx="670" cy="347" r="3" fill="#2B59FF"/>
+<text x="682" y="352" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#E6EDF3">Rejected defaults listed</text>
+<circle cx="670" cy="373" r="3" fill="#2B59FF"/>
+<text x="682" y="378" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#E6EDF3">Contrast checked</text>
+<line x1="666" y1="396" x2="890" y2="396" stroke="#30363D"/>
+<text x="666" y="418" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#8B949E">BUILT IN</text>
+<rect x="666" y="428" width="90" height="24" rx="12" fill="#1F2A44" stroke="none"/>
+<text x="676" y="444.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="600" fill="#AFC2FF">DESIGN.md</text>
+<rect x="762" y="428" width="115" height="24" rx="12" fill="#1F2A44" stroke="none"/>
+<text x="772" y="444.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="600" fill="#AFC2FF">lint_design.py</text>
+<rect x="644" y="566" width="268" height="292" rx="14" fill="#11161D" stroke="#2B59FF" stroke-width="1.6"/>
+<text x="666" y="602" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="1" fill="#2B59FF">STEP 3</text>
+<text x="666" y="638" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#E6EDF3">Build</text>
+<text x="666" y="664" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#8B949E">Tokens only, one bold idea</text>
+<circle cx="670" cy="691" r="3" fill="#2B59FF"/>
+<text x="682" y="696" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#E6EDF3">One memorable element</text>
+<circle cx="670" cy="717" r="3" fill="#2B59FF"/>
+<text x="682" y="722" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#E6EDF3">Works at 360px, AA contrast</text>
+<circle cx="670" cy="743" r="3" fill="#2B59FF"/>
+<text x="682" y="748" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#E6EDF3">Visible keyboard focus</text>
+<line x1="666" y1="766" x2="890" y2="766" stroke="#30363D"/>
+<text x="666" y="788" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#8B949E">BUILT IN</text>
+<rect x="666" y="798" width="87" height="24" rx="12" fill="#1F2A44" stroke="none"/>
+<text x="676" y="814.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="600" fill="#AFC2FF">16 effects</text>
+<rect x="759" y="798" width="94" height="24" rx="12" fill="#1F2A44" stroke="none"/>
+<text x="769" y="814.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="600" fill="#AFC2FF">80 UX rules</text>
+<rect x="346" y="566" width="268" height="292" rx="14" fill="#11161D" stroke="#2B59FF" stroke-width="1.6"/>
+<text x="368" y="602" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="1" fill="#2B59FF">STEP 4</text>
+<text x="368" y="638" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#E6EDF3">Motion</text>
+<text x="368" y="664" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#8B949E">Motion that explains change</text>
+<circle cx="372" cy="691" r="3" fill="#2B59FF"/>
+<text x="384" y="696" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#E6EDF3">Timing tokens</text>
+<circle cx="372" cy="717" r="3" fill="#2B59FF"/>
+<text x="384" y="722" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#E6EDF3">Ease-out in, ease-in out</text>
+<circle cx="372" cy="743" r="3" fill="#2B59FF"/>
+<text x="384" y="748" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#E6EDF3">One ambient moment, max</text>
+<line x1="368" y1="766" x2="592" y2="766" stroke="#30363D"/>
+<text x="368" y="788" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#8B949E">BUILT IN</text>
+<rect x="368" y="798" width="87" height="24" rx="12" fill="#1F2A44" stroke="none"/>
+<text x="378" y="814.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="600" fill="#AFC2FF">12 recipes</text>
+<rect x="48" y="566" width="268" height="292" rx="14" fill="#11161D" stroke="#2B59FF" stroke-width="1.6"/>
+<text x="70" y="602" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="1" fill="#2B59FF">STEP 5</text>
+<text x="70" y="638" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#E6EDF3">Review</text>
+<text x="70" y="664" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#8B949E">One gate before handoff</text>
+<circle cx="74" cy="691" r="3" fill="#2B59FF"/>
+<text x="86" y="696" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#E6EDF3">40-rule detector scan</text>
+<circle cx="74" cy="717" r="3" fill="#2B59FF"/>
+<text x="86" y="722" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#E6EDF3">Desktop + 390px screenshots</text>
+<circle cx="74" cy="743" r="3" fill="#2B59FF"/>
+<text x="86" y="748" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#E6EDF3">Write REVIEW.md</text>
+<line x1="70" y1="766" x2="294" y2="766" stroke="#30363D"/>
+<text x="70" y="788" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#8B949E">BUILT IN</text>
+<rect x="70" y="798" width="80" height="24" rx="12" fill="#1F2A44" stroke="none"/>
+<text x="80" y="814.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="600" fill="#AFC2FF">detect.py</text>
+<path d="M318,342.0 H343" stroke="#2B59FF" stroke-width="3" marker-end="url(#ar)"/>
+<path d="M616,342.0 H641" stroke="#2B59FF" stroke-width="3" marker-end="url(#ar)"/>
+<path d="M778.0,490 V563" stroke="#2B59FF" stroke-width="3" marker-end="url(#ar)"/>
+<text x="764.0" y="532.0" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" font-weight="700" fill="#2B59FF">FROM HERE ON, DESIGN.md WINS</text>
+<path d="M642,712.0 H617" stroke="#2B59FF" stroke-width="3" marker-end="url(#ar)"/>
+<path d="M344,712.0 H319" stroke="#2B59FF" stroke-width="3" marker-end="url(#ar)"/>
+<path d="M182.0,860 V927" stroke="#2B59FF" stroke-width="3" marker-end="url(#ar)"/>
+<text x="196.0" y="899.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" font-weight="700" fill="#2B59FF">YOU GET</text>
+<rect x="48" y="930" width="268" height="86" rx="14" fill="#E6EDF3"/>
+<text x="70" y="968" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="19" font-weight="700" fill="#0D1117">DESIGN.md</text>
+<text x="70" y="994" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="14" fill="#0D1117" opacity=".75">your design system, for any agent</text>
+<rect x="346" y="930" width="268" height="86" rx="14" fill="#E6EDF3"/>
+<text x="368" y="968" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="19" font-weight="700" fill="#0D1117">The UI</text>
+<text x="368" y="994" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="14" fill="#0D1117" opacity=".75">built only from DESIGN.md tokens</text>
+<rect x="644" y="930" width="268" height="86" rx="14" fill="#E6EDF3"/>
+<text x="666" y="968" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="19" font-weight="700" fill="#0D1117">REVIEW.md</text>
+<text x="666" y="994" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="14" fill="#0D1117" opacity=".75">what was checked, fixed and kept</text>
+<line x1="48" y1="1052" x2="912" y2="1052" stroke="#30363D"/>
+<text x="48" y="1086" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" font-weight="700" letter-spacing="1.5" fill="#2B59FF">THE ENGINE: DESIGN FROM YOUR SUBJECT</text>
+<text x="48" y="1118" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="17" fill="#8B949E">Words from your product's own world become a palette. Contrast is fixed for you. No templates.</text>
+<rect x="48" y="1146" width="864" height="100" rx="14" fill="#161B22" stroke="#30363D"/>
+<text x="70" y="1176" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#E6EDF3">Photography invoicing</text>
+<rect x="70" y="1190" width="137" height="24" rx="12" fill="#1F2A44"/>
+<text x="80" y="1206.5" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#AFC2FF">darkroom safelight</text>
+<rect x="213" y="1190" width="102" height="24" rx="12" fill="#1F2A44"/>
+<text x="223" y="1206.5" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#AFC2FF">contact sheet</text>
+<rect x="321" y="1190" width="74" height="24" rx="12" fill="#1F2A44"/>
+<text x="331" y="1206.5" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#AFC2FF">grey card</text>
+<rect x="70" y="1218" width="74" height="24" rx="12" fill="#1F2A44"/>
+<text x="80" y="1234.5" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#AFC2FF">film edge</text>
+<path d="M448,1196 H500" stroke="#2B59FF" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="516" y="1168" width="56" height="44" rx="8" fill="#F7F7F3" stroke="#30363D"/>
+<text x="544" y="1230" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8B949E">base</text>
+<rect x="578" y="1168" width="56" height="44" rx="8" fill="#141414" stroke="#30363D"/>
+<text x="606" y="1230" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8B949E">ink</text>
+<rect x="640" y="1168" width="56" height="44" rx="8" fill="#70706F" stroke="#30363D"/>
+<text x="668" y="1230" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8B949E">muted</text>
+<rect x="702" y="1168" width="56" height="44" rx="8" fill="#D7D7D4" stroke="#30363D"/>
+<text x="730" y="1230" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8B949E">line</text>
+<rect x="764" y="1168" width="56" height="44" rx="8" fill="#B3261E" stroke="#30363D"/>
+<text x="792" y="1230" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8B949E">accent</text>
+<rect x="826" y="1168" width="56" height="44" rx="8" fill="#C27E19" stroke="#30363D"/>
+<text x="854" y="1230" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8B949E">accent-2</text>
+<rect x="48" y="1264" width="864" height="100" rx="14" fill="#161B22" stroke="#30363D"/>
+<text x="70" y="1294" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#E6EDF3">Neighbourhood bakery</text>
+<rect x="70" y="1308" width="95" height="24" rx="12" fill="#1F2A44"/>
+<text x="80" y="1324.5" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#AFC2FF">bakery crust</text>
+<rect x="171" y="1308" width="49" height="24" rx="12" fill="#1F2A44"/>
+<text x="181" y="1324.5" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#AFC2FF">flour</text>
+<rect x="226" y="1308" width="70" height="24" rx="12" fill="#1F2A44"/>
+<text x="236" y="1324.5" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#AFC2FF">espresso</text>
+<rect x="302" y="1308" width="63" height="24" rx="12" fill="#1F2A44"/>
+<text x="312" y="1324.5" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#AFC2FF">saffron</text>
+<path d="M448,1314 H500" stroke="#2B59FF" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="516" y="1286" width="56" height="44" rx="8" fill="#F5F2EA" stroke="#30363D"/>
+<text x="544" y="1348" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8B949E">base</text>
+<rect x="578" y="1286" width="56" height="44" rx="8" fill="#3B2418" stroke="#30363D"/>
+<text x="606" y="1348" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8B949E">ink</text>
+<rect x="640" y="1286" width="56" height="44" rx="8" fill="#756960" stroke="#30363D"/>
+<text x="668" y="1348" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8B949E">muted</text>
+<rect x="702" y="1286" width="56" height="44" rx="8" fill="#DBD5CD" stroke="#30363D"/>
+<text x="730" y="1348" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8B949E">line</text>
+<rect x="764" y="1286" width="56" height="44" rx="8" fill="#A0522D" stroke="#30363D"/>
+<text x="792" y="1348" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8B949E">accent</text>
+<rect x="826" y="1286" width="56" height="44" rx="8" fill="#C37C0A" stroke="#30363D"/>
+<text x="854" y="1348" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8B949E">accent-2</text>
+<text x="48" y="1432" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" font-weight="700" letter-spacing="1.5" fill="#2B59FF">WHAT'S INSIDE</text>
+<rect x="48" y="1452" width="204" height="88" rx="14" fill="#161B22" stroke="#30363D"/>
+<text x="68" y="1500" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="36" font-weight="800" fill="#2B59FF">78</text>
+<text x="68" y="1524" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#E6EDF3">materials</text>
+<rect x="268" y="1452" width="204" height="88" rx="14" fill="#161B22" stroke="#30363D"/>
+<text x="288" y="1500" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="36" font-weight="800" fill="#2B59FF">60</text>
+<text x="288" y="1524" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#E6EDF3">palettes</text>
+<rect x="488" y="1452" width="204" height="88" rx="14" fill="#161B22" stroke="#30363D"/>
+<text x="508" y="1500" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="36" font-weight="800" fill="#2B59FF">40</text>
+<text x="508" y="1524" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#E6EDF3">type pairings</text>
+<rect x="708" y="1452" width="204" height="88" rx="14" fill="#161B22" stroke="#30363D"/>
+<text x="728" y="1500" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="36" font-weight="800" fill="#2B59FF">20</text>
+<text x="728" y="1524" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#E6EDF3">layouts</text>
+<rect x="48" y="1556" width="204" height="88" rx="14" fill="#161B22" stroke="#30363D"/>
+<text x="68" y="1604" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="36" font-weight="800" fill="#2B59FF">16</text>
+<text x="68" y="1628" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#E6EDF3">effects</text>
+<rect x="268" y="1556" width="204" height="88" rx="14" fill="#161B22" stroke="#30363D"/>
+<text x="288" y="1604" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="36" font-weight="800" fill="#2B59FF">12</text>
+<text x="288" y="1628" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#E6EDF3">motion recipes</text>
+<rect x="488" y="1556" width="204" height="88" rx="14" fill="#161B22" stroke="#30363D"/>
+<text x="508" y="1604" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="36" font-weight="800" fill="#2B59FF">80</text>
+<text x="508" y="1628" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#E6EDF3">UX rules</text>
+<rect x="708" y="1556" width="204" height="88" rx="14" fill="#161B22" stroke="#30363D"/>
+<text x="728" y="1604" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="36" font-weight="800" fill="#2B59FF">40</text>
+<text x="728" y="1628" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#E6EDF3">detector rules</text>
+<text x="48" y="1724" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="1.2" fill="#2B59FF">WHEN INSTRUCTIONS DISAGREE</text>
+<rect x="48" y="1742" width="63" height="38" rx="10" fill="#161B22" stroke="#2B59FF" stroke-width="1.6"/>
+<text x="65" y="1767" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#E6EDF3">You</text>
+<text x="123" y="1767" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="18" font-weight="700" fill="#8B949E">&gt;</text>
+<rect x="147" y="1742" width="120" height="38" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+<text x="164" y="1767" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#E6EDF3">DESIGN.md</text>
+<text x="279" y="1767" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="18" font-weight="700" fill="#8B949E">&gt;</text>
+<rect x="303" y="1742" width="197" height="38" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+<text x="320" y="1767" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#E6EDF3">The skill's rules</text>
+<text x="512" y="1767" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="18" font-weight="700" fill="#8B949E">&gt;</text>
+<rect x="536" y="1742" width="159" height="38" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+<text x="553" y="1767" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#E6EDF3">Anything else</text>
+<text x="715" y="1767" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif" font-size="15" fill="#8B949E">The higher one wins.</text>
+</svg>
