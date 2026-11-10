@@ -53,9 +53,9 @@ components:
     textColor: "{colors.ink}"
     rounded: "{rounded.sm}"
     padding: 24px
-  film-strip:
+  phone:
     backgroundColor: "{colors.ink}"
-    textColor: "{colors.accent-2}"
+    rounded: "{rounded.md}"
 ---
 
 ## Overview
@@ -65,27 +65,27 @@ Audience: wedding and portrait photographers who hate spreadsheets and work from
 Job: send the first invoice for a shoot in under two minutes.
 World: darkroom safelight, contact sheet, grey card, film edge, frame numbers.
 
-Direction: derived with `derive.py` from the darkroom. Paper-white base, contact-sheet black, one safelight red for actions, film-edge amber only for frame numbers.
+Direction: derived with `derive.py` from the darkroom. Paper-white base, contact-sheet black, one safelight red for actions, film-edge amber only for status dots.
 
 ## Colors
 
 - **base (#F7F7F3):** page, like photo paper.
-- **ink (#141414):** text and the film strip.
+- **ink (#141414):** text and the phone.
 - **muted (#70706F):** secondary text.
 - **accent (#B3261E):** safelight red, primary actions only.
-- **accent-2 (#C27E19):** film-edge amber, frame numbers only.
+- **accent-2 (#C27E19):** film-edge amber, status dots only.
 
 ## Typography
 
-Instrument Serif for the headline only. Instrument Sans for everything else. JetBrains Mono for frame numbers and amounts.
+Instrument Serif for the headline only. Instrument Sans for everything else. JetBrains Mono for invoice numbers and amounts.
 
 ## Layout
 
-Product proof: the headline on the left, the real product (an invoice on a contact sheet) on the right.
+Product proof: the headline on the left, the real product on the right: the invoice on a phone, ready to send, and the payment it brings back.
 
 ## Components
 
-Primary button, the invoice, the film strip. The invoice is the one memorable element.
+Primary button, the invoice, the phone. The invoice on the phone is the one memorable element: it is the promise of the headline, shown.
 
 ## Do's and Don'ts
 
