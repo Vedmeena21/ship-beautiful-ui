@@ -21,7 +21,7 @@
 <p align="center">
   <a href="#install">Install</a> ·
   <a href="#how-it-works">How it works</a> ·
-  <a href="#bring-your-brand-it-picks-the-colors">Bring your brand. It picks the colors.</a> ·
+  <a href="#your-brand-your-colors">Your brand, your colors</a> ·
   <a href="#whats-inside">What's inside</a> ·
   <a href="#the-detector">The detector</a>
 </p>
@@ -102,17 +102,15 @@ You get three things back:
 
 **Who wins when instructions disagree:** your words > `DESIGN.md` > the skill's rules > anything else loaded. The agent says it out loud when it resolves a conflict, so you can overrule it.
 
-## Bring your brand. It picks the colors.
+## Your brand, your colors
 
-Working at Microsoft? Tell it so, and every page is built from Microsoft's colors: the blue for actions, your neutrals for text, plus the shades a real UI needs. No brand yet? Describe your product's world in a few words and it builds a palette for you.
+Tell the agent what your product is, and it designs for that product, not from a shared list. Working for a company with brand colors? It uses them. No brand yet? It picks colors that fit.
 
-| You say | You get |
-|---|---|
-| *We work at Microsoft. Use our blue, green, red and yellow.* | Those exact colors on buttons, accents and highlights, plus matching text, border, hover and error shades |
-| *An invoicing app for photographers: darkroom, safelight, film* | Paper-white page, deep black text, safelight-red buttons, film-amber details (the after page above) |
-| *A bakery: crust, flour, espresso, saffron* | Flour-white page, espresso-brown text, crust-colored buttons, saffron highlights |
+- **You have a brand.** Share your colors and they are kept exactly as they are. The agent adds the rest a real UI needs: text, borders, hover and error colors.
+- **You don't have one yet.** Describe your product in a few words and the agent picks colors that fit what it is about.
+- **Not sure yet?** `direction.py` offers three ready-made looks to choose from.
 
-Every color is checked for readability (WCAG AA) before a line of code is written. No clear subject yet? `direction.py` offers three ready-made directions to pick from.
+Either way, every color is checked to be easy to read (WCAG AA) before a line of code is written.
 
 ## What's inside
 
