@@ -20,7 +20,7 @@ ship-beautiful-ui/
 
 ## Good first contributions
 
-- **A new recipe.** Copy a file in `docs/recipes/`, keep the six-step table, and add it to `docs/recipes/README.md` and the README.
+- **A new recipe.** Copy a file in `docs/recipes/`, keep the six-step table, and add it to `docs/recipes/README.md`.
 - **A new library entry.** A palette, material, type pairing, layout or effect. Run the tests: palettes and derived colors must pass contrast.
 - **A new detector rule.** Add it to `scripts/detect.py`, a fixture that triggers it, and a line in `references/anti-patterns.md` (regenerate from `RULES`).
 

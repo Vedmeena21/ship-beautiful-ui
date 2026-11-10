@@ -23,8 +23,7 @@
   <a href="#how-it-works">How it works</a> ·
   <a href="#design-from-your-subject">Design from your subject</a> ·
   <a href="#whats-inside">What's inside</a> ·
-  <a href="#the-detector">The detector</a> ·
-  <a href="docs/recipes/README.md">Recipes</a>
+  <a href="#the-detector">The detector</a>
 </p>
 
 | Typical AI first draft | Built with ship-beautiful-ui |
@@ -138,7 +137,6 @@ Two products can't land on the same look by accident, because each starts from i
 | Motion recipes | **12** | plus timing tokens for every interface transition |
 | UX rules | **80** | layout, type, color, forms, navigation, states, tables, charts, mobile, accessibility, copy |
 | Detector rules | **40** | AI tells plus accessibility and quality-floor gaps |
-| Recipes | **5** | landing page, dashboard, mobile app, redesign, scroll story |
 
 | Script | Does |
 |---|---|
@@ -161,16 +159,6 @@ Scanned 1 files: 6 errors, 10 warnings, 5 info
 ```
 
 Every finding comes with a fix. Errors block handoff; warnings get fixed or a written reason in `REVIEW.md`. The full list, plus 12 visual defaults the agent checks by eye, is in [`anti-patterns.md`](skills/ship-beautiful-ui/references/anti-patterns.md).
-
-## Recipes
-
-| Building a... | Route | Motion |
-|---|---|---|
-| [Landing page](docs/recipes/landing-page.md) | Derive from the subject | One ambient moment |
-| [Dashboard or web app](docs/recipes/dashboard.md) | Library or brand | Feedback only |
-| [Mobile app](docs/recipes/mobile-app.md) | Derive or library | Platform-native |
-| [Redesign](docs/recipes/redesign.md) | Existing brand | Remove before adding |
-| [Scroll story](docs/recipes/scroll-story.md) | Derive from the subject | Scroll-driven beats |
 
 ## License
 
