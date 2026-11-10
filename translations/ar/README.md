@@ -11,12 +11,12 @@ npx skills add Vedmeena21/ship-beautiful-ui
 ```
 
 <p align="center">
-  <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-0F1115?style=flat-square" alt="MIT License"></a>
-  <a href="../../skills/ship-beautiful-ui/SKILL.md"><img src="https://img.shields.io/badge/Agent%20Skill-SKILL.md-2B59FF?style=flat-square" alt="Agent Skill"></a>
-  <img src="https://img.shields.io/badge/works%20with-Claude%20Code%20%C2%B7%20Codex%20%C2%B7%20Cursor-2B59FF?style=flat-square" alt="Works with Claude Code, Codex and Cursor">
-  <img src="https://img.shields.io/badge/dependencies-none-0F1115?style=flat-square" alt="No dependencies">
-  <a href="https://github.com/Vedmeena21/ship-beautiful-ui/stargazers"><img src="https://img.shields.io/github/stars/Vedmeena21/ship-beautiful-ui?style=flat-square&color=2B59FF" alt="GitHub stars"></a>
-  <a href="../../translations"><img src="https://img.shields.io/badge/languages-13-2B59FF?style=flat-square" alt="README in 13 languages"></a>
+  <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-15141A?style=flat-square" alt="MIT License"></a>
+  <a href="../../skills/ship-beautiful-ui/SKILL.md"><img src="https://img.shields.io/badge/Agent%20Skill-SKILL.md-C8102E?style=flat-square" alt="Agent Skill"></a>
+  <img src="https://img.shields.io/badge/works%20with-Claude%20Code%20%C2%B7%20Codex%20%C2%B7%20Cursor-C8102E?style=flat-square" alt="Works with Claude Code, Codex and Cursor">
+  <img src="https://img.shields.io/badge/dependencies-none-15141A?style=flat-square" alt="No dependencies">
+  <a href="https://github.com/Vedmeena21/ship-beautiful-ui/stargazers"><img src="https://img.shields.io/github/stars/Vedmeena21/ship-beautiful-ui?style=flat-square&color=C8102E" alt="GitHub stars"></a>
+  <a href="../../translations"><img src="https://img.shields.io/badge/languages-13-C8102E?style=flat-square" alt="README in 13 languages"></a>
 </p>
 
 <p align="center">
@@ -91,7 +91,7 @@ npx skills add Vedmeena21/ship-beautiful-ui
 ## كيف يعمل
 
 <p align="center">
-  <img src="../../assets/readme/pipeline.svg" alt="The six-step pipeline: brief, direction, lock in DESIGN.md, build, motion, review" width="840">
+  <img src="../../assets/readme/pipeline.png" alt="The six-step pipeline: brief, direction, lock in DESIGN.md, build, motion, review" width="840">
 </p>
 
 | الخطوة | ماذا يحدث | مضمّن |
