@@ -22,8 +22,7 @@
   <a href="#설치">설치</a> ·
   <a href="#작동-방식">작동 방식</a> ·
   <a href="#여러분의-브랜드-여러분의-색">여러분의 브랜드, 여러분의 색</a> ·
-  <a href="#구성">구성</a> ·
-  <a href="#탐지기">탐지기</a>
+  <a href="#구성">구성</a>
 </p>
 
 | 흔한 AI 첫 초안 | ship-beautiful-ui로 만든 결과 |
@@ -126,30 +125,6 @@ npx skills add Vedmeena21/ship-beautiful-ui
 | 애니메이션 레시피 | **12** | 버튼, 메뉴, 모달, 토스트, 탭, 목록이 모두 같은 세련된 방식으로 움직입니다 |
 | UX 규칙 | **80** | 폼, 내비게이션, 표, 차트, 모바일, 빈 상태와 오류 상태를 위한 체크리스트 |
 | 탐지기 검사 | **40** | 배포 전에 AI 티와 접근성 문제를 잡아냅니다 |
-
-### 일을 대신해 주는 네 가지 도구
-
-| 도구 | 해 주는 일 |
-|---|---|
-| `derive.py` | 제품을 몇 단어로 설명하면 어울리는 컬러 팔레트를 받습니다 |
-| `direction.py` | 어디서 시작할지 모르겠다면? 고를 수 있는 디자인 방향 3가지를 `DESIGN.md`로 저장해 줍니다 |
-| `lint_design.py` | `DESIGN.md`가 완전한지, 모든 색이 읽기 쉬운지 검사합니다 |
-| `detect.py` | 코드(HTML, CSS, React, Vue, Svelte, Astro)에서 AI가 만든 UI의 40가지 징후를 찾습니다 |
-
-## 탐지기
-
-```
-$ python3 scripts/detect.py src/
-SBU001 warning One generic sans for everything
-SBU002 warning Purple-to-blue gradient
-SBU010 error   Motion without reduced-motion support
-SBU011 error   Focus outline removed
-SBU013 warning Cream page + terracotta accent
-...
-Scanned 1 files: 6 errors, 10 warnings, 5 info
-```
-
-모든 발견 사항에는 해결 방법이 함께 나옵니다. 오류는 전달을 막고, 경고는 고치거나 `REVIEW.md`에 이유를 적습니다. 전체 목록과 에이전트가 눈으로 확인하는 12가지 시각적 기본값은 [`anti-patterns.md`](../../skills/ship-beautiful-ui/references/anti-patterns.md)에 있습니다.
 
 ## 라이선스
 

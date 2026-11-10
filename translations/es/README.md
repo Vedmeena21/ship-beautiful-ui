@@ -22,8 +22,7 @@
   <a href="#instalación">Instalación</a> ·
   <a href="#cómo-funciona">Cómo funciona</a> ·
   <a href="#tu-marca-tus-colores">Tu marca, tus colores</a> ·
-  <a href="#qué-incluye">Qué incluye</a> ·
-  <a href="#el-detector">El detector</a>
+  <a href="#qué-incluye">Qué incluye</a>
 </p>
 
 | Primer borrador típico de IA | Hecho con ship-beautiful-ui |
@@ -126,30 +125,6 @@ Todo lo que tu agente necesita para diseñar como un profesional, en una carpeta
 | Recetas de animación | **12** | Botones, menús, modales, avisos, pestañas y listas que se mueven igual de pulidos |
 | Reglas de UX | **80** | Una checklist para formularios, navegación, tablas, gráficos, móvil y estados vacíos y de error |
 | Comprobaciones del detector | **40** | Detectan el aspecto de IA y los fallos de accesibilidad antes de publicar |
-
-### Cuatro herramientas que hacen el trabajo
-
-| Herramienta | Qué hace por ti |
-|---|---|
-| `derive.py` | Describe tu producto en pocas palabras y recibe una paleta que encaja con él |
-| `direction.py` | ¿No sabes por dónde empezar? Recibe 3 direcciones de diseño para elegir, guardadas como `DESIGN.md` |
-| `lint_design.py` | Comprueba que tu `DESIGN.md` esté completo y que cada color se lea bien |
-| `detect.py` | Revisa tu código (HTML, CSS, React, Vue, Svelte, Astro) en busca de 40 señales de UI hecha por IA |
-
-## El detector
-
-```
-$ python3 scripts/detect.py src/
-SBU001 warning One generic sans for everything
-SBU002 warning Purple-to-blue gradient
-SBU010 error   Motion without reduced-motion support
-SBU011 error   Focus outline removed
-SBU013 warning Cream page + terracotta accent
-...
-Scanned 1 files: 6 errors, 10 warnings, 5 info
-```
-
-Cada hallazgo viene con su solución. Los errores bloquean la entrega; los avisos se corrigen o llevan una razón escrita en `REVIEW.md`. La lista completa, más 12 valores visuales por defecto que el agente revisa a ojo, está en [`anti-patterns.md`](../../skills/ship-beautiful-ui/references/anti-patterns.md).
 
 ## Licencia
 

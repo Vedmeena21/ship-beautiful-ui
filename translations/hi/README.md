@@ -22,8 +22,7 @@
   <a href="#इंस्टॉल-करें">इंस्टॉल करें</a> ·
   <a href="#यह-कैसे-काम-करता-है">यह कैसे काम करता है</a> ·
   <a href="#आपका-brand-आपके-रंग">आपका brand, आपके रंग</a> ·
-  <a href="#इसमें-क्या-है">इसमें क्या है</a> ·
-  <a href="#detector">Detector</a>
+  <a href="#इसमें-क्या-है">इसमें क्या है</a>
 </p>
 
 | आम AI पहला draft | ship-beautiful-ui से बना |
@@ -126,30 +125,6 @@ Agent को बताइए कि आपका product क्या है, �
 | Animation recipes | **12** | Buttons, menus, modals, toasts, tabs और lists जो सब एक ही polished तरीके से चलते हैं |
 | UX rules | **80** | Forms, navigation, tables, charts, mobile, और empty व error states के लिए checklist |
 | Detector checks | **40** | Ship करने से पहले AI वाला look और accessibility की कमियाँ पकड़ते हैं |
-
-### चार tools जो काम करते हैं
-
-| Tool | आपके लिए क्या करता है |
-|---|---|
-| `derive.py` | अपने product को कुछ शब्दों में बताइए, उससे मेल खाता color palette पाइए |
-| `direction.py` | समझ नहीं आ रहा कहाँ से शुरू करें? चुनने के लिए 3 design directions पाइए, `DESIGN.md` के रूप में saved |
-| `lint_design.py` | Check करता है कि आपका `DESIGN.md` पूरा है और हर रंग पढ़ने लायक है |
-| `detect.py` | आपके code (HTML, CSS, React, Vue, Svelte, Astro) में AI से बने UI के 40 निशान ढूँढता है |
-
-## Detector
-
-```
-$ python3 scripts/detect.py src/
-SBU001 warning One generic sans for everything
-SBU002 warning Purple-to-blue gradient
-SBU010 error   Motion without reduced-motion support
-SBU011 error   Focus outline removed
-SBU013 warning Cream page + terracotta accent
-...
-Scanned 1 files: 6 errors, 10 warnings, 5 info
-```
-
-हर finding के साथ उसका fix आता है। Errors handoff रोकते हैं; warnings या तो ठीक होती हैं या `REVIEW.md` में लिखित कारण पाती हैं। पूरी list, और 12 visual defaults जिन्हें agent आँख से check करता है, [`anti-patterns.md`](../../skills/ship-beautiful-ui/references/anti-patterns.md) में है।
 
 ## License
 

@@ -22,8 +22,7 @@
   <a href="#instalasi">Instalasi</a> ·
   <a href="#cara-kerjanya">Cara kerjanya</a> ·
   <a href="#brand-anda-warna-anda">Brand Anda, warna Anda</a> ·
-  <a href="#isinya">Isinya</a> ·
-  <a href="#detektor">Detektor</a>
+  <a href="#isinya">Isinya</a>
 </p>
 
 | Draf pertama AI yang umum | Dibuat dengan ship-beautiful-ui |
@@ -126,30 +125,6 @@ Semua yang dibutuhkan agen Anda untuk mendesain seperti profesional, dalam satu 
 | Resep animasi | **12** | Tombol, menu, modal, toast, tab, dan daftar yang semuanya bergerak dengan sama halusnya |
 | Aturan UX | **80** | Daftar periksa untuk formulir, navigasi, tabel, grafik, mobile, serta kondisi kosong dan error |
 | Pemeriksaan detektor | **40** | Menangkap tampilan khas AI dan celah aksesibilitas sebelum Anda rilis |
-
-### Empat alat yang mengerjakan tugasnya
-
-| Alat | Yang dilakukannya untuk Anda |
-|---|---|
-| `derive.py` | Gambarkan produk Anda dalam beberapa kata, dapatkan palet warna yang cocok |
-| `direction.py` | Bingung mulai dari mana? Dapatkan 3 arah desain untuk dipilih, disimpan sebagai `DESIGN.md` |
-| `lint_design.py` | Memeriksa bahwa `DESIGN.md` Anda lengkap dan setiap warna terbaca dengan jelas |
-| `detect.py` | Memindai kode Anda (HTML, CSS, React, Vue, Svelte, Astro) untuk 40 tanda UI buatan AI |
-
-## Detektor
-
-```
-$ python3 scripts/detect.py src/
-SBU001 warning One generic sans for everything
-SBU002 warning Purple-to-blue gradient
-SBU010 error   Motion without reduced-motion support
-SBU011 error   Focus outline removed
-SBU013 warning Cream page + terracotta accent
-...
-Scanned 1 files: 6 errors, 10 warnings, 5 info
-```
-
-Setiap temuan disertai solusinya. Error menghentikan penyerahan; peringatan diperbaiki atau diberi alasan tertulis di `REVIEW.md`. Daftar lengkapnya, plus 12 kebiasaan visual bawaan yang diperiksa agen dengan mata, ada di [`anti-patterns.md`](../../skills/ship-beautiful-ui/references/anti-patterns.md).
 
 ## Lisensi
 

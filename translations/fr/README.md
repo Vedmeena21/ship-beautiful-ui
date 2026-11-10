@@ -22,8 +22,7 @@
   <a href="#installation">Installation</a> ·
   <a href="#comment-ça-marche">Comment ça marche</a> ·
   <a href="#votre-marque-vos-couleurs">Votre marque, vos couleurs</a> ·
-  <a href="#ce-quil-contient">Ce qu'il contient</a> ·
-  <a href="#le-détecteur">Le détecteur</a>
+  <a href="#ce-quil-contient">Ce qu'il contient</a>
 </p>
 
 | Premier jet typique d'une IA | Fait avec ship-beautiful-ui |
@@ -126,30 +125,6 @@ Tout ce dont votre agent a besoin pour designer comme un pro, dans un seul dossi
 | Recettes d'animation | **12** | Boutons, menus, modales, notifications, onglets et listes qui bougent tous avec la même finition |
 | Règles UX | **80** | Une checklist pour les formulaires, la navigation, les tableaux, les graphiques, le mobile et les états vides ou d'erreur |
 | Contrôles du détecteur | **40** | Repèrent le look IA et les lacunes d'accessibilité avant la mise en ligne |
-
-### Quatre outils qui font le travail
-
-| Outil | Ce qu'il fait pour vous |
-|---|---|
-| `derive.py` | Décrivez votre produit en quelques mots, obtenez une palette qui lui correspond |
-| `direction.py` | Vous ne savez pas par où commencer ? Obtenez 3 directions de design au choix, enregistrées dans un `DESIGN.md` |
-| `lint_design.py` | Vérifie que votre `DESIGN.md` est complet et que chaque couleur est lisible |
-| `detect.py` | Analyse votre code (HTML, CSS, React, Vue, Svelte, Astro) à la recherche de 40 signes d'une UI faite par IA |
-
-## Le détecteur
-
-```
-$ python3 scripts/detect.py src/
-SBU001 warning One generic sans for everything
-SBU002 warning Purple-to-blue gradient
-SBU010 error   Motion without reduced-motion support
-SBU011 error   Focus outline removed
-SBU013 warning Cream page + terracotta accent
-...
-Scanned 1 files: 6 errors, 10 warnings, 5 info
-```
-
-Chaque problème trouvé est accompagné d'une correction. Les erreurs bloquent la livraison ; les avertissements sont corrigés ou justifiés par écrit dans `REVIEW.md`. La liste complète, plus 12 réglages visuels par défaut que l'agent vérifie à l'œil, se trouve dans [`anti-patterns.md`](../../skills/ship-beautiful-ui/references/anti-patterns.md).
 
 ## Licence
 

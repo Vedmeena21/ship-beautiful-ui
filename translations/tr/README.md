@@ -22,8 +22,7 @@
   <a href="#kurulum">Kurulum</a> ·
   <a href="#nasıl-çalışır">Nasıl çalışır</a> ·
   <a href="#markan-renklerin">Markan, renklerin</a> ·
-  <a href="#i̇çinde-neler-var">İçinde neler var</a> ·
-  <a href="#dedektör">Dedektör</a>
+  <a href="#i̇çinde-neler-var">İçinde neler var</a>
 </p>
 
 | Tipik yapay zeka ilk taslağı | ship-beautiful-ui ile yapıldı |
@@ -126,30 +125,6 @@ Ajanınızın profesyonel gibi tasarlaması için gereken her şey tek bir klas�
 | Animasyon tarifleri | **12** | Düğmeler, menüler, modallar, toast'lar, sekmeler ve listeler hep aynı özenli şekilde hareket eder |
 | UX kuralları | **80** | Formlar, gezinme, tablolar, grafikler, mobil, boş ve hata durumları için bir kontrol listesi |
 | Dedektör kontrolleri | **40** | Yayına almadan önce yapay zeka görünümünü ve erişilebilirlik eksiklerini yakalar |
-
-### İşi yapan dört araç
-
-| Araç | Sizin için ne yapar |
-|---|---|
-| `derive.py` | Ürününüzü birkaç kelimeyle anlatın, ona uyan bir renk paleti alın |
-| `direction.py` | Nereden başlayacağınızı bilmiyor musunuz? Aralarından seçebileceğiniz 3 tasarım yönü alın, `DESIGN.md` olarak kaydedilir |
-| `lint_design.py` | `DESIGN.md` dosyanızın eksiksiz olduğunu ve her rengin okunabilir olduğunu kontrol eder |
-| `detect.py` | Kodunuzu (HTML, CSS, React, Vue, Svelte, Astro) yapay zeka yapımı arayüzün 40 işareti için tarar |
-
-## Dedektör
-
-```
-$ python3 scripts/detect.py src/
-SBU001 warning One generic sans for everything
-SBU002 warning Purple-to-blue gradient
-SBU010 error   Motion without reduced-motion support
-SBU011 error   Focus outline removed
-SBU013 warning Cream page + terracotta accent
-...
-Scanned 1 files: 6 errors, 10 warnings, 5 info
-```
-
-Her bulguyla birlikte bir çözüm gelir. Hatalar teslimi engeller; uyarılar ya düzeltilir ya da `REVIEW.md` içinde yazılı bir gerekçe alır. Tam liste ve ajanın gözle kontrol ettiği 12 görsel varsayılan [`anti-patterns.md`](../../skills/ship-beautiful-ui/references/anti-patterns.md) içindedir.
 
 ## Lisans
 

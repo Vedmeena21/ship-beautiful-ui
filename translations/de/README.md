@@ -22,8 +22,7 @@
   <a href="#installation">Installation</a> ·
   <a href="#so-funktioniert-es">So funktioniert es</a> ·
   <a href="#deine-marke-deine-farben">Deine Marke, deine Farben</a> ·
-  <a href="#was-drin-ist">Was drin ist</a> ·
-  <a href="#der-detektor">Der Detektor</a>
+  <a href="#was-drin-ist">Was drin ist</a>
 </p>
 
 | Typischer erster KI-Entwurf | Gebaut mit ship-beautiful-ui |
@@ -126,30 +125,6 @@ Alles, was dein Agent braucht, um wie ein Profi zu gestalten, in einem Ordner. K
 | Animationsrezepte | **12** | Buttons, Menüs, Dialoge, Toasts, Tabs und Listen, die sich alle gleich sauber bewegen |
 | UX-Regeln | **80** | Eine Checkliste für Formulare, Navigation, Tabellen, Diagramme, Mobile sowie Leer- und Fehlerzustände |
 | Detektor-Prüfungen | **40** | Finden den KI-Look und Barrierefreiheitslücken, bevor du veröffentlichst |
-
-### Vier Tools, die die Arbeit erledigen
-
-| Tool | Was es für dich tut |
-|---|---|
-| `derive.py` | Beschreibe dein Produkt in ein paar Worten und bekomme eine passende Farbpalette |
-| `direction.py` | Unsicher, wo du anfangen sollst? Bekomme 3 Design-Richtungen zur Auswahl, gespeichert als `DESIGN.md` |
-| `lint_design.py` | Prüft, ob deine `DESIGN.md` vollständig ist und jede Farbe lesbar ist |
-| `detect.py` | Durchsucht deinen Code (HTML, CSS, React, Vue, Svelte, Astro) nach 40 Anzeichen für KI-gemachte UI |
-
-## Der Detektor
-
-```
-$ python3 scripts/detect.py src/
-SBU001 warning One generic sans for everything
-SBU002 warning Purple-to-blue gradient
-SBU010 error   Motion without reduced-motion support
-SBU011 error   Focus outline removed
-SBU013 warning Cream page + terracotta accent
-...
-Scanned 1 files: 6 errors, 10 warnings, 5 info
-```
-
-Jeder Fund kommt mit einer Lösung. Fehler blockieren die Übergabe; Warnungen werden behoben oder in `REVIEW.md` schriftlich begründet. Die vollständige Liste, plus 12 visuelle Standardmuster, die der Agent per Auge prüft, steht in [`anti-patterns.md`](../../skills/ship-beautiful-ui/references/anti-patterns.md).
 
 ## Lizenz
 

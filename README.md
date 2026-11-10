@@ -22,8 +22,7 @@
   <a href="#install">Install</a> ·
   <a href="#how-it-works">How it works</a> ·
   <a href="#your-brand-your-colors">Your brand, your colors</a> ·
-  <a href="#whats-inside">What's inside</a> ·
-  <a href="#the-detector">The detector</a>
+  <a href="#whats-inside">What's inside</a>
 </p>
 
 | Typical AI first draft | Built with ship-beautiful-ui |
@@ -126,30 +125,6 @@ Everything your agent needs to design like a pro, in one folder. No accounts, no
 | Animation recipes | **12** | Buttons, menus, modals, toasts, tabs and lists that all move the same polished way |
 | UX rules | **80** | A checklist for forms, navigation, tables, charts, mobile, and empty and error states |
 | Detector checks | **40** | Catch the AI look and accessibility gaps before you ship |
-
-### Four tools that do the work
-
-| Tool | What it does for you |
-|---|---|
-| `derive.py` | Describe your product in a few words, get a color palette that fits it |
-| `direction.py` | Not sure where to start? Get 3 design directions to pick from, saved as a `DESIGN.md` |
-| `lint_design.py` | Checks that your `DESIGN.md` is complete and every color is readable |
-| `detect.py` | Scans your code (HTML, CSS, React, Vue, Svelte, Astro) for 40 signs of AI-made UI |
-
-## The detector
-
-```
-$ python3 scripts/detect.py src/
-SBU001 warning One generic sans for everything
-SBU002 warning Purple-to-blue gradient
-SBU010 error   Motion without reduced-motion support
-SBU011 error   Focus outline removed
-SBU013 warning Cream page + terracotta accent
-...
-Scanned 1 files: 6 errors, 10 warnings, 5 info
-```
-
-Every finding comes with a fix. Errors block handoff; warnings get fixed or a written reason in `REVIEW.md`. The full list, plus 12 visual defaults the agent checks by eye, is in [`anti-patterns.md`](skills/ship-beautiful-ui/references/anti-patterns.md).
 
 ## License
 

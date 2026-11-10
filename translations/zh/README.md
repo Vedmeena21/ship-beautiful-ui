@@ -22,8 +22,7 @@
   <a href="#安装">安装</a> ·
   <a href="#工作原理">工作原理</a> ·
   <a href="#你的品牌你的配色">你的品牌，你的配色</a> ·
-  <a href="#里面有什么">里面有什么</a> ·
-  <a href="#检测器">检测器</a>
+  <a href="#里面有什么">里面有什么</a>
 </p>
 
 | 典型的 AI 初稿 | 用 ship-beautiful-ui 构建 |
@@ -126,30 +125,6 @@ npx skills add Vedmeena21/ship-beautiful-ui
 | 动画配方 | **12** | 按钮、菜单、弹窗、提示、标签页和列表，都以同样精致的方式运动 |
 | UX 规则 | **80** | 一份清单，覆盖表单、导航、表格、图表、移动端以及空状态和错误状态 |
 | 检测器检查项 | **40** | 在上线前揪出 AI 味和无障碍问题 |
-
-### 四个替你干活的工具
-
-| 工具 | 它为你做什么 |
-|---|---|
-| `derive.py` | 用几个词描述你的产品，得到一套与之匹配的配色 |
-| `direction.py` | 不知道从哪开始？拿到 3 个设计方向供你选择，并保存为 `DESIGN.md` |
-| `lint_design.py` | 检查你的 `DESIGN.md` 是否完整、每个颜色是否可读 |
-| `detect.py` | 扫描你的代码（HTML、CSS、React、Vue、Svelte、Astro），找出 40 种 AI 制作 UI 的痕迹 |
-
-## 检测器
-
-```
-$ python3 scripts/detect.py src/
-SBU001 warning One generic sans for everything
-SBU002 warning Purple-to-blue gradient
-SBU010 error   Motion without reduced-motion support
-SBU011 error   Focus outline removed
-SBU013 warning Cream page + terracotta accent
-...
-Scanned 1 files: 6 errors, 10 warnings, 5 info
-```
-
-每个问题都附带修复方法。错误会阻止交付；警告要么修复，要么在 `REVIEW.md` 中写明理由。完整列表，以及智能体用肉眼检查的 12 个视觉默认值，见 [`anti-patterns.md`](../../skills/ship-beautiful-ui/references/anti-patterns.md)。
 
 ## 许可证
 

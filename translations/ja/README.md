@@ -22,8 +22,7 @@
   <a href="#インストール">インストール</a> ·
   <a href="#仕組み">仕組み</a> ·
   <a href="#あなたのブランドあなたの色">あなたのブランド、あなたの色</a> ·
-  <a href="#中身">中身</a> ·
-  <a href="#検出器">検出器</a>
+  <a href="#中身">中身</a>
 </p>
 
 | よくある AI の初稿 | ship-beautiful-ui で作成 |
@@ -126,30 +125,6 @@ npx skills add Vedmeena21/ship-beautiful-ui
 | アニメーションレシピ | **12** | ボタン、メニュー、モーダル、トースト、タブ、リストがすべて同じ洗練された動きに |
 | UX ルール | **80** | フォーム、ナビゲーション、テーブル、グラフ、モバイル、空状態とエラー状態のチェックリスト |
 | 検出器のチェック | **40** | 公開前に AI っぽさとアクセシビリティの不備を見つける |
-
-### 作業をこなす 4 つのツール
-
-| ツール | あなたのためにすること |
-|---|---|
-| `derive.py` | プロダクトを数語で説明すると、それに合う配色が手に入る |
-| `direction.py` | どこから始めればいいか迷ったら？選べる 3 つのデザインの方向性を `DESIGN.md` として保存 |
-| `lint_design.py` | `DESIGN.md` が揃っているか、すべての色が読みやすいかをチェック |
-| `detect.py` | コード（HTML、CSS、React、Vue、Svelte、Astro）から AI 製 UI の 40 の兆候をスキャン |
-
-## 検出器
-
-```
-$ python3 scripts/detect.py src/
-SBU001 warning One generic sans for everything
-SBU002 warning Purple-to-blue gradient
-SBU010 error   Motion without reduced-motion support
-SBU011 error   Focus outline removed
-SBU013 warning Cream page + terracotta accent
-...
-Scanned 1 files: 6 errors, 10 warnings, 5 info
-```
-
-すべての指摘に修正方法が付きます。エラーは納品を止め、警告は修正するか `REVIEW.md` に理由を書きます。全リストと、エージェントが目で確認する 12 の視覚的デフォルトは [`anti-patterns.md`](../../skills/ship-beautiful-ui/references/anti-patterns.md) にあります。
 
 ## ライセンス
 
