@@ -5,9 +5,9 @@
   </picture>
 </p>
 
-<p align="center">
-  <b>One skill that takes your coding agent from prompt to polished UI.<br>Its own design libraries, its own checks, and designs that come from your subject, not a template.</b>
-</p>
+```bash
+npx skills add Vedmeena21/ship-beautiful-ui
+```
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-0F1115?style=flat-square" alt="MIT License"></a>
@@ -29,9 +29,12 @@
 |:---:|:---:|
 | <img src="assets/readme/before.jpg" alt="Proofsheet, an invoicing tool for photographers, styled the default AI way: dark page, centered purple-to-blue gradient headline, emoji chips and a glowing glass card" width="420"> | <img src="assets/readme/after.jpg" alt="The same page and words redesigned with ship-beautiful-ui: a paper-white page with a serif headline 'Invoice the shoot before you finish the edit' and the real product: the invoice on a phone, ready to send" width="420"> |
 
-### 🌐 Multi-language support
+<details>
+<summary>🌐 Multi-language support</summary>
 
 [English](README.md) | [Arabic](translations/ar/README.md) | [Chinese (Simplified)](translations/zh/README.md) | [French](translations/fr/README.md) | [German](translations/de/README.md) | [Hindi](translations/hi/README.md) | [Indonesian](translations/id/README.md) | [Japanese](translations/ja/README.md) | [Korean](translations/ko/README.md) | [Portuguese (Brazil)](translations/pt-BR/README.md) | [Russian](translations/ru/README.md) | [Spanish](translations/es/README.md) | [Turkish](translations/tr/README.md)
+
+</details>
 
 ---
 

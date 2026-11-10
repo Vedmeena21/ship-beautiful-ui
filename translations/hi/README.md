@@ -5,9 +5,9 @@
   </picture>
 </p>
 
-<p align="center">
-  <b>एक skill जो आपके coding agent को prompt से polished UI तक ले जाता है।<br>अपनी design libraries, अपने checks, और ऐसे designs जो template से नहीं, आपके subject से बनते हैं।</b>
-</p>
+```bash
+npx skills add Vedmeena21/ship-beautiful-ui
+```
 
 <p align="center">
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-0F1115?style=flat-square" alt="MIT License"></a>
@@ -29,9 +29,12 @@
 |:---:|:---:|
 | <img src="../../assets/readme/before.jpg" alt="Proofsheet, an invoicing tool for photographers, styled the default AI way: dark page, centered purple-to-blue gradient headline, emoji chips and a glowing glass card" width="420"> | <img src="../../assets/readme/after.jpg" alt="The same page and words redesigned with ship-beautiful-ui: a paper-white page with a serif headline 'Invoice the shoot before you finish the edit' and the real product: the invoice on a phone, ready to send" width="420"> |
 
-### 🌐 कई भाषाओं में उपलब्ध
+<details>
+<summary>🌐 कई भाषाओं में उपलब्ध</summary>
 
 [English](../../README.md) | [Arabic](../ar/README.md) | [Chinese (Simplified)](../zh/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Hindi](../hi/README.md) | [Indonesian](../id/README.md) | [Japanese](../ja/README.md) | [Korean](../ko/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Russian](../ru/README.md) | [Spanish](../es/README.md) | [Turkish](../tr/README.md)
+
+</details>
 
 ---
 
