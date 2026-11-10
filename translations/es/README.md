@@ -2,6 +2,10 @@
   <img src="../../assets/readme/header-dark.svg" alt="ship-beautiful-ui" width="840">
 </p>
 
+<p align="center">
+  <b>Una skill que lleva a tu agente de código del prompt a una UI pulida.<br>Sus propias librerías de diseño, sus propias comprobaciones y diseños que nacen de tu tema, no de una plantilla.</b>
+</p>
+
 ```bash
 npx skills add Vedmeena21/ship-beautiful-ui
 ```

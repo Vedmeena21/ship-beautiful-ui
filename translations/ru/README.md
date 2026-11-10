@@ -2,6 +2,10 @@
   <img src="../../assets/readme/header-dark.svg" alt="ship-beautiful-ui" width="840">
 </p>
 
+<p align="center">
+  <b>Один skill, который ведёт вашего агента от промпта до отточенного UI.<br>Свои дизайн-библиотеки, свои проверки и дизайн, который рождается из вашей темы, а не из шаблона.</b>
+</p>
+
 ```bash
 npx skills add Vedmeena21/ship-beautiful-ui
 ```

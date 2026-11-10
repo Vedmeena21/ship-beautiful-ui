@@ -2,6 +2,10 @@
   <img src="../../assets/readme/header-dark.svg" alt="ship-beautiful-ui" width="840">
 </p>
 
+<p align="center">
+  <b>코딩 에이전트를 프롬프트에서 완성도 높은 UI까지 이끄는 하나의 skill.<br>자체 디자인 라이브러리, 자체 검사, 그리고 템플릿이 아닌 여러분의 주제에서 나오는 디자인.</b>
+</p>
+
 ```bash
 npx skills add Vedmeena21/ship-beautiful-ui
 ```

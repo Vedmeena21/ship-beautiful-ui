@@ -2,6 +2,10 @@
   <img src="../../assets/readme/header-dark.svg" alt="ship-beautiful-ui" width="840">
 </p>
 
+<p align="center">
+  <b>一个 skill，让你的编程智能体从提示词直达精致的 UI。<br>自带设计库、自带检查，设计源自你的主题，而不是模板。</b>
+</p>
+
 ```bash
 npx skills add Vedmeena21/ship-beautiful-ui
 ```

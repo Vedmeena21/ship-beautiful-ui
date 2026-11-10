@@ -2,6 +2,10 @@
   <img src="../../assets/readme/header-dark.svg" alt="ship-beautiful-ui" width="840">
 </p>
 
+<p align="center">
+  <b>コーディングエージェントを、プロンプトから洗練された UI まで導く 1 つの skill。<br>独自のデザインライブラリ、独自のチェック、そしてテンプレートではなくあなたのテーマから生まれるデザイン。</b>
+</p>
+
 ```bash
 npx skills add Vedmeena21/ship-beautiful-ui
 ```

@@ -2,6 +2,10 @@
   <img src="../../assets/readme/header-dark.svg" alt="ship-beautiful-ui" width="840">
 </p>
 
+<p align="center">
+  <b>एक skill जो आपके coding agent को prompt से polished UI तक ले जाता है।<br>अपनी design libraries, अपने checks, और ऐसे designs जो template से नहीं, आपके subject से बनते हैं।</b>
+</p>
+
 ```bash
 npx skills add Vedmeena21/ship-beautiful-ui
 ```

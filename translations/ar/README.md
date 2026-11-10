@@ -2,6 +2,10 @@
   <img src="../../assets/readme/header-dark.svg" alt="ship-beautiful-ui" width="840">
 </p>
 
+<p align="center">
+  <b>skill واحدة تأخذ وكيل البرمجة لديك من الـ prompt إلى واجهة مصقولة.<br>مكتبات تصميم خاصة بها، وفحوصات خاصة بها، وتصاميم تنبع من موضوعك، لا من قالب جاهز.</b>
+</p>
+
 ```bash
 npx skills add Vedmeena21/ship-beautiful-ui
 ```

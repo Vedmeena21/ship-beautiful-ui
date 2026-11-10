@@ -2,6 +2,10 @@
   <img src="../../assets/readme/header-dark.svg" alt="ship-beautiful-ui" width="840">
 </p>
 
+<p align="center">
+  <b>Satu skill yang membawa agen coding Anda dari prompt ke UI yang rapi.<br>Pustaka desain sendiri, pemeriksaan sendiri, dan desain yang lahir dari topik Anda, bukan dari template.</b>
+</p>
+
 ```bash
 npx skills add Vedmeena21/ship-beautiful-ui
 ```

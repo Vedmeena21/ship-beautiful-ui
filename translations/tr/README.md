@@ -2,6 +2,10 @@
   <img src="../../assets/readme/header-dark.svg" alt="ship-beautiful-ui" width="840">
 </p>
 
+<p align="center">
+  <b>Kodlama ajanınızı prompt'tan özenle hazırlanmış bir arayüze götüren tek bir skill.<br>Kendi tasarım kütüphaneleri, kendi kontrolleri ve şablondan değil, konunuzdan doğan tasarımlar.</b>
+</p>
+
 ```bash
 npx skills add Vedmeena21/ship-beautiful-ui
 ```
